@@ -214,7 +214,7 @@
                                                                         <span>Home Makeover</span>
                                                                         <a class="read-more feature-contact"
                                                                             href="tel:8321890640">
-                                                                            <i class="tji-phone-3"></i>
+                                                                            <i class="fa-solid fa-phone"></i>
                                                                             <span>+8 (321) 890-640</span>
                                                                         </a>
                                                                     </div>
@@ -294,7 +294,7 @@
                                                                         <span>Home Makeover</span>
                                                                         <a class="read-more feature-contact"
                                                                             href="tel:8321890640">
-                                                                            <i class="tji-phone-3"></i>
+                                                                            <i class="fa-solid fa-phone"></i>
                                                                             <span>+8 (321) 890-640</span>
                                                                         </a>
                                                                     </div>
@@ -352,7 +352,7 @@
                                 <div class="header-button">
                                     <a class="tj-primary-btn" href="contact.php">
                                         <span class="btn-text"><span>Let’s Talk</span></span>
-                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right-long"></i></span>
+                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
                                     </a>
                                 </div>
                             </div>
@@ -493,7 +493,7 @@
                                                                         <span>Home Makeover</span>
                                                                         <a class="read-more feature-contact"
                                                                             href="tel:8321890640">
-                                                                            <i class="tji-phone-3"></i>
+                                                                            <i class="fa-solid fa-phone"></i>
                                                                             <span>+8 (321) 890-640</span>
                                                                         </a>
                                                                     </div>
@@ -573,7 +573,7 @@
                                                                         <span>Home Makeover</span>
                                                                         <a class="read-more feature-contact"
                                                                             href="tel:8321890640">
-                                                                            <i class="tji-phone-3"></i>
+                                                                            <i class="fa-solid fa-phone"></i>
                                                                             <span>+8 (321) 890-640</span>
                                                                         </a>
                                                                     </div>
@@ -633,7 +633,7 @@
                                 <div class="header-button">
                                     <a class="tj-primary-btn" href="contact.php">
                                         <span class="btn-text"><span>Let’s Talk</span></span>
-                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right-long"></i></span>
+                                        <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
                                     </a>
                                 </div>
                             </div>
@@ -700,7 +700,7 @@
                                             <a class="tj-primary-btn" href="contact.php">
                                                 <span class="btn-text"><span>Get Started</span></span>
                                                 <span class="btn-icon"><i
-                                                        class="fa-solid fa-arrow-right-long"></i></span>
+                                                        class="fa-solid fa-arrow-right"></i></span>
                                             </a>
                                         </div>
                                     </div>
@@ -804,7 +804,7 @@
                                             <a class="text-btn" href="contact.php">
                                                 <span class="btn-text"><span>Contact Us</span></span>
                                                 <span class="btn-icon"><i
-                                                        class="fa-solid fa-arrow-right-long"></i></span>
+                                                        class="fa-solid fa-arrow-right"></i></span>
                                             </a>
                                         </div>
                                     </div>
@@ -1131,7 +1131,7 @@
                                                 <a class="tj-primary-btn" href="about.php">
                                                     <span class="btn-text"><span>Learn More</span></span>
                                                     <span class="btn-icon"><i
-                                                            class="fa-solid fa-arrow-right-long"></i></span>
+                                                            class="fa-solid fa-arrow-right"></i></span>
                                                 </a>
                                                 <a class="video-btn video-popup" data-autoplay="true"
                                                     data-vbtype="video" data-maxwidth="1200px"
@@ -1161,7 +1161,7 @@
                                             <a class="tj-primary-btn" href="service.php">
                                                 <span class="btn-text"><span>More services</span></span>
                                                 <span class="btn-icon"><i
-                                                        class="fa-solid fa-arrow-right-long"></i></span>
+                                                        class="fa-solid fa-arrow-right"></i></span>
                                             </a>
                                         </div>
                                     </div>
@@ -1211,7 +1211,7 @@
                                                         your customers have with your brand busin.</p>
                                                 </div>
                                                 <a href="service-details.php" class="h9-service-nav">
-                                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                                    <i class="fa-solid fa-arrow-right"></i>
                                                 </a>
                                             </div>
                                             <div class="service-img">
@@ -1235,7 +1235,7 @@
                                                         your customers have with your brand busin.</p>
                                                 </div>
                                                 <a href="service-details.php" class="h9-service-nav">
-                                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                                    <i class="fa-solid fa-arrow-right"></i>
                                                 </a>
                                             </div>
                                             <div class="service-img">
@@ -1259,7 +1259,7 @@
                                                         your customers have with your brand busin.</p>
                                                 </div>
                                                 <a href="service-details.php" class="h9-service-nav">
-                                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                                    <i class="fa-solid fa-arrow-right"></i>
                                                 </a>
                                             </div>
                                             <div class="service-img">
@@ -1283,7 +1283,7 @@
                                                         your customers have with your brand busin.</p>
                                                 </div>
                                                 <a href="service-details.php" class="h9-service-nav">
-                                                    <i class="fa-solid fa-arrow-right-long"></i>
+                                                    <i class="fa-solid fa-arrow-right"></i>
                                                 </a>
                                             </div>
                                             <div class="service-img">
@@ -1332,7 +1332,7 @@
                                                 <a class="text-btn" href="team-details.php">
                                                     <span class="btn-text"><span>Know More</span></span>
                                                     <span class="btn-icon"><i
-                                                            class="fa-solid fa-arrow-right-long"></i></span>
+                                                            class="fa-solid fa-arrow-right"></i></span>
                                                 </a>
                                             </div>
                                             <div class="team-item wow fadeInUp" data-wow-delay=".3s">
@@ -1347,7 +1347,7 @@
                                                 <a class="text-btn" href="team-details.php">
                                                     <span class="btn-text"><span>Know More</span></span>
                                                     <span class="btn-icon"><i
-                                                            class="fa-solid fa-arrow-right-long"></i></span>
+                                                            class="fa-solid fa-arrow-right"></i></span>
                                                 </a>
                                             </div>
                                             <div class="team-item wow fadeInUp" data-wow-delay=".3s">
@@ -1362,7 +1362,7 @@
                                                 <a class="text-btn" href="team-details.php">
                                                     <span class="btn-text"><span>Know More</span></span>
                                                     <span class="btn-icon"><i
-                                                            class="fa-solid fa-arrow-right-long"></i></span>
+                                                            class="fa-solid fa-arrow-right"></i></span>
                                                 </a>
                                             </div>
                                             <div class="team-item wow fadeInUp" data-wow-delay=".3s">
@@ -1377,7 +1377,7 @@
                                                 <a class="text-btn" href="team-details.php">
                                                     <span class="btn-text"><span>Know More</span></span>
                                                     <span class="btn-icon"><i
-                                                            class="fa-solid fa-arrow-right-long"></i></span>
+                                                            class="fa-solid fa-arrow-right"></i></span>
                                                 </a>
                                             </div>
                                         </div>
@@ -1411,8 +1411,8 @@
                                                 </div>
                                                 <div class="slider-next">
                                                     <span class="anim-icon">
-                                                        <i class="tji-arrow-right"></i>
-                                                        <i class="tji-arrow-right"></i>
+                                                        <i class="fa-solid fa-chevron-right"></i>
+                                                        <i class="fa-solid fa-chevron-right"></i>
                                                     </span>
                                                 </div>
                                             </div>
@@ -1713,7 +1713,7 @@
                                                 <a class="tj-primary-btn" href="blog.php">
                                                     <span class="btn-text"><span>More Blogs</span></span>
                                                     <span class="btn-icon"><i
-                                                            class="fa-solid fa-arrow-right-long"></i></span>
+                                                            class="fa-solid fa-arrow-right"></i></span>
                                                 </a>
                                             </div>
                                         </div>
@@ -1747,7 +1747,7 @@
                                                 <a class="text-btn" href="blog-details.php">
                                                     <span class="btn-text"><span>Read More</span></span>
                                                     <span class="btn-icon"><i
-                                                            class="fa-solid fa-arrow-right-long"></i></span>
+                                                            class="fa-solid fa-arrow-right"></i></span>
                                                 </a>
                                             </div>
                                         </div>
@@ -1775,7 +1775,7 @@
                                                 <a class="text-btn" href="blog-details.php">
                                                     <span class="btn-text"><span>Read More</span></span>
                                                     <span class="btn-icon"><i
-                                                            class="fa-solid fa-arrow-right-long"></i></span>
+                                                            class="fa-solid fa-arrow-right"></i></span>
                                                 </a>
                                             </div>
                                         </div>
@@ -1803,7 +1803,7 @@
                                                 <a class="text-btn" href="blog-details.php">
                                                     <span class="btn-text"><span>Read More</span></span>
                                                     <span class="btn-icon"><i
-                                                            class="fa-solid fa-arrow-right-long"></i></span>
+                                                            class="fa-solid fa-arrow-right"></i></span>
                                                 </a>
                                             </div>
                                         </div>

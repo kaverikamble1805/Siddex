@@ -221,7 +221,7 @@ $page = basename($_SERVER['PHP_SELF']);
                                                                  <span>Home Makeover</span>
                                                                  <a class="read-more feature-contact"
                                                                      href="tel:8321890640">
-                                                                     <i class="tji-phone-3"></i>
+                                                                     <i class="fa-solid fa-phone"></i>
                                                                      <span>+8 (321) 890-640</span>
                                                                  </a>
                                                              </div>
@@ -301,7 +301,7 @@ $page = basename($_SERVER['PHP_SELF']);
                                                                  <span>Home Makeover</span>
                                                                  <a class="read-more feature-contact"
                                                                      href="tel:8321890640">
-                                                                     <i class="tji-phone-3"></i>
+                                                                     <i class="fa-solid fa-phone"></i>
                                                                      <span>+8 (321) 890-640</span>
                                                                  </a>
                                                              </div>
@@ -359,7 +359,7 @@ $page = basename($_SERVER['PHP_SELF']);
                          <div class="header-button">
                              <a class="tj-primary-btn" href="contact.php">
                                  <span class="btn-text"><span>Let’s Talk</span></span>
-                                 <span class="btn-icon"><i class="fa-solid fa-arrow-right-long"></i></span>
+                                 <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
                              </a>
                          </div>
                          <div class="menu_bar menu_offcanvas d-none d-lg-inline-flex">
@@ -484,7 +484,7 @@ $page = basename($_SERVER['PHP_SELF']);
                                                                  <span>Home Makeover</span>
                                                                  <a class="read-more feature-contact"
                                                                      href="tel:8321890640">
-                                                                     <i class="tji-phone-3"></i>
+                                                                     <i class="fa-solid fa-phone"></i>
                                                                      <span>+8 (321) 890-640</span>
                                                                  </a>
                                                              </div>
@@ -564,7 +564,7 @@ $page = basename($_SERVER['PHP_SELF']);
                                                                  <span>Home Makeover</span>
                                                                  <a class="read-more feature-contact"
                                                                      href="tel:8321890640">
-                                                                     <i class="tji-phone-3"></i>
+                                                                     <i class="fa-solid fa-phone"></i>
                                                                      <span>+8 (321) 890-640</span>
                                                                  </a>
                                                              </div>
@@ -623,7 +623,7 @@ $page = basename($_SERVER['PHP_SELF']);
                          <div class="header-button">
                              <a class="tj-primary-btn" href="contact.php">
                                  <span class="btn-text"><span>Let’s Talk</span></span>
-                                 <span class="btn-icon"><i class="fa-solid fa-arrow-right-long"></i></span>
+                                 <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
                              </a>
                          </div>
                          <div class="menu_bar menu_offcanvas d-none d-lg-inline-flex">

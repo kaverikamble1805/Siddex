@@ -7,7 +7,7 @@ $services = [
 
     'title' => 'Website Designing',
 
-    'image' => 'assets/images/service/website-design.webp',
+    'image' => 'assets/images/services/website.png',
 
     'description' => 'We create responsive, modern and SEO-friendly websites that help businesses establish a strong online presence.',
 
@@ -110,11 +110,11 @@ $data = $services[$service] ?? $services['website-design'];
                                     <div class="tj-page-header-content text-center">
                                         <h1 class="tj-page-title">Service Details</h1>
                                         <div class="tj-page-link">
-                                            <span><i class="tji-home"></i></span>
+                                            <span><i class="fa-solid fa-house"></i></span>
                                             <span>
-                                                <a href="index.html">Home</a>
+                                                <a href="index.php">Home</a>
                                             </span>
-                                            <span><i class="tji-arrow-right"></i></span>
+                                            <span><i class="fa-solid fa-chevron-right"></i></span>
                                             <span>
                                                 <span>Service Details</span>
                                             </span>
@@ -184,7 +184,7 @@ $data = $services[$service] ?? $services['website-design'];
                                             <ul>
                                                 <?php foreach($data['features'] as $feature): ?>
                                                 <li>
-                                                    <span><i class="tji-check"></i></span>
+                                                    <span><i class="fa-solid fa-check"></i></span>
                                                     <?= $feature; ?>
                                                 </li>
                                                 <?php endforeach; ?>
@@ -435,18 +435,18 @@ $data = $services[$service] ?? $services['website-design'];
                                             <!-- previous post -->
                                             <div class="tj-nav__post previous">
                                                 <div class="tj-nav-post__nav prev_post">
-                                                    <a href="service-details.html"><span><i
-                                                                class="tji-arrow-left"></i></span>Previous</a>
+                                                    <a href="service-details.php"><span><i
+                                                                class="fa-solid fa-arrow-left"></i></span>Previous</a>
                                                 </div>
                                             </div>
                                             <div class="tj-nav-post__grid">
-                                                <a href="service.html"><i class="tji-window"></i></a>
+                                                <a href="service.php"><i class="fa-solid fa-grip"></i></a>
                                             </div>
                                             <!-- next post -->
                                             <div class="tj-nav__post next">
                                                 <div class="tj-nav-post__nav next_post">
-                                                    <a href="service-details.html">Next<span><i
-                                                                class="tji-arrow-right"></i></span></a>
+                                                    <a href="service-details.php">Next<span><i
+                                                                class="fa-solid fa-arrow-right"></i></span></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -458,18 +458,18 @@ $data = $services[$service] ?? $services['website-design'];
                                             data-wow-delay=".1s">
                                             <h4 class="widget-title">More services</h4>
                                             <ul>
-                                                <li><a class="active" href="service-details.html">Customer
+                                                <li><a class="active" href="service-details.php">Customer
                                                         Experience<span class="icon"><i
                                                                 class="tji-arrow-right"></i></span></a></li>
-                                                <li><a href="service-details.html">Training Programs<span
-                                                            class="icon"><i class="tji-arrow-right"></i></span></a></li>
-                                                <li><a href="service-details.html">Business Strategy<span
-                                                            class="icon"><i class="tji-arrow-right"></i></span></a></li>
-                                                <li><a href="service-details.html">Training Program<span class="icon"><i
+                                                <li><a href="service-details.php">Training Programs<span
+                                                            class="icon"><i class="fa-solid fa-chevron-right"></i></span></a></li>
+                                                <li><a href="service-details.php">Business Strategy<span
+                                                            class="icon"><i class="fa-solid fa-chevron-right"></i></span></a></li>
+                                                <li><a href="service-details.php">Training Program<span class="icon"><i
                                                                 class="tji-arrow-right"></i></span></a></li>
-                                                <li><a href="service-details.html">ESG Consulting<span class="icon"><i
+                                                <li><a href="service-details.php">ESG Consulting<span class="icon"><i
                                                                 class="tji-arrow-right"></i></span></a></li>
-                                                <li><a href="service-details.html">Development Hub<span class="icon"><i
+                                                <li><a href="service-details.php">Development Hub<span class="icon"><i
                                                                 class="tji-arrow-right"></i></span></a></li>
                                             </ul>
                                         </div> -->
@@ -486,7 +486,7 @@ $data = $services[$service] ?? $services['website-design'];
                                                         <?= $service['title']; ?>
 
                                                         <span class="icon">
-                                                            <i class="tji-arrow-right"></i>
+                                                            <i class="fa-solid fa-arrow-right"></i>
                                                         </span>
 
                                                     </a>
@@ -502,12 +502,12 @@ $data = $services[$service] ?? $services['website-design'];
                                                     <h2 class="title">Modern</h2>
                                                     <span>Home Makeover</span>
                                                     <a class="read-more feature-contact" href="tel:8321890640">
-                                                        <i class="tji-phone-3"></i>
+                                                        <i class="fa-solid fa-phone"></i>
                                                         <span>+8 (321) 890-640</span>
                                                     </a>
                                                 </div>
                                                 <div class="feature-images">
-                                                    <img src="assets/images/service/service-ad.webp" alt="">
+                                                    <img src="assets/images/services/service-ad.webp" alt="">
                                                 </div>
                                             </div>
                                         </div>

@@ -46,11 +46,11 @@
                                     <div class="tj-page-header-content text-center">
                                         <h1 class="tj-page-title">Shop</h1>
                                         <div class="tj-page-link">
-                                            <span><i class="tji-home"></i></span>
+                                            <span><i class="fa-solid fa-house"></i></span>
                                             <span>
                                                 <a href="index.php">Home</a>
                                             </span>
-                                            <span><i class="tji-arrow-right"></i></span>
+                                            <span><i class="fa-solid fa-chevron-right"></i></span>
                                             <span>
                                                 <span>Products</span>
                                             </span>

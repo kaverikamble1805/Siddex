@@ -12,7 +12,7 @@
                                  <input type="email" name="email" placeholder="Enter email">
                                  <button class="tj-primary-btn" type="submit">
                                      <span class="btn-text"><span>Send Message</span></span>
-                                     <span class="btn-icon"><i class="fa-solid fa-arrow-right-long"></i></span>
+                                     <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
                                  </button>
                              </form>
                          </div>

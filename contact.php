@@ -45,11 +45,11 @@
                                     <div class="tj-page-header-content text-center">
                                         <h1 class="tj-page-title">Contact Us</h1>
                                         <div class="tj-page-link">
-                                            <span><i class="tji-home"></i></span>
+                                            <span><i class="fa-solid fa-house"></i></span>
                                             <span>
                                                 <a href="index.php">Home</a>
                                             </span>
-                                            <span><i class="tji-arrow-right"></i></span>
+                                            <span><i class="fa-solid fa-chevron-right"></i></span>
                                             <span>
                                                 <span>Contact Us</span>
                                             </span>
@@ -185,7 +185,7 @@
                                                     <button class="tj-primary-btn" type="submit">
                                                         <span class="btn-text"><span>Submit Now</span></span>
                                                         <span class="btn-icon"><i
-                                                                class="fa-solid fa-arrow-right-long"></i></span>
+                                                                class="fa-solid fa-arrow-right"></i></span>
                                                     </button>
                                                 </div>
                                             </div>

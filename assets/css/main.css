@@ -1174,7 +1174,7 @@ START: Theme Header CSS
   content: "\e913";
   font-size: 21px;
   line-height: 1.2;
-  font-family: "bexon-icons" !important;
+  font-family: "Font Awesome 6 Free";
   font-weight: normal;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -3347,7 +3347,7 @@ START: Theme Footer CSS
   content: "\e911";
   font-size: 10px;
   line-height: 1;
-  font-family: "bexon-icons" !important;
+  font-family: "Font Awesome 6 Free";
   color: var(--tj-color-common-white);
   position: absolute;
   width: 100%;
@@ -13072,10 +13072,11 @@ START: Faq CSS
   transition: none;
 }
 .tj-faq .accordion-item .faq-title::after {
-  content: "\e927";
+  content: "\f067"; /* angle-right */
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
   color: var(--tj-color-theme-primary);
   font-size: 20px;
-  font-family: "bexon-icons" !important;
   font-weight: normal;
   text-align: center;
   position: absolute;
@@ -13109,7 +13110,8 @@ START: Faq CSS
   border-bottom: 1px dashed var(--tj-color-border-1);
 }
 .tj-faq .accordion-item.active .faq-title::after {
-  content: "\e918";
+  content: "\f068";
+  font-weight: 900;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px),
   only screen and (min-width: 576px) and (max-width: 767px),
@@ -13870,7 +13872,7 @@ START: Working process CSS
   font-size: 24px;
   line-height: 1;
   color: var(--tj-color-theme-primary);
-  font-family: "bexon-icons" !important;
+  font-family: "Font Awesome 6 Free";
   font-weight: normal;
   position: absolute;
   width: 62px;
@@ -17774,7 +17776,7 @@ blockquote cite::before {
 }
 .gallery::before {
   content: "\e91c";
-  font-family: "bexon-icons" !important;
+  font-family: "Font Awesome 6 Free";
   color: var(--tj-color-common-white);
   font-size: 30px;
   display: -webkit-box;
@@ -19032,7 +19034,7 @@ START: Services CSS
 }
 .service-bottom-text a::after {
   content: "\e916";
-  font-family: "bexon-icons" !important;
+  font-family: "Font Awesome 6 Free";
   font-style: normal;
   font-weight: var(--tj-fw-medium);
   font-size: 18px;

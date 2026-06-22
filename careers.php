@@ -47,11 +47,11 @@
                                     <div class="tj-page-header-content text-center">
                                         <h1 class="tj-page-title">Careers</h1>
                                         <div class="tj-page-link">
-                                            <span><i class="tji-home"></i></span>
+                                            <span><i class="fa-solid fa-house"></i></span>
                                             <span>
-                                                <a href="index.html">Home</a>
+                                                <a href="index.php">Home</a>
                                             </span>
-                                            <span><i class="tji-arrow-right"></i></span>
+                                            <span><i class="fa-solid fa-chevron-right"></i></span>
                                             <span>
                                                 <span>Careers</span>
                                             </span>
@@ -77,20 +77,20 @@
                                             <span>Full time job/on site</span> <span>Urgent</span>
                                         </div>
                                         <h4 class="tj-careers-title">
-                                            <a href="careers-details.html">Business Strategy Consultant</a>
+                                            <a href="careers-details.php">Business Strategy Consultant</a>
                                         </h4>
                                         <div class="tj-careers-salary">
                                             <span>$400-$550</span> / week
                                         </div>
                                         <div class="tj-careers-bottom">
                                             <span class="location"><i class="tji-location"></i>London,UK</span>
-                                            <a href="careers-details.html" class="tj-careers-btn">
+                                            <a href="careers-details.php" class="tj-careers-btn">
                                                 <div class="btn-text">
                                                     <span>Apply Now</span>
                                                 </div>
                                                 <span class="btn-icon">
-                                                    <i class="tji-arrow-right"></i>
-                                                    <i class="tji-arrow-right"></i>
+                                                    <i class="fa-solid fa-chevron-right"></i>
+                                                    <i class="fa-solid fa-chevron-right"></i>
                                                 </span>
                                             </a>
                                         </div>
@@ -105,20 +105,20 @@
                                             <span>Full time job/on site</span> <span>Urgent</span>
                                         </div>
                                         <h4 class="tj-careers-title">
-                                            <a href="careers-details.html">Management Consultant</a>
+                                            <a href="careers-details.php">Management Consultant</a>
                                         </h4>
                                         <div class="tj-careers-salary">
                                             <span>$400-$550</span> / week
                                         </div>
                                         <div class="tj-careers-bottom">
                                             <span class="location"><i class="tji-location"></i>London,UK</span>
-                                            <a href="careers-details.html" class="tj-careers-btn">
+                                            <a href="careers-details.php" class="tj-careers-btn">
                                                 <div class="btn-text">
                                                     <span>Apply Now</span>
                                                 </div>
                                                 <span class="btn-icon">
-                                                    <i class="tji-arrow-right"></i>
-                                                    <i class="tji-arrow-right"></i>
+                                                    <i class="fa-solid fa-chevron-right"></i>
+                                                    <i class="fa-solid fa-chevron-right"></i>
                                                 </span>
                                             </a>
                                         </div>
@@ -133,20 +133,20 @@
                                             <span>Full time job/on site</span> <span>Urgent</span>
                                         </div>
                                         <h4 class="tj-careers-title">
-                                            <a href="careers-details.html">Business Process Consultant</a>
+                                            <a href="careers-details.php">Business Process Consultant</a>
                                         </h4>
                                         <div class="tj-careers-salary">
                                             <span>$400-$550</span> / week
                                         </div>
                                         <div class="tj-careers-bottom">
                                             <span class="location"><i class="tji-location"></i>London,UK</span>
-                                            <a href="careers-details.html" class="tj-careers-btn">
+                                            <a href="careers-details.php" class="tj-careers-btn">
                                                 <div class="btn-text">
                                                     <span>Apply Now</span>
                                                 </div>
                                                 <span class="btn-icon">
-                                                    <i class="tji-arrow-right"></i>
-                                                    <i class="tji-arrow-right"></i>
+                                                    <i class="fa-solid fa-chevron-right"></i>
+                                                    <i class="fa-solid fa-chevron-right"></i>
                                                 </span>
                                             </a>
                                         </div>
@@ -161,20 +161,20 @@
                                             <span>Full time job/on site</span> <span>Urgent</span>
                                         </div>
                                         <h4 class="tj-careers-title">
-                                            <a href="careers-details.html">Operations Consultant</a>
+                                            <a href="careers-details.php">Operations Consultant</a>
                                         </h4>
                                         <div class="tj-careers-salary">
                                             <span>$400-$550</span> / week
                                         </div>
                                         <div class="tj-careers-bottom">
                                             <span class="location"><i class="tji-location"></i>London,UK</span>
-                                            <a href="careers-details.html" class="tj-careers-btn">
+                                            <a href="careers-details.php" class="tj-careers-btn">
                                                 <div class="btn-text">
                                                     <span>Apply Now</span>
                                                 </div>
                                                 <span class="btn-icon">
-                                                    <i class="tji-arrow-right"></i>
-                                                    <i class="tji-arrow-right"></i>
+                                                    <i class="fa-solid fa-chevron-right"></i>
+                                                    <i class="fa-solid fa-chevron-right"></i>
                                                 </span>
                                             </a>
                                         </div>
@@ -189,20 +189,20 @@
                                             <span>Full time job/on site</span> <span>Urgent</span>
                                         </div>
                                         <h4 class="tj-careers-title">
-                                            <a href="careers-details.html">Organizational Development</a>
+                                            <a href="careers-details.php">Organizational Development</a>
                                         </h4>
                                         <div class="tj-careers-salary">
                                             <span>$400-$550</span> / week
                                         </div>
                                         <div class="tj-careers-bottom">
                                             <span class="location"><i class="tji-location"></i>London,UK</span>
-                                            <a href="careers-details.html" class="tj-careers-btn">
+                                            <a href="careers-details.php" class="tj-careers-btn">
                                                 <div class="btn-text">
                                                     <span>Apply Now</span>
                                                 </div>
                                                 <span class="btn-icon">
-                                                    <i class="tji-arrow-right"></i>
-                                                    <i class="tji-arrow-right"></i>
+                                                    <i class="fa-solid fa-chevron-right"></i>
+                                                    <i class="fa-solid fa-chevron-right"></i>
                                                 </span>
                                             </a>
                                         </div>
@@ -217,20 +217,20 @@
                                             <span>Full time job/on site</span> <span>Urgent</span>
                                         </div>
                                         <h4 class="tj-careers-title">
-                                            <a href="careers-details.html">Performance Optimization</a>
+                                            <a href="careers-details.php">Performance Optimization</a>
                                         </h4>
                                         <div class="tj-careers-salary">
                                             <span>$400-$550</span> / week
                                         </div>
                                         <div class="tj-careers-bottom">
                                             <span class="location"><i class="tji-location"></i>London,UK</span>
-                                            <a href="careers-details.html" class="tj-careers-btn">
+                                            <a href="careers-details.php" class="tj-careers-btn">
                                                 <div class="btn-text">
                                                     <span>Apply Now</span>
                                                 </div>
                                                 <span class="btn-icon">
-                                                    <i class="tji-arrow-right"></i>
-                                                    <i class="tji-arrow-right"></i>
+                                                    <i class="fa-solid fa-chevron-right"></i>
+                                                    <i class="fa-solid fa-chevron-right"></i>
                                                 </span>
                                             </a>
                                         </div>

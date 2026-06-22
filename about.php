@@ -46,11 +46,11 @@
                                     <div class="tj-page-header-content text-center">
                                         <h1 class="tj-page-title">About Us</h1>
                                         <div class="tj-page-link">
-                                            <span><i class="tji-home"></i></span>
+                                            <span><i class="fa-solid fa-house"></i></span>
                                             <span>
                                                 <a href="index.php">Home</a>
                                             </span>
-                                            <span><i class="tji-arrow-right"></i></span>
+                                            <span><i class="fa-solid fa-chevron-right"></i></span>
                                             <span>
                                                 <span>About Us</span>
                                             </span>
@@ -82,7 +82,7 @@
                                                 <a class="tj-primary-btn" href="contact.php">
                                                     <span class="btn-text"><span>Request a Call</span></span>
                                                     <span class="btn-icon"><i
-                                                            class="fa-solid fa-arrow-right-long"></i></span>
+                                                            class="fa-solid fa-arrow-right"></i></span>
                                                 </a>
                                             </div>
                                         </div>
@@ -211,7 +211,7 @@
                                     <div class="about-btn-area wow fadeInUp" data-wow-delay=".6s">
                                         <a class="tj-primary-btn" href="about.php">
                                             <span class="btn-text"><span>Learn More About Us</span></span>
-                                            <span class="btn-icon"><i class="fa-solid fa-arrow-right-long"></i></span>
+                                            <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
                                         </a>
                                     </div>
                                 </div>
@@ -568,7 +568,7 @@
                                             <a class="tj-primary-btn" href="contact.php">
                                                 <span class="btn-text"><span>Request a Call</span></span>
                                                 <span class="btn-icon"><i
-                                                        class="fa-solid fa-arrow-right-long"></i></span>
+                                                        class="fa-solid fa-arrow-right"></i></span>
                                             </a>
                                         </div>
                                     </div>
