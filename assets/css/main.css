@@ -89,11 +89,11 @@ START: Theme Default CSS
   --tj-color-text-body-3: #67787a;
   --tj-color-text-body-4: #18292c;
   --tj-color-text-body-5: rgba(255, 255, 255, 0.8);
-  --tj-color-theme-primary: #1e8a8a;
+  --tj-color-theme-primary: #0317ff;
   --tj-color-theme-bg: #d8e5e5;
   --tj-color-theme-bg-2: #cee0e0;
-  --tj-color-theme-bg-3: #202e30;
-  --tj-color-theme-dark: #0c1e21;
+  --tj-color-theme-bg-3: #292d5ca6;
+  --tj-color-theme-dark: #1c2548;
   --tj-color-theme-dark-2: #18292c;
   --tj-color-theme-dark-3: #364e52;
   --tj-color-theme-dark-4: #67787a;
@@ -746,7 +746,15 @@ img {
   justify-content: center;
   gap: 10px;
   position: relative;
-  background-color: var(--tj-color-theme-primary);
+  background: linear-gradient(
+    180deg,
+    #8edbff 0%,
+    #4bbeff 20%,
+    #1e88ff 45%,
+    #0a5cff 65%,
+    #0637c8 85%,
+    #02145e 100%
+  );
   font-size: 16px;
   font-weight: var(--tj-fw-sbold);
   padding: 5px 5px 5px 25px;
@@ -31987,7 +31995,15 @@ START: Service CSS
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to right, #e79d42, #725da7);
+  background: linear-gradient(
+    180deg,
+    #a9ecff 0%,
+    #6fd7ff 15%,
+    #2ea8ff 35%,
+    #0d6bff 60%,
+    #0844d8 80%,
+    #021f8c 100%
+  );
   color: #fff;
   font-size: 20px;
   opacity: 0;

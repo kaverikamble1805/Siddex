@@ -1,6 +1,6 @@
  <?php
-$page = basename($_SERVER['PHP_SELF']);
-?>
+    $page = basename($_SERVER['PHP_SELF']);
+    ?>
  <!-- Preloader Start -->
  <div class="tj-preloader is-loading">
      <div class="tj-preloader-inner">
@@ -166,73 +166,94 @@ $page = basename($_SERVER['PHP_SELF']);
                                  <li class="<?= $page == 'about.php' ? 'current-menu-item' : '' ?>"><a
                                          href="about.php">About Us</a>
                                  </li>
-                                 <li class="has-dropdown <?= $page == 'index.php' ? 'current-menu-item' : '' ?>">
-                                     <a href="service-details.php">Services</a>
+                                 <li class="has-dropdown">
+                                     <a href="service-details.php?service=website-design">Services</a>
+
                                      <ul class="sub-menu header__mega-menu mega-menu mega-menu-pages">
                                          <li>
                                              <div class="mega-menu-wrapper">
 
+                                                 <!-- OUR EXPERTISE -->
                                                  <div class="mega-menu-pages-single">
                                                      <div class="mega-menu-pages-single-inner">
-                                                         <h6 class="mega-menu-title">OUR EXPERTISE </h6>
+                                                         <h6 class="mega-menu-title">OUR EXPERTISE</h6>
+
                                                          <div class="mega-menu-list">
-                                                             <a href="#">Website Designing</a>
-                                                             <a href="#">Web Development</a>
-                                                             <a href="#">E-commerce</a>
-                                                             <a href="#">Domain And Hosting</a>
-                                                             <a href=""></a>
+                                                             <a href="service-details.php?service=website-design">Website
+                                                                 Designing</a>
+                                                             <a href="service-details.php?service=web-development">Web
+                                                                 Development</a>
+                                                             <a href="service-details.php?service=ecommerce">E-commerce
+                                                                 Development</a>
+                                                             <a href="service-details.php?service=hosting">Domain &
+                                                                 Hosting</a>
                                                          </div>
                                                      </div>
-
                                                  </div>
+
+                                                 <!-- MEDIA & PR -->
                                                  <div class="mega-menu-pages-single">
                                                      <div class="mega-menu-pages-single-inner">
-                                                         <h6 class="mega-menu-title">MEDIA & PR </h6>
+                                                         <h6 class="mega-menu-title">MEDIA & PR</h6>
+
                                                          <div class="mega-menu-list">
-                                                             <a href="#">Influencer Marketing</a>
-                                                             <a href="#">Voice Call Centre</a>
-                                                             <a href="#">Social Media Management</a>
-                                                             <a href="#">Digital Marketing</a>
-                                                             <a href="#">Whatsapp Business API</a>
+                                                             <a href="service-details.php?service=influencer-marketing">Influencer
+                                                                 Marketing</a>
+                                                             <a href="service-details.php?service=voice-call-centre">Voice
+                                                                 Call Centre</a>
+                                                             <a href="service-details.php?service=social-media">Social
+                                                                 Media Management</a>
+                                                             <a href="service-details.php?service=digital-marketing">Digital
+                                                                 Marketing</a>
+                                                             <a href="service-details.php?service=whatsapp-api">WhatsApp
+                                                                 Business API</a>
                                                          </div>
                                                      </div>
-
                                                  </div>
-                                                 <div class=" mega-menu-pages-single">
+
+                                                 <!-- TRENDING TECHNOLOGY -->
+                                                 <div class="mega-menu-pages-single">
                                                      <div class="mega-menu-pages-single-inner">
-                                                         <h6 class="mega-menu-title">TRENDING TECHNOLOGY </h6>
-                                                         <div class="mega-menu-list">
-                                                             <a href="#">App Development</a>
-                                                             <a href="#">Web App Development </a>
-                                                             <a href="#">AI & ML Development</a>
-                                                             <a href="#">Digital Engineering</a>
-                                                             <a href="#">API Services</a>
+                                                         <h6 class="mega-menu-title">TRENDING TECHNOLOGY</h6>
 
+                                                         <div class="mega-menu-list">
+                                                             <a href="service-details.php?service=app-development">App
+                                                                 Development</a>
+                                                             <a href="service-details.php?service=web-app">Web App
+                                                                 Development</a>
+                                                             <a href="service-details.php?service=ai-ml">AI & ML
+                                                                 Development</a>
+                                                             <a href="service-details.php?service=digital-engineering">Digital
+                                                                 Engineering</a>
+                                                             <a href="service-details.php?service=api-services">API
+                                                                 Services</a>
                                                          </div>
                                                      </div>
-
                                                  </div>
 
-                                                 <div class="col-12 col-lg-3 mega-menu-pages-single">
+                                                 <!-- Right Side Banner -->
+                                                 <div class="mega-menu-pages-single">
                                                      <div class="mega-menu-pages-single-inner">
                                                          <div class="feature-box">
                                                              <div class="feature-content">
-                                                                 <h2 class="title">Modern</h2>
-                                                                 <span>Home Makeover</span>
+                                                                 <h2 class="title">Need Help?</h2>
+                                                                 <span>Let's Build Your Business Online</span>
+
                                                                  <a class="read-more feature-contact"
-                                                                     href="tel:8321890640">
+                                                                     href="tel:+918321890640">
                                                                      <i class="fa-solid fa-phone"></i>
-                                                                     <span>+8 (321) 890-640</span>
+                                                                     <span>+91 83218 90640</span>
                                                                  </a>
                                                              </div>
+
                                                              <div class="feature-images">
                                                                  <img src="assets/images/service/service-ad.webp"
-                                                                     alt="">
+                                                                     alt="Services">
                                                              </div>
                                                          </div>
                                                      </div>
-
                                                  </div>
+
                                              </div>
                                          </li>
                                      </ul>
@@ -429,73 +450,94 @@ $page = basename($_SERVER['PHP_SELF']);
                                          href="about.php">About Us</a>
 
                                  </li>
-                                 <li class="has-dropdown <?= $page == 'index.php' ? 'current-menu-item' : '' ?>">
-                                     <a href="service-details.php">Services</a>
+                                 <li class="has-dropdown">
+                                     <a href="service-details.php?service=website-design">Services</a>
+
                                      <ul class="sub-menu header__mega-menu mega-menu mega-menu-pages">
                                          <li>
                                              <div class="mega-menu-wrapper">
 
+                                                 <!-- OUR EXPERTISE -->
                                                  <div class="mega-menu-pages-single">
                                                      <div class="mega-menu-pages-single-inner">
-                                                         <h6 class="mega-menu-title">OUR EXPERTISE </h6>
+                                                         <h6 class="mega-menu-title">OUR EXPERTISE</h6>
+
                                                          <div class="mega-menu-list">
-                                                             <a href="#">Website Designing</a>
-                                                             <a href="#">Web Development</a>
-                                                             <a href="#">E-commerce</a>
-                                                             <a href="#">Domain And Hosting</a>
-                                                             <a href=""></a>
+                                                             <a href="service-details.php?service=website-design">Website
+                                                                 Designing</a>
+                                                             <a href="service-details.php?service=web-development">Web
+                                                                 Development</a>
+                                                             <a href="service-details.php?service=ecommerce">E-commerce
+                                                                 Development</a>
+                                                             <a href="service-details.php?service=hosting">Domain &
+                                                                 Hosting</a>
                                                          </div>
                                                      </div>
-
                                                  </div>
+
+                                                 <!-- MEDIA & PR -->
                                                  <div class="mega-menu-pages-single">
                                                      <div class="mega-menu-pages-single-inner">
-                                                         <h6 class="mega-menu-title">MEDIA & PR </h6>
+                                                         <h6 class="mega-menu-title">MEDIA & PR</h6>
+
                                                          <div class="mega-menu-list">
-                                                             <a href="#">Influencer Marketing</a>
-                                                             <a href="#">Voice Call Centre</a>
-                                                             <a href="#">Social Media Management</a>
-                                                             <a href="#">Digital Marketing</a>
-                                                             <a href="#">Whatsapp Business API</a>
+                                                             <a href="service-details.php?service=influencer-marketing">Influencer
+                                                                 Marketing</a>
+                                                             <a href="service-details.php?service=voice-call-centre">Voice
+                                                                 Call Centre</a>
+                                                             <a href="service-details.php?service=social-media">Social
+                                                                 Media Management</a>
+                                                             <a href="service-details.php?service=digital-marketing">Digital
+                                                                 Marketing</a>
+                                                             <a href="service-details.php?service=whatsapp-api">WhatsApp
+                                                                 Business API</a>
                                                          </div>
                                                      </div>
-
                                                  </div>
-                                                 <div class=" mega-menu-pages-single">
+
+                                                 <!-- TRENDING TECHNOLOGY -->
+                                                 <div class="mega-menu-pages-single">
                                                      <div class="mega-menu-pages-single-inner">
-                                                         <h6 class="mega-menu-title">TRENDING TECHNOLOGY </h6>
-                                                         <div class="mega-menu-list">
-                                                             <a href="#">App Development</a>
-                                                             <a href="#">Web App Development </a>
-                                                             <a href="#">AI & ML Development</a>
-                                                             <a href="#">Digital Engineering</a>
-                                                             <a href="#">API Services</a>
+                                                         <h6 class="mega-menu-title">TRENDING TECHNOLOGY</h6>
 
+                                                         <div class="mega-menu-list">
+                                                             <a href="service-details.php?service=app-development">App
+                                                                 Development</a>
+                                                             <a href="service-details.php?service=web-app">Web App
+                                                                 Development</a>
+                                                             <a href="service-details.php?service=ai-ml">AI & ML
+                                                                 Development</a>
+                                                             <a href="service-details.php?service=digital-engineering">Digital
+                                                                 Engineering</a>
+                                                             <a href="service-details.php?service=api-services">API
+                                                                 Services</a>
                                                          </div>
                                                      </div>
-
                                                  </div>
 
-                                                 <div class="col-12 col-lg-3 mega-menu-pages-single">
+                                                 <!-- Right Side Banner -->
+                                                 <div class="mega-menu-pages-single">
                                                      <div class="mega-menu-pages-single-inner">
                                                          <div class="feature-box">
                                                              <div class="feature-content">
-                                                                 <h2 class="title">Modern</h2>
-                                                                 <span>Home Makeover</span>
+                                                                 <h2 class="title">Need Help?</h2>
+                                                                 <span>Let's Build Your Business Online</span>
+
                                                                  <a class="read-more feature-contact"
-                                                                     href="tel:8321890640">
+                                                                     href="tel:+918321890640">
                                                                      <i class="fa-solid fa-phone"></i>
-                                                                     <span>+8 (321) 890-640</span>
+                                                                     <span>+91 83218 90640</span>
                                                                  </a>
                                                              </div>
+
                                                              <div class="feature-images">
                                                                  <img src="assets/images/service/service-ad.webp"
-                                                                     alt="">
+                                                                     alt="Services">
                                                              </div>
                                                          </div>
                                                      </div>
-
                                                  </div>
+
                                              </div>
                                          </li>
                                      </ul>

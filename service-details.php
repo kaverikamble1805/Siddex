@@ -1,65 +1,586 @@
 <?php
-$service = $_GET['service'] ?? 'website-design';
+
 
 $services = [
 
-'website-design' => [
+    'website-design' => [
 
-    'title' => 'Website Designing',
+        'title' => 'Website Designing',
 
-    'image' => 'assets/images/services/website.png',
+        'image' => 'assets/images/service/website-design.webp',
 
-    'description' => 'We create responsive, modern and SEO-friendly websites that help businesses establish a strong online presence.',
+        'description' => 'We create responsive, modern and SEO-friendly websites that help businesses establish a strong online presence.',
 
-    'features' => [
-        'Responsive Design',
-        'UI/UX Design',
-        'SEO Friendly',
-        'Fast Loading',
-        'Mobile Optimized'
-    ],
-
-    'details_title' => 'Professional Website Design Services',
-
-    'details_description' => 'Our website design services focus on creating visually appealing, responsive, and user-friendly websites that represent your brand and convert visitors into customers. Every design is optimized for performance, accessibility, and search engines to help your business grow online.',
-
-    'benefits' => [
-        [
-            'title' => 'Responsive Design',
-            'description' => 'Your website looks perfect on desktops, tablets, and smartphones.'
+        'features' => [
+            'Responsive Design',
+            'UI/UX Design',
+            'SEO Friendly',
+            'Fast Loading',
+            'Mobile Optimized'
         ],
-        [
-            'title' => 'SEO Optimized',
-            'description' => 'Built with search engine best practices to improve online visibility.'
+
+        'details_title' => 'Professional Website Design Services',
+
+        'details_description' => 'Our website design services focus on creating visually appealing, responsive, and user-friendly websites that represent your brand and convert visitors into customers. Every design is optimized for performance, accessibility, and search engines to help your business grow online.',
+
+        'benefits' => [
+            [
+                'title' => 'Responsive Design',
+                'description' => 'Your website looks perfect on desktops, tablets, and smartphones.'
+            ],
+            [
+                'title' => 'SEO Optimized',
+                'description' => 'Built with search engine best practices to improve online visibility.'
+            ],
+            [
+                'title' => 'Fast Performance',
+                'description' => 'Optimized code and images ensure quick loading times.'
+            ]
         ],
-        [
-            'title' => 'Fast Performance',
-            'description' => 'Optimized code and images ensure quick loading times.'
+
+        'faq' => [
+
+            [
+                'question' => 'How long does it take to design a website?',
+                'answer' => 'Most business websites are completed within 1–3 weeks depending on the project scope.'
+            ],
+
+            [
+                'question' => 'Will my website be mobile friendly?',
+                'answer' => 'Yes. Every website we build is fully responsive and optimized for all devices.'
+            ],
+
+            [
+                'question' => 'Can you redesign my existing website?',
+                'answer' => 'Yes. We can modernize your current website while preserving your existing content if required.'
+            ]
         ]
     ],
 
-    'faq' => [
+    'Retail-Ecommerce' => [
 
-        [
-            'question' => 'How long does it take to design a website?',
-            'answer' => 'Most business websites are completed within 1–3 weeks depending on the project scope.'
+        'title' => 'Retail & Ecommerce',
+
+        'image' => 'assets/images/service/ecommerce.webp',
+
+        'description' => 'Retail & ecommerce is no longer just about having a website. It is about creating a smooth shopping experience, building trust, and increasing sales. At Seddexa IT, we help businesses turn visitors into loyal customers with smart digital strategies.
+
+We combine technology, creativity, and data-driven insights to build modern retail and ecommerce solutions that attract, engage, and convert customers across digital platforms.
+
+Moreover, we optimize every step of the customer journey, from product discovery to checkout.
+
+As a result, your business gets better visibility, more orders, and long-term growth.
+',
+
+        'features' => [],
+
+        'details_title' => 'Smart Retail & Ecommerce Solutions That Deliver Results',
+
+        'details_description' => 'Our retail & ecommerce services are designed to help your brand stand out in a competitive online market. We focus on usability, speed, and customer experience so your store looks professional and sells more.',
+        'details_description1' => 'From online store setup to sales growth, we provide retail & ecommerce in Jharkhand that improves customer experience, increases conversions, and supports long-term business success. Whether you are starting a new store or growing an existing one, we help you sell smarter online.',
+
+        'benefits' => [
+            [
+                'title' => 'Boost Brand Awareness',
+                'description' => 'Reach targeted audiences already interested in your niche'
+            ],
+            [
+                'title' => 'Build Trust',
+                'description' => 'Influencers help your brand gain credibility faster.'
+            ],
+            [
+                'title' => 'Increase Engagement',
+                'description' => 'Get likes, comments, shares, clicks, and website visits.'
+            ]
         ],
 
-        [
-            'question' => 'Will my website be mobile friendly?',
-            'answer' => 'Yes. Every website we build is fully responsive and optimized for all devices.'
-        ],
+        'faq' => [
 
-        [
-            'question' => 'Can you redesign my existing website?',
-            'answer' => 'Yes. We can modernize your current website while preserving your existing content if required.'
+            [
+                'question' => 'How does influencer marketing help my business?',
+                'answer' => 'It increases brand awareness, trust, traffic, leads, and sales.'
+            ],
+
+            [
+                'question' => 'Which platforms do you provide influencer marketing for?',
+                'answer' => 'We provide campaigns for Instagram, YouTube, Facebook, LinkedIn, and short video platforms.'
+            ],
+
+            [
+                'question' => 'What types of influencer campaigns do you manage?',
+                'answer' => 'We manage awareness, product launch, affiliate, engagement, and sales campaigns.'
+            ]
         ]
-    ]
-],
+    ],
 
+    'wordpress-development' => [
+
+        'title' => 'wordpress development',
+
+        'image' => 'assets/images/service/wordpress.webp',
+
+        'description' => 'We create responsive, modern and SEO-friendly websites that help businesses establish a strong online presence.',
+
+        'features' => [
+            'Responsive Design',
+            'UI/UX Design',
+            'SEO Friendly',
+            'Fast Loading',
+            'Mobile Optimized'
+        ],
+
+        'details_title' => 'Professional Website Design Services',
+
+        'details_description' => 'Our website design services focus on creating visually appealing, responsive, and user-friendly websites that represent your brand and convert visitors into customers. Every design is optimized for performance, accessibility, and search engines to help your business grow online.',
+
+        'benefits' => [
+            [
+                'title' => 'Responsive Design',
+                'description' => 'Your website looks perfect on desktops, tablets, and smartphones.'
+            ],
+            [
+                'title' => 'SEO Optimized',
+                'description' => 'Built with search engine best practices to improve online visibility.'
+            ],
+            [
+                'title' => 'Fast Performance',
+                'description' => 'Optimized code and images ensure quick loading times.'
+            ]
+        ],
+
+        'faq' => [
+
+            [
+                'question' => 'How long does it take to design a website?',
+                'answer' => 'Most business websites are completed within 1–3 weeks depending on the project scope.'
+            ],
+
+            [
+                'question' => 'Will my website be mobile friendly?',
+                'answer' => 'Yes. Every website we build is fully responsive and optimized for all devices.'
+            ],
+
+            [
+                'question' => 'Can you redesign my existing website?',
+                'answer' => 'Yes. We can modernize your current website while preserving your existing content if required.'
+            ]
+        ]
+    ],
+    'influencer marketing' => [
+
+        'title' => 'influencer marketing',
+
+        'image' => 'assets/images/service/influencer marketing.webp',
+
+        'description' => 'Influencer marketing helps businesses grow faster through trusted creators and social media promotions. we create result-driven influencer campaigns that increase brand awareness, trust, and sales.
+',
+
+        'features' => [],
+
+        'details_title' => 'Why Influencer Marketing Is Important for Your Business',
+
+        'details_description' => 'Traditional ads are no longer enough. Modern customers trust real people more than direct advertisements. Therefore, influencer marketing in Jharkhand helps brands connect with audiences in an authentic way.',
+
+        'benefits' => [
+            [
+                'title' => 'Boost Brand Awareness',
+                'description' => 'Reach targeted audiences already interested in your niche'
+            ],
+            [
+                'title' => 'Build Trust',
+                'description' => 'Influencers help your brand gain credibility faster.'
+            ],
+            [
+                'title' => 'Increase Engagement',
+                'description' => 'Get likes, comments, shares, clicks, and website visits.'
+            ]
+        ],
+
+        'faq' => [
+
+            [
+                'question' => 'How does influencer marketing help my business?',
+                'answer' => 'It increases brand awareness, trust, traffic, leads, and sales.'
+            ],
+
+            [
+                'question' => 'Which platforms do you provide influencer marketing for?',
+                'answer' => 'We provide campaigns for Instagram, YouTube, Facebook, LinkedIn, and short video platforms.'
+            ],
+
+            [
+                'question' => 'What types of influencer campaigns do you manage?',
+                'answer' => 'We manage awareness, product launch, affiliate, engagement, and sales campaigns.'
+            ]
+        ]
+    ],
+
+
+
+
+
+
+    'social-media' => [
+        'title' => 'social media',
+
+        'image' => 'assets/images/service/socialmedia.webp',
+
+        'description' => 'In today’s visually driven digital era, a strong and creative social media presence is essential for every brand.  
+',
+
+        'features' => [],
+
+        'details_title' => 'Strengthen Your Online Presence with Siddexa IT – Expert Social Media Marketing Services',
+
+        'details_description' => 'Our retail & ecommerce services are designed to help your brand stand out in a competitive online market. We focus on usability, speed, and customer experience so your store looks professional and sells more.',
+        'details_description1' => 'From online store setup to sales growth, we provide retail & ecommerce in Jharkhand that improves customer experience, increases conversions, and supports long-term business success. Whether you are starting a new store or growing an existing one, we help you sell smarter online.',
+
+        'benefits' => [
+            [
+                'title' => 'Boost Brand Awareness',
+                'description' => 'Reach targeted audiences already interested in your niche'
+            ],
+            [
+                'title' => 'Build Trust',
+                'description' => 'Influencers help your brand gain credibility faster.'
+            ],
+            [
+                'title' => 'Increase Engagement',
+                'description' => 'Get likes, comments, shares, clicks, and website visits.'
+            ]
+        ],
+
+        'faq' => [
+
+            [
+                'question' => 'How does influencer marketing help my business?',
+                'answer' => 'It increases brand awareness, trust, traffic, leads, and sales.'
+            ],
+
+            [
+                'question' => 'Which platforms do you provide influencer marketing for?',
+                'answer' => 'We provide campaigns for Instagram, YouTube, Facebook, LinkedIn, and short video platforms.'
+            ],
+
+            [
+                'question' => 'What types of influencer campaigns do you manage?',
+                'answer' => 'We manage awareness, product launch, affiliate, engagement, and sales campaigns.'
+            ]
+        ],
+    ],
+
+
+
+
+    'digital-marketing' => [
+
+        'title' => 'digital-marketing',
+
+        'image' => 'assets/images/service/digital-marketing.webp',
+
+        'description' => 'We specialize in Search Engine Optimization (SEO), Social Media Marketing (SMM), Google Ads (PPC), Content Marketing, Email Marketing, Branding, Online Reputation Management (ORM), and Website Traffic Growth.
+',
+
+        'features' => [],
+
+        'details_title' => 'Where Businesses Go from Visible to Unforgettable',
+
+        'details_description' => 'At Siddexa IT, we are more than just a digital solutions company — we are your growth partners. Based in the heart of Jharkhand, we specialize in helping businesses of all sizes grow, evolve, and make a lasting impact in the digital world. Our mission is simple: to help your business stand out, reach the right audience, and achieve measurable success online.',
+        'details_description' => 'Our team is not just a service provider; we work as an extension of your organization. We take the time to understand your business, your goals, and your audience. We help define your brand’s unique voice, craft meaningful messages, and create digital experiences that capture attention, build trust, and inspire action. Every project we take on is tailored to reflect your brand’s essence and purpose, ensuring your digital presence is authentic, memorable, and impactful.',
+
+        'benefits' => [
+            [
+                'title' => 'Boost Brand Awareness',
+                'description' => 'Reach targeted audiences already interested in your niche'
+            ],
+            [
+                'title' => 'Build Trust',
+                'description' => 'Influencers help your brand gain credibility faster.'
+            ],
+            [
+                'title' => 'Increase Engagement',
+                'description' => 'Get likes, comments, shares, clicks, and website visits.'
+            ]
+        ],
+
+        'faq' => [
+
+            [
+                'question' => 'How does influencer marketing help my business?',
+                'answer' => 'It increases brand awareness, trust, traffic, leads, and sales.'
+            ],
+
+            [
+                'question' => 'Which platforms do you provide influencer marketing for?',
+                'answer' => 'We provide campaigns for Instagram, YouTube, Facebook, LinkedIn, and short video platforms.'
+            ],
+
+            [
+                'question' => 'What types of influencer campaigns do you manage?',
+                'answer' => 'We manage awareness, product launch, affiliate, engagement, and sales campaigns.'
+            ]
+        ],
+    ],
+
+    'Whatsapp-Business-API' => [
+
+        'title' => 'Whatsapp Business API',
+
+        'image' => 'assets/images/service/Whatsapp-Business.webp',
+
+        'description' => 'In today’s visually driven digital era, a strong and creative social media presence is essential for every brand.  
+',
+
+        'features' => [],
+
+        'details_title' => 'Strengthen Your Online Presence with Siddexa IT – Expert Social Media Marketing Services',
+
+        'details_description' => 'Our retail & ecommerce services are designed to help your brand stand out in a competitive online market. We focus on usability, speed, and customer experience so your store looks professional and sells more.',
+        'details_description1' => 'From online store setup to sales growth, we provide retail & ecommerce in Jharkhand that improves customer experience, increases conversions, and supports long-term business success. Whether you are starting a new store or growing an existing one, we help you sell smarter online.',
+
+        'benefits' => [
+            [
+                'title' => 'Boost Brand Awareness',
+                'description' => 'Reach targeted audiences already interested in your niche'
+            ],
+            [
+                'title' => 'Build Trust',
+                'description' => 'Influencers help your brand gain credibility faster.'
+            ],
+            [
+                'title' => 'Increase Engagement',
+                'description' => 'Get likes, comments, shares, clicks, and website visits.'
+            ]
+        ],
+
+        'faq' => [
+
+            [
+                'question' => 'How does influencer marketing help my business?',
+                'answer' => 'It increases brand awareness, trust, traffic, leads, and sales.'
+            ],
+
+            [
+                'question' => 'Which platforms do you provide influencer marketing for?',
+                'answer' => 'We provide campaigns for Instagram, YouTube, Facebook, LinkedIn, and short video platforms.'
+            ],
+
+            [
+                'question' => 'What types of influencer campaigns do you manage?',
+                'answer' => 'We manage awareness, product launch, affiliate, engagement, and sales campaigns.'
+            ]
+        ],
+    ],
+
+
+
+    'App-Development' => [
+
+        'title' => 'App Development',
+
+        'image' => 'assets/images/service/App-Development.webp',
+
+        'description' => 'In today’s visually driven digital era, a strong and creative social media presence is essential for every brand.  
+',
+
+        'features' => [],
+
+        'details_title' => 'Strengthen Your Online Presence with Siddexa IT – Expert Social Media Marketing Services',
+
+        'details_description' => 'Siddexa IT is a leading Application development company based in India, specializing in custom application development, enterprise software solutions, and offshore software development services. Our team of experienced software engineers delivers reliable, high-quality software tailored to your business needs. By combining industry best practices, time-tested development processes, and a commitment to innovation, we help companies reduce costs, accelerate growth, and achieve measurable results.
+
+Whether you are a startup, SME, or large enterprise, our application development services are designed to optimize your digital transformation journey while ensuring high performance, scalability, and security.',
+
+        'benefits' => [
+            [
+                'title' => 'Boost Brand Awareness',
+                'description' => 'Reach targeted audiences already interested in your niche'
+            ],
+            [
+                'title' => 'Build Trust',
+                'description' => 'Influencers help your brand gain credibility faster.'
+            ],
+            [
+                'title' => 'Increase Engagement',
+                'description' => 'Get likes, comments, shares, clicks, and website visits.'
+            ]
+        ],
+
+        'faq' => [
+
+            [
+                'question' => 'How does influencer marketing help my business?',
+                'answer' => 'It increases brand awareness, trust, traffic, leads, and sales.'
+            ],
+
+            [
+                'question' => 'Which platforms do you provide influencer marketing for?',
+                'answer' => 'We provide campaigns for Instagram, YouTube, Facebook, LinkedIn, and short video platforms.'
+            ],
+
+            [
+                'question' => 'What types of influencer campaigns do you manage?',
+                'answer' => 'We manage awareness, product launch, affiliate, engagement, and sales campaigns.'
+            ]
+        ]
+    ],
+
+
+    'Web-App-Development' => [
+
+        'title' => 'Web App Development',
+
+        'image' => 'assets/images/service/Web-App-Development.webp',
+
+        'description' => 'In today’s fast-evolving digital landscape, web applications are at the heart of every modern business. 
+',
+
+        'features' => [],
+
+        'details_title' => 'we deliver custom Web Application Development Services in India designed to help businesses transform their ideas into powerful, user-centric, and secure digital experiences. ',
+
+        'details_description' => 'We specialize in full-stack web development using technologies such as React, Angular, Node.js, Laravel, PHP, Python (Django/Flask), and .NET, ensuring seamless performance and strong security. Whether you need a custom enterprise portal, a secure e-commerce solution, or a progressive web application (PWA), our solutions are built for speed, scalability, and success.',
+
+        'benefits' => [
+            [
+                'title' => 'Boost Brand Awareness',
+                'description' => 'Reach targeted audiences already interested in your niche'
+            ],
+            [
+                'title' => 'Build Trust',
+                'description' => 'Influencers help your brand gain credibility faster.'
+            ],
+            [
+                'title' => 'Increase Engagement',
+                'description' => 'Get likes, comments, shares, clicks, and website visits.'
+            ]
+        ],
+
+        'faq' => [
+
+            [
+                'question' => 'How does influencer marketing help my business?',
+                'answer' => 'It increases brand awareness, trust, traffic, leads, and sales.'
+            ],
+
+            [
+                'question' => 'Which platforms do you provide influencer marketing for?',
+                'answer' => 'We provide campaigns for Instagram, YouTube, Facebook, LinkedIn, and short video platforms.'
+            ],
+
+            [
+                'question' => 'What types of influencer campaigns do you manage?',
+                'answer' => 'We manage awareness, product launch, affiliate, engagement, and sales campaigns.'
+            ]
+        ],
+    ],
+
+    'AI&ML-Development' => [
+
+        'title' => 'AI & ML Development',
+
+        'image' => 'assets/images/service/AI&ML-Development.webp',
+
+        'description' => 'In today’s fast-evolving digital landscape, web applications are at the heart of every modern business.',
+
+        'features' => [],
+
+        'details_title' => 'we deliver custom Web Application Development Services in India designed to help businesses transform their ideas into powerful, user-centric, and secure digital experiences. ',
+
+        'details_description' => 'We specialize in full-stack web development using technologies such as React, Angular, Node.js, Laravel, PHP, Python (Django/Flask), and .NET, ensuring seamless performance and strong security. Whether you need a custom enterprise portal, a secure e-commerce solution, or a progressive web application (PWA), our solutions are built for speed, scalability, and success.',
+
+        'benefits' => [
+            [
+                'title' => 'Boost Brand Awareness',
+                'description' => 'Reach targeted audiences already interested in your niche'
+            ],
+            [
+                'title' => 'Build Trust',
+                'description' => 'Influencers help your brand gain credibility faster.'
+            ],
+            [
+                'title' => 'Increase Engagement',
+                'description' => 'Get likes, comments, shares, clicks, and website visits.'
+            ]
+        ],
+
+        'faq' => [
+
+            [
+                'question' => 'How does influencer marketing help my business?',
+                'answer' => 'It increases brand awareness, trust, traffic, leads, and sales.'
+            ],
+
+            [
+                'question' => 'Which platforms do you provide influencer marketing for?',
+                'answer' => 'We provide campaigns for Instagram, YouTube, Facebook, LinkedIn, and short video platforms.'
+            ],
+
+            [
+                'question' => 'What types of influencer campaigns do you manage?',
+                'answer' => 'We manage awareness, product launch, affiliate, engagement, and sales campaigns.'
+            ]
+        ],
+    ],
+
+    'API-Services' => [
+
+        'title' => 'API Services',
+
+        'image' => 'assets/images/service/API Services.webp',
+
+        'description' => 'In today’s fast-evolving digital landscape, web applications are at the heart of every modern business. 
+',
+
+        'features' => [],
+
+        'details_title' => 'we deliver custom Web Application Development Services in India designed to help businesses transform their ideas into powerful, user-centric, and secure digital experiences. ',
+
+        'details_description' => 'We specialize in full-stack web development using technologies such as React, Angular, Node.js, Laravel, PHP, Python (Django/Flask), and .NET, ensuring seamless performance and strong security. Whether you need a custom enterprise portal, a secure e-commerce solution, or a progressive web application (PWA), our solutions are built for speed, scalability, and success.',
+
+        'benefits' => [
+            [
+                'title' => 'Boost Brand Awareness',
+                'description' => 'Reach targeted audiences already interested in your niche'
+            ],
+            [
+                'title' => 'Build Trust',
+                'description' => 'Influencers help your brand gain credibility faster.'
+            ],
+            [
+                'title' => 'Increase Engagement',
+                'description' => 'Get likes, comments, shares, clicks, and website visits.'
+            ]
+        ],
+
+        'faq' => [
+
+            [
+                'question' => 'How does influencer marketing help my business?',
+                'answer' => 'It increases brand awareness, trust, traffic, leads, and sales.'
+            ],
+
+            [
+                'question' => 'Which platforms do you provide influencer marketing for?',
+                'answer' => 'We provide campaigns for Instagram, YouTube, Facebook, LinkedIn, and short video platforms.'
+            ],
+
+            [
+                'question' => 'What types of influencer campaigns do you manage?',
+                'answer' => 'We manage awareness, product launch, affiliate, engagement, and sales campaigns.'
+            ]
+        ],
+    ],
 ];
 
-$data = $services[$service] ?? $services['website-design'];
+$service = isset($_GET['service']) ? trim($_GET['service']) : 'website-design';
+
+if (!array_key_exists($service, $services)) {
+    $service = 'website-design';
+}
+
+$data = $services[$service];
+
 ?>
 <!doctype php>
 <php class="no-js" lang="en">
@@ -134,59 +655,24 @@ $data = $services[$service] ?? $services['website-design'];
                                 <div class="col-lg-8">
                                     <div class="post-details-wrapper">
                                         <div class="blog-images wow fadeInUp" data-wow-delay=".1s">
-                                            <!-- <img src="assets/images/service/service-details.webp" alt="Images"> -->
                                             <img src="<?= $data['image']; ?>" alt="<?= $data['title']; ?>">
                                         </div>
-                                        <!-- <h2 class="title title-anim">Transforming Customer: Tailored Solutions for
-                                            Experiences.</h2> -->
+
                                         <h2 class="title title-anim">
                                             <?= $data['title']; ?>
                                         </h2>
                                         <div class="blog-text">
-                                            <!-- <p class="wow fadeInUp" data-wow-delay=".3s">Recognize that exceptional
-                                                customer experiences are at
-                                                the
-                                                heart of every successful business. Our
-                                                Customer Experience Solutions are crafted to help you transform every
-                                                interaction your customers
-                                                have
-                                                with your brand into a meaningful and positive experience. We believe
-                                                that understanding the
-                                                customer
-                                                journey and providing personalized, seamless experiences can
-                                                significantly enhance customer
-                                                loyalty,
-                                                satisfaction, and lifetime value.Our approach to customer experience is
-                                                comprehensive and
-                                                data-driven.
-                                            </p>
-                                            <p class="wow fadeInUp" data-wow-delay=".3s">Our approach to customer
-                                                experience is comprehensive
-                                                and
-                                                data-driven. We begin by assessing your
-                                                current customer touchpoints, identifying areas for improvement, and
-                                                using insights to develop
-                                                strategies that meet your customers’ evolving needs. From optimizing
-                                                digital platforms.</p> -->
+
                                             <p>
                                                 <?= $data['description']; ?>
                                             </p>
-                                            <!-- <ul class="wow fadeInUp" data-wow-delay=".3s">
-                                                <li><span><i class="tji-check"></i></span>Personalization at Scale</li>
-                                                <li><span><i class="tji-check"></i></span>Improved Customer Retention
-                                                </li>
-                                                <li><span><i class="tji-check"></i></span>Data-Driven Insights</li>
-                                                <li><span><i class="tji-check"></i></span>Omni-channel Integration</li>
-                                                <li><span><i class="tji-check"></i></span>Customer Retention</li>
-                                                <li><span><i class="tji-check"></i></span>Support Optimization</li>
-                                                <li><span><i class="tji-check"></i></span>Proactive Engagement</li>
-                                            </ul> -->
+
                                             <ul>
-                                                <?php foreach($data['features'] as $feature): ?>
-                                                <li>
-                                                    <span><i class="fa-solid fa-check"></i></span>
-                                                    <?= $feature; ?>
-                                                </li>
+                                                <?php foreach ($data['features'] as $feature): ?>
+                                                    <li>
+                                                        <span><i class="fa-solid fa-check"></i></span>
+                                                        <?= $feature; ?>
+                                                    </li>
                                                 <?php endforeach; ?>
                                             </ul>
                                             <div class="images-wrap">
@@ -203,228 +689,60 @@ $data = $services[$service] ?? $services['website-design'];
                                                     </div>
                                                 </div>
                                             </div>
-                                            <!-- <h3 class="wow fadeInUp" data-wow-delay=".3s">Our Range of Customer Services
-                                            </h3>
-                                            <p class="wow fadeInUp" data-wow-delay=".3s">At Bexon, we don't just focus
-                                                on solving customer
-                                                problems—we focus on creating experiences that
-                                                delight and build lasting relationships. Whether it's through improving
-                                                customer service
-                                                operations,
-                                                leveraging technology, or designing more engaging digital experiences,
-                                                our team is here to help
-                                                you
-                                                exceed your customers' expectations every time. We help you understand
-                                                your customers deeply,
-                                                optimize
-                                                their experience.</p> -->
+
                                             <h3><?= $data['details_title']; ?></h3>
 
                                             <p><?= $data['details_description']; ?></p>
-                                            <!-- <div class="details-content-box">
-                                                <div class="service-details-item wow fadeInUp" data-wow-delay=".2s">
-                                                    <span class="number">01.</span>
-                                                    <h6 class="title">Increased Customer <br>Satisfaction</h6>
-                                                    <div class="desc">
-                                                        <p>By prov consistent, personalized experience, customers are
-                                                            more likely to feel valued a
-                                                            satisfied, which directly.</p>
-                                                    </div>
-                                                </div>
-                                                <div class="service-details-item wow fadeInUp" data-wow-delay=".4s">
-                                                    <div class="service-number">
-                                                        <span class="number">02.</span>
-                                                        <h6 class="title">Improved Operational <br>Efficiency</h6>
-                                                        <div class="desc">
-                                                            <p>With our tools and strategies, your customer support
-                                                                teams can handle inquiries faster,
-                                                                while
-                                                                automated systems.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="service-details-item wow fadeInUp" data-wow-delay=".6s">
-                                                    <div class="service-number">
-                                                        <span class="number">03.</span>
-                                                        <h6 class="title">Insights for Continuous Improvement</h6>
-                                                        <div class="desc">
-                                                            <p>Our data-driven approach provides team with valuable
-                                                                insights into customer behavior,
-                                                                enabling to continual.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div> -->
+
                                             <div class="details-content-box">
 
-                                                <?php foreach($data['benefits'] as $index => $item): ?>
+                                                <?php foreach ($data['benefits'] as $index => $item): ?>
 
-                                                <div class="service-details-item">
+                                                    <div class="service-details-item">
 
-                                                    <span class="number">
-                                                        <?= sprintf('%02d.', $index + 1); ?>
-                                                    </span>
+                                                        <span class="number">
+                                                            <?= sprintf('%02d.', $index + 1); ?>
+                                                        </span>
 
-                                                    <h6 class="title"><?= $item['title']; ?></h6>
+                                                        <h6 class="title"><?= $item['title']; ?></h6>
 
-                                                    <div class="desc">
-                                                        <p><?= $item['description']; ?></p>
+                                                        <div class="desc">
+                                                            <p><?= $item['description']; ?></p>
+                                                        </div>
+
                                                     </div>
-
-                                                </div>
 
                                                 <?php endforeach; ?>
 
                                             </div>
                                             <h3 class="wow fadeInUp" data-wow-delay=".3s">Frequently asked questions
                                             </h3>
-                                            <!-- <div class="accordion tj-faq style-2" id="faqOne">
-                                                <div class="accordion-item active wow fadeInUp" data-wow-delay=".3s">
-                                                    <button class=" faq-title" type="button" data-bs-toggle="collapse"
-                                                        data-bs-target="#faq-1" aria-expanded="true">What is Customer
-                                                        Experience (CX) and why is it important?</button>
-                                                    <div id="faq-1" class="collapse show" data-bs-parent="#faqOne">
-                                                        <div class="accordion-body faq-text">
-                                                            <p>Customer Experience (CX) refers to the overall impression
-                                                                a customer has of a business
-                                                                based
-                                                                on their interactions across various touchpoints—whether
-                                                                it’s a website visit, a customer
-                                                                support call, or an in-store purchase. It encompasses
-                                                                everything from ease of navigation
-                                                                and
-                                                                service quality to emotional connection and brand
-                                                                perception.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="accordion-item wow fadeInUp" data-wow-delay=".3s">
-                                                    <button class="faq-title collapsed" type="button"
-                                                        data-bs-toggle="collapse" data-bs-target="#faq-2"
-                                                        aria-expanded="false">How can your Customer Experience Solutions
-                                                        benefit?</button>
-                                                    <div id="faq-2" class="collapse" data-bs-parent="#faqOne">
-                                                        <div class="accordion-body faq-text">
-                                                            <p>Our solutions optimize every touchpoint of the customer
-                                                                journey, ensuring seamless,
-                                                                personalized, and meaningful interactions. The benefits
-                                                                include improved customer
-                                                                satisfaction, higher retention rates, stronger brand
-                                                                loyalty, and actionable insights to
-                                                                continuously improve your customer engagement
-                                                                strategies. We help integrate these channels
-                                                                so
-                                                                customers feel valued.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="accordion-item wow fadeInUp" data-wow-delay=".3s">
-                                                    <button class="faq-title collapsed" type="button"
-                                                        data-bs-toggle="collapse" data-bs-target="#faq-3"
-                                                        aria-expanded="false">How do you personalize the customer
-                                                        experience?</button>
-                                                    <div id="faq-3" class="collapse" data-bs-parent="#faqOne">
-                                                        <div class="accordion-body faq-text">
-                                                            <p>Getting started is easy! Simply reach out to us through
-                                                                our contact form or give us a
-                                                                call,
-                                                                and
-                                                                we’ll schedule a consultation to discuss your project
-                                                                and how we can best assist you. Our
-                                                                team
-                                                                keeps you informed throughout the process, ensuring
-                                                                quality control and timely delivery.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="accordion-item wow fadeInUp" data-wow-delay=".3s">
-                                                    <button class="faq-title collapsed" type="button"
-                                                        data-bs-toggle="collapse" data-bs-target="#faq-4"
-                                                        aria-expanded="false">What kind of tools do you use to improve
-                                                        customer experience?</button>
-                                                    <div id="faq-4" class="collapse" data-bs-parent="#faqOne">
-                                                        <div class="accordion-body faq-text">
-                                                            <p>Getting started is easy! Simply reach out to us through
-                                                                our contact form or give us a
-                                                                call,
-                                                                and
-                                                                we’ll schedule a consultation to discuss your project
-                                                                and how we can best assist you. Our
-                                                                team
-                                                                keeps you informed throughout the process, ensuring
-                                                                quality control and timely delivery.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="accordion-item wow fadeInUp" data-wow-delay=".3s">
-                                                    <button class="faq-title collapsed" type="button"
-                                                        data-bs-toggle="collapse" data-bs-target="#faq-5"
-                                                        aria-expanded="false">How do you collect customer
-                                                        feedback?</button>
-                                                    <div id="faq-5" class="collapse" data-bs-parent="#faqOne">
-                                                        <div class="accordion-body faq-text">
-                                                            <p>Getting started is easy! Simply reach out to us through
-                                                                our contact form or give us a
-                                                                call,
-                                                                and
-                                                                we’ll schedule a consultation to discuss your project
-                                                                and how we can best assist you. Our
-                                                                team
-                                                                keeps you informed throughout the process, ensuring
-                                                                quality control and timely delivery.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="accordion-item wow fadeInUp" data-wow-delay=".3s">
-                                                    <button class="faq-title collapsed" type="button"
-                                                        data-bs-toggle="collapse" data-bs-target="#faq-6"
-                                                        aria-expanded="false">Can you help improve our customer support
-                                                        system?</button>
-                                                    <div id="faq-6" class="collapse" data-bs-parent="#faqOne">
-                                                        <div class="accordion-body faq-text">
-                                                            <p>Getting started is easy! Simply reach out to us through
-                                                                our contact form or give us a
-                                                                call,
-                                                                and
-                                                                we’ll schedule a consultation to discuss your project
-                                                                and how we can best assist you. Our
-                                                                team
-                                                                keeps you informed throughout the process, ensuring
-                                                                quality control and timely delivery.
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div> -->
+
                                             <div class="accordion tj-faq style-2" id="faqOne">
 
-                                                <?php foreach($data['faq'] as $key => $faq): ?>
+                                                <?php foreach ($data['faq'] as $key => $faq): ?>
 
-                                                <div class="accordion-item <?= $key==0 ? 'active' : ''; ?>">
+                                                    <div class="accordion-item <?= $key == 0 ? 'active' : ''; ?>">
 
-                                                    <button class="faq-title <?= $key!=0 ? 'collapsed' : ''; ?>"
-                                                        type="button" data-bs-toggle="collapse"
-                                                        data-bs-target="#faq-<?= $key; ?>">
+                                                        <button class="faq-title <?= $key != 0 ? 'collapsed' : ''; ?>"
+                                                            type="button" data-bs-toggle="collapse"
+                                                            data-bs-target="#faq-<?= $key; ?>">
 
-                                                        <?= $faq['question']; ?>
+                                                            <?= $faq['question']; ?>
 
-                                                    </button>
+                                                        </button>
 
-                                                    <div id="faq-<?= $key; ?>"
-                                                        class="collapse <?= $key==0 ? 'show' : ''; ?>"
-                                                        data-bs-parent="#faqOne">
+                                                        <div id="faq-<?= $key; ?>"
+                                                            class="collapse <?= $key == 0 ? 'show' : ''; ?>"
+                                                            data-bs-parent="#faqOne">
 
-                                                        <div class="accordion-body">
-                                                            <p><?= $faq['answer']; ?></p>
+                                                            <div class="accordion-body">
+                                                                <p><?= $faq['answer']; ?></p>
+                                                            </div>
+
                                                         </div>
 
                                                     </div>
-
-                                                </div>
 
                                                 <?php endforeach; ?>
 
@@ -432,7 +750,6 @@ $data = $services[$service] ?? $services['website-design'];
 
                                         </div>
                                         <div class="tj-post__navigation mb-0 wow fadeInUp" data-wow-delay=".3s">
-                                            <!-- previous post -->
                                             <div class="tj-nav__post previous">
                                                 <div class="tj-nav-post__nav prev_post">
                                                     <a href="service-details.php"><span><i
@@ -442,7 +759,6 @@ $data = $services[$service] ?? $services['website-design'];
                                             <div class="tj-nav-post__grid">
                                                 <a href="service.php"><i class="fa-solid fa-grip"></i></a>
                                             </div>
-                                            <!-- next post -->
                                             <div class="tj-nav__post next">
                                                 <div class="tj-nav-post__nav next_post">
                                                     <a href="service-details.php">Next<span><i
@@ -454,31 +770,12 @@ $data = $services[$service] ?? $services['website-design'];
                                 </div>
                                 <div class="col-lg-4">
                                     <div class="tj-main-sidebar slidebar-stickiy">
-                                        <!-- <div class="tj-sidebar-widget service-categories wow fadeInUp"
-                                            data-wow-delay=".1s">
-                                            <h4 class="widget-title">More services</h4>
-                                            <ul>
-                                                <li><a class="active" href="service-details.php">Customer
-                                                        Experience<span class="icon"><i
-                                                                class="tji-arrow-right"></i></span></a></li>
-                                                <li><a href="service-details.php">Training Programs<span
-                                                            class="icon"><i class="fa-solid fa-chevron-right"></i></span></a></li>
-                                                <li><a href="service-details.php">Business Strategy<span
-                                                            class="icon"><i class="fa-solid fa-chevron-right"></i></span></a></li>
-                                                <li><a href="service-details.php">Training Program<span class="icon"><i
-                                                                class="tji-arrow-right"></i></span></a></li>
-                                                <li><a href="service-details.php">ESG Consulting<span class="icon"><i
-                                                                class="tji-arrow-right"></i></span></a></li>
-                                                <li><a href="service-details.php">Development Hub<span class="icon"><i
-                                                                class="tji-arrow-right"></i></span></a></li>
-                                            </ul>
-                                        </div> -->
                                         <div class="tj-sidebar-widget service-categories wow fadeInUp"
                                             data-wow-delay=".1s">
                                             <h4 class="widget-title">More Services</h4>
 
-                                            <ul>
-                                                <?php foreach($services as $key => $service): ?>
+                                            <!-- <ul>
+                                                <?php foreach ($services as $key => $service): ?>
                                                 <li>
                                                     <a href="service-details.php?service=<?= $key; ?>"
                                                         class="<?= ($service == $key) ? 'active' : ''; ?>">
@@ -491,6 +788,23 @@ $data = $services[$service] ?? $services['website-design'];
 
                                                     </a>
                                                 </li>
+                                                <?php endforeach; ?>
+                                            </ul> -->
+                                            <?php
+                                            $currentService = $_GET['service'] ?? 'website-design';
+                                            ?>
+
+                                            <ul>
+                                                <?php foreach ($services as $key => $item): ?>
+                                                    <li>
+                                                        <a href="service-details.php?service=<?= $key; ?>"
+                                                            class="<?= ($currentService == $key) ? 'active' : ''; ?>">
+                                                            <?= $item['title']; ?>
+                                                            <span class="icon">
+                                                                <i class="fa-solid fa-arrow-right"></i>
+                                                            </span>
+                                                        </a>
+                                                    </li>
                                                 <?php endforeach; ?>
                                             </ul>
 
@@ -516,9 +830,6 @@ $data = $services[$service] ?? $services['website-design'];
                             </div>
                         </div>
                     </section>
-                    <!-- end: Blog Section -->
-
-
                 </main>
 
                 <!-- start: Footer Section -->

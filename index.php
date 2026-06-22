@@ -1,3 +1,6 @@
+<?php
+$page = basename($_SERVER['PHP_SELF']);
+?>
 <!doctype php>
 <php class="no-js" lang="en">
 
@@ -139,15 +142,18 @@
                                         <li><a href="about.php">About Us</a>
                                         </li>
 
-                                        <li class="has-dropdown <?= $page == 'index.php' ? 'current-menu-item' : '' ?>">
-                                            <a href="service-details.php">Services</a>
+                                        <li class="has-dropdown">
+                                            <a href="service-details.php?service=website-design">Services</a>
+
                                             <ul class="sub-menu header__mega-menu mega-menu mega-menu-pages">
                                                 <li>
                                                     <div class="mega-menu-wrapper">
 
+                                                        <!-- OUR EXPERTISE -->
                                                         <div class="mega-menu-pages-single">
                                                             <div class="mega-menu-pages-single-inner">
-                                                                <h6 class="mega-menu-title">OUR EXPERTISE </h6>
+                                                                <h6 class="mega-menu-title">OUR EXPERTISE</h6>
+
                                                                 <div class="mega-menu-list">
                                                                     <a
                                                                         href="service-details.php?service=website-design">Website
@@ -155,17 +161,19 @@
                                                                     <a
                                                                         href="service-details.php?service=web-development">Web
                                                                         Development</a>
-                                                                    <a
-                                                                        href="service-details.php?service=ecommerce">E-commerce</a>
+                                                                    <a href="service-details.php?service=ecommerce">E-commerce
+                                                                        Development</a>
                                                                     <a href="service-details.php?service=hosting">Domain
                                                                         & Hosting</a>
                                                                 </div>
                                                             </div>
-
                                                         </div>
+
+                                                        <!-- MEDIA & PR -->
                                                         <div class="mega-menu-pages-single">
                                                             <div class="mega-menu-pages-single-inner">
-                                                                <h6 class="mega-menu-title">MEDIA & PR </h6>
+                                                                <h6 class="mega-menu-title">MEDIA & PR</h6>
+
                                                                 <div class="mega-menu-list">
                                                                     <a
                                                                         href="service-details.php?service=influencer-marketing">Influencer
@@ -182,11 +190,13 @@
                                                                         Business API</a>
                                                                 </div>
                                                             </div>
-
                                                         </div>
-                                                        <div class=" mega-menu-pages-single">
+
+                                                        <!-- TRENDING TECHNOLOGY -->
+                                                        <div class="mega-menu-pages-single">
                                                             <div class="mega-menu-pages-single-inner">
-                                                                <h6 class="mega-menu-title">TRENDING TECHNOLOGY </h6>
+                                                                <h6 class="mega-menu-title">TRENDING TECHNOLOGY</h6>
+
                                                                 <div class="mega-menu-list">
                                                                     <a
                                                                         href="service-details.php?service=app-development">App
@@ -200,32 +210,33 @@
                                                                         Engineering</a>
                                                                     <a href="service-details.php?service=api-services">API
                                                                         Services</a>
-
                                                                 </div>
                                                             </div>
-
                                                         </div>
 
-                                                        <div class="col-12 col-lg-3 mega-menu-pages-single">
+                                                        <!-- Right Side Banner -->
+                                                        <div class="mega-menu-pages-single">
                                                             <div class="mega-menu-pages-single-inner">
                                                                 <div class="feature-box">
                                                                     <div class="feature-content">
-                                                                        <h2 class="title">Modern</h2>
-                                                                        <span>Home Makeover</span>
+                                                                        <h2 class="title">Need Help?</h2>
+                                                                        <span>Let's Build Your Business Online</span>
+
                                                                         <a class="read-more feature-contact"
-                                                                            href="tel:8321890640">
+                                                                            href="tel:+918321890640">
                                                                             <i class="fa-solid fa-phone"></i>
-                                                                            <span>+8 (321) 890-640</span>
+                                                                            <span>+91 83218 90640</span>
                                                                         </a>
                                                                     </div>
+
                                                                     <div class="feature-images">
                                                                         <img src="assets/images/service/service-ad.webp"
-                                                                            alt="">
+                                                                            alt="Services">
                                                                     </div>
                                                                 </div>
                                                             </div>
-
                                                         </div>
+
                                                     </div>
                                                 </li>
                                             </ul>
@@ -418,15 +429,18 @@
                                                 href="about.php">About Us</a>
 
                                         </li>
-                                        <li class="has-dropdown <?= $page == 'index.php' ? 'current-menu-item' : '' ?>">
-                                            <a href="service-details.php">Services</a>
+                                        <li class="has-dropdown">
+                                            <a href="service-details.php?service=website-design">Services</a>
+
                                             <ul class="sub-menu header__mega-menu mega-menu mega-menu-pages">
                                                 <li>
                                                     <div class="mega-menu-wrapper">
 
+                                                        <!-- OUR EXPERTISE -->
                                                         <div class="mega-menu-pages-single">
                                                             <div class="mega-menu-pages-single-inner">
-                                                                <h6 class="mega-menu-title">OUR EXPERTISE </h6>
+                                                                <h6 class="mega-menu-title">OUR EXPERTISE</h6>
+
                                                                 <div class="mega-menu-list">
                                                                     <a
                                                                         href="service-details.php?service=website-design">Website
@@ -434,17 +448,19 @@
                                                                     <a
                                                                         href="service-details.php?service=web-development">Web
                                                                         Development</a>
-                                                                    <a
-                                                                        href="service-details.php?service=ecommerce">E-commerce</a>
+                                                                    <a href="service-details.php?service=ecommerce">E-commerce
+                                                                        Development</a>
                                                                     <a href="service-details.php?service=hosting">Domain
                                                                         & Hosting</a>
                                                                 </div>
                                                             </div>
-
                                                         </div>
+
+                                                        <!-- MEDIA & PR -->
                                                         <div class="mega-menu-pages-single">
                                                             <div class="mega-menu-pages-single-inner">
-                                                                <h6 class="mega-menu-title">MEDIA & PR </h6>
+                                                                <h6 class="mega-menu-title">MEDIA & PR</h6>
+
                                                                 <div class="mega-menu-list">
                                                                     <a
                                                                         href="service-details.php?service=influencer-marketing">Influencer
@@ -461,11 +477,13 @@
                                                                         Business API</a>
                                                                 </div>
                                                             </div>
-
                                                         </div>
-                                                        <div class=" mega-menu-pages-single">
+
+                                                        <!-- TRENDING TECHNOLOGY -->
+                                                        <div class="mega-menu-pages-single">
                                                             <div class="mega-menu-pages-single-inner">
-                                                                <h6 class="mega-menu-title">TRENDING TECHNOLOGY </h6>
+                                                                <h6 class="mega-menu-title">TRENDING TECHNOLOGY</h6>
+
                                                                 <div class="mega-menu-list">
                                                                     <a
                                                                         href="service-details.php?service=app-development">App
@@ -479,32 +497,33 @@
                                                                         Engineering</a>
                                                                     <a href="service-details.php?service=api-services">API
                                                                         Services</a>
-
                                                                 </div>
                                                             </div>
-
                                                         </div>
 
-                                                        <div class="col-12 col-lg-3 mega-menu-pages-single">
+                                                        <!-- Right Side Banner -->
+                                                        <div class="mega-menu-pages-single">
                                                             <div class="mega-menu-pages-single-inner">
                                                                 <div class="feature-box">
                                                                     <div class="feature-content">
-                                                                        <h2 class="title">Modern</h2>
-                                                                        <span>Home Makeover</span>
+                                                                        <h2 class="title">Need Help?</h2>
+                                                                        <span>Let's Build Your Business Online</span>
+
                                                                         <a class="read-more feature-contact"
-                                                                            href="tel:8321890640">
+                                                                            href="tel:+918321890640">
                                                                             <i class="fa-solid fa-phone"></i>
-                                                                            <span>+8 (321) 890-640</span>
+                                                                            <span>+91 83218 90640</span>
                                                                         </a>
                                                                     </div>
+
                                                                     <div class="feature-images">
                                                                         <img src="assets/images/service/service-ad.webp"
-                                                                            alt="">
+                                                                            alt="Services">
                                                                     </div>
                                                                 </div>
                                                             </div>
-
                                                         </div>
+
                                                     </div>
                                                 </li>
                                             </ul>
@@ -699,8 +718,7 @@
                                                 Recognized by the industry leaders, of our award.</p>
                                             <a class="tj-primary-btn" href="contact.php">
                                                 <span class="btn-text"><span>Get Started</span></span>
-                                                <span class="btn-icon"><i
-                                                        class="fa-solid fa-arrow-right"></i></span>
+                                                <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
                                             </a>
                                         </div>
                                     </div>
@@ -803,8 +821,7 @@
                                                 solution to keep your business.</p>
                                             <a class="text-btn" href="contact.php">
                                                 <span class="btn-text"><span>Contact Us</span></span>
-                                                <span class="btn-icon"><i
-                                                        class="fa-solid fa-arrow-right"></i></span>
+                                                <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
                                             </a>
                                         </div>
                                     </div>
@@ -1160,8 +1177,7 @@
                                         <div class="h9-service-more wow fadeInUp" data-wow-delay=".3s">
                                             <a class="tj-primary-btn" href="service.php">
                                                 <span class="btn-text"><span>More services</span></span>
-                                                <span class="btn-icon"><i
-                                                        class="fa-solid fa-arrow-right"></i></span>
+                                                <span class="btn-icon"><i class="fa-solid fa-arrow-right"></i></span>
                                             </a>
                                         </div>
                                     </div>
@@ -1839,6 +1855,6 @@
         <script src="assets/js/meanmenu.js" defer></script>
         <script src="assets/js/main.js" defer></script>
 
-      
+
     </body>
 </php>
