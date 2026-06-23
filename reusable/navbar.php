@@ -180,10 +180,8 @@
 
                                                          <div class="mega-menu-list">
                                                              <a href="service-details.php?service=website-design">Website
-                                                                 Designing</a>
-                                                             <a href="service-details.php?service=web-development">Web
-                                                                 Development</a>
-                                                             <a href="service-details.php?service=ecommerce">E-commerce
+                                                                 Designing & Development</a>
+                                                             <a href="service-details.php?service=retail-ecommerce">E-commerce
                                                                  Development</a>
                                                              <a href="service-details.php?service=hosting">Domain &
                                                                  Hosting</a>
@@ -205,7 +203,8 @@
                                                                  Media Management</a>
                                                              <a href="service-details.php?service=digital-marketing">Digital
                                                                  Marketing</a>
-                                                             <a href="service-details.php?service=whatsapp-api">WhatsApp
+                                                             <a
+                                                                 href="service-details.php?service=whatsapp-business-api">WhatsApp
                                                                  Business API</a>
                                                          </div>
                                                      </div>
@@ -219,9 +218,11 @@
                                                          <div class="mega-menu-list">
                                                              <a href="service-details.php?service=app-development">App
                                                                  Development</a>
-                                                             <a href="service-details.php?service=web-app">Web App
+                                                             <a href="service-details.php?service=web-app-development">Web
+                                                                 App
                                                                  Development</a>
-                                                             <a href="service-details.php?service=ai-ml">AI & ML
+                                                             <a href="service-details.php?service=ai&ml-development">AI
+                                                                 & ML
                                                                  Development</a>
                                                              <a href="service-details.php?service=digital-engineering">Digital
                                                                  Engineering</a>
@@ -344,8 +345,8 @@
                                          href="shop.php">Shop</a>
                                      <ul class="sub-menu">
                                          <li><a href="shop.php">Shop</a></li>
-                                         <li><a href="#">Shop Details</a></li>
-                                         <li><a href="#">Cart</a></li>
+                                         <li><a href="shop-details.php">Shop Details</a></li>
+                                         <li><a href="cart.php">Cart</a></li>
                                          <li><a href="#">Checkout</a></li>
                                          <li><a href="#">Wishlist</a></li>
                                          <li><a href="#">New</a></li>
@@ -446,7 +447,7 @@
                                  <li class="current-menu-ancestor"><a href="index.php">Home</a>
 
                                  </li>
-                                 <li class="has-dropdown <?= $page == 'about.php' ? 'current-menu-item' : '' ?>"><a
+                                 <li class="<?= $page == 'about.php' ? 'current-menu-item' : '' ?>"><a
                                          href="about.php">About Us</a>
 
                                  </li>
@@ -464,10 +465,8 @@
 
                                                          <div class="mega-menu-list">
                                                              <a href="service-details.php?service=website-design">Website
-                                                                 Designing</a>
-                                                             <a href="service-details.php?service=web-development">Web
-                                                                 Development</a>
-                                                             <a href="service-details.php?service=ecommerce">E-commerce
+                                                                 Designing & Development</a>
+                                                             <a href="service-details.php?service=retail-ecommerce">E-commerce
                                                                  Development</a>
                                                              <a href="service-details.php?service=hosting">Domain &
                                                                  Hosting</a>
@@ -489,7 +488,8 @@
                                                                  Media Management</a>
                                                              <a href="service-details.php?service=digital-marketing">Digital
                                                                  Marketing</a>
-                                                             <a href="service-details.php?service=whatsapp-api">WhatsApp
+                                                             <a
+                                                                 href="service-details.php?service=whatsapp-business-api">WhatsApp
                                                                  Business API</a>
                                                          </div>
                                                      </div>
@@ -503,9 +503,11 @@
                                                          <div class="mega-menu-list">
                                                              <a href="service-details.php?service=app-development">App
                                                                  Development</a>
-                                                             <a href="service-details.php?service=web-app">Web App
+                                                             <a href="service-details.php?service=web-app-development">Web
+                                                                 App
                                                                  Development</a>
-                                                             <a href="service-details.php?service=ai-ml">AI & ML
+                                                             <a href="service-details.php?service=ai&ml-development">AI
+                                                                 & ML
                                                                  Development</a>
                                                              <a href="service-details.php?service=digital-engineering">Digital
                                                                  Engineering</a>
@@ -629,8 +631,8 @@
                                          href="shop.php">Shop</a>
                                      <ul class="sub-menu">
                                          <li><a href="shop.php">Shop</a></li>
-                                         <li><a href="#">Shop Details</a></li>
-                                         <li><a href="#">Cart</a></li>
+                                         <li><a href="shop-details.php">Shop Details</a></li>
+                                         <li><a href="cart.php">Cart</a></li>
                                          <li><a href="#">Checkout</a></li>
                                          <li><a href="#">Wishlist</a></li>
                                          <li><a href="#">New</a></li>

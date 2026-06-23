@@ -57,65 +57,67 @@ $services = [
         ]
     ],
 
-    'Retail-Ecommerce' => [
+    'retail-ecommerce' => [
 
         'title' => 'Retail & Ecommerce',
 
         'image' => 'assets/images/service/ecommerce.webp',
 
-        'description' => 'Retail & ecommerce is no longer just about having a website. It is about creating a smooth shopping experience, building trust, and increasing sales. At Seddexa IT, we help businesses turn visitors into loyal customers with smart digital strategies.
+        'description' => 'Retail & ecommerce is no longer just about having a website. It is about creating a smooth shopping experience, building trust, and increasing sales. At Seddexa IT, we help businesses turn visitors into loyal customers with smart digital strategies.We combine technology, creativity, and data-driven insights to build modern retail and ecommerce solutions that attract, engage, and convert customers across digital platforms. Moreover, we optimize every step of the customer journey, from product discovery to checkout. As a result, your business gets better visibility, more orders, and long-term growth.',
 
-We combine technology, creativity, and data-driven insights to build modern retail and ecommerce solutions that attract, engage, and convert customers across digital platforms.
+        'features' => [
+            'Custom Ecommerce Website',
+            'Shopping Cart Integration',
+            'Secure Payment Gateway',
+            'Inventory Management',
+            'Order & Customer Management'
+        ],
 
-Moreover, we optimize every step of the customer journey, from product discovery to checkout.
-
-As a result, your business gets better visibility, more orders, and long-term growth.
-',
-
-        'features' => [],
+        'benefits' => [
+            [
+                'title' => 'Increase Online Sales',
+                'description' => 'Convert more visitors into paying customers with an optimized online store.'
+            ],
+            [
+                'title' => 'Better Customer Experience',
+                'description' => 'Provide fast, secure, and user-friendly shopping experiences.'
+            ],
+            [
+                'title' => 'Easy Store Management',
+                'description' => 'Manage products, inventory, and orders from one dashboard.'
+            ]
+        ],
 
         'details_title' => 'Smart Retail & Ecommerce Solutions That Deliver Results',
 
         'details_description' => 'Our retail & ecommerce services are designed to help your brand stand out in a competitive online market. We focus on usability, speed, and customer experience so your store looks professional and sells more.',
         'details_description1' => 'From online store setup to sales growth, we provide retail & ecommerce in Jharkhand that improves customer experience, increases conversions, and supports long-term business success. Whether you are starting a new store or growing an existing one, we help you sell smarter online.',
 
-        'benefits' => [
-            [
-                'title' => 'Boost Brand Awareness',
-                'description' => 'Reach targeted audiences already interested in your niche'
-            ],
-            [
-                'title' => 'Build Trust',
-                'description' => 'Influencers help your brand gain credibility faster.'
-            ],
-            [
-                'title' => 'Increase Engagement',
-                'description' => 'Get likes, comments, shares, clicks, and website visits.'
-            ]
-        ],
+
 
         'faq' => [
 
             [
-                'question' => 'How does influencer marketing help my business?',
-                'answer' => 'It increases brand awareness, trust, traffic, leads, and sales.'
+                'question' => 'Can you build a complete ecommerce website?',
+                'answer' => 'Yes. We develop secure and scalable ecommerce websites with product management, payment gateway integration, and order tracking.'
             ],
 
             [
-                'question' => 'Which platforms do you provide influencer marketing for?',
-                'answer' => 'We provide campaigns for Instagram, YouTube, Facebook, LinkedIn, and short video platforms.'
+                'question' => 'Which ecommerce platforms do you work with?',
+                'answer' => 'We work with WooCommerce, Shopify, Magento, custom PHP, and other ecommerce platforms based on your business needs.'
             ],
 
             [
-                'question' => 'What types of influencer campaigns do you manage?',
-                'answer' => 'We manage awareness, product launch, affiliate, engagement, and sales campaigns.'
+                'question' => 'Can you improve my online store sales?',
+                'answer' => 'Yes. We optimize user experience, website speed, SEO, and conversion strategies to help increase your online sales.'
             ]
-        ]
+
+        ],
     ],
 
     'wordpress-development' => [
 
-        'title' => 'wordpress development',
+        'title' => 'Wordpress Development',
 
         'image' => 'assets/images/service/wordpress.webp',
 
@@ -151,84 +153,93 @@ As a result, your business gets better visibility, more orders, and long-term gr
         'faq' => [
 
             [
-                'question' => 'How long does it take to design a website?',
-                'answer' => 'Most business websites are completed within 1–3 weeks depending on the project scope.'
+                'question' => 'Do you build custom WordPress websites?',
+                'answer' => 'Yes. We develop custom WordPress websites tailored to your business requirements.'
             ],
 
             [
-                'question' => 'Will my website be mobile friendly?',
-                'answer' => 'Yes. Every website we build is fully responsive and optimized for all devices.'
+                'question' => 'Can you redesign my existing WordPress website?',
+                'answer' => 'Yes. We can redesign your website while preserving your content and improving performance.'
             ],
 
             [
-                'question' => 'Can you redesign my existing website?',
-                'answer' => 'Yes. We can modernize your current website while preserving your existing content if required.'
+                'question' => 'Will my WordPress website be SEO friendly?',
+                'answer' => 'Absolutely. Every WordPress website we develop follows SEO best practices.'
             ]
-        ]
-    ],
-    'influencer marketing' => [
 
-        'title' => 'influencer marketing',
+        ],
+    ],
+    'influencer-marketing' => [
+
+        'title' => 'Influencer Marketing',
 
         'image' => 'assets/images/service/influencer marketing.webp',
 
-        'description' => 'Influencer marketing helps businesses grow faster through trusted creators and social media promotions. we create result-driven influencer campaigns that increase brand awareness, trust, and sales.
-',
+        'description' => 'Influencer marketing helps businesses grow faster through trusted creators and social media promotions. we create result-driven influencer campaigns that increase brand awareness, trust, and sales.',
 
-        'features' => [],
+        'features' => [
+            'Influencer Discovery',
+            'Campaign Strategy',
+            'Content Collaboration',
+            'Performance Tracking',
+            'ROI Reporting'
+        ],
+
+        'benefits' => [
+            [
+                'title' => 'Boost Brand Awareness',
+                'description' => 'Reach targeted audiences through trusted influencers.'
+            ],
+            [
+                'title' => 'Build Customer Trust',
+                'description' => 'Increase credibility with authentic influencer recommendations.'
+            ],
+            [
+                'title' => 'Increase Engagement',
+                'description' => 'Generate more likes, shares, comments, and website visits.'
+            ]
+        ],
 
         'details_title' => 'Why Influencer Marketing Is Important for Your Business',
 
         'details_description' => 'Traditional ads are no longer enough. Modern customers trust real people more than direct advertisements. Therefore, influencer marketing in Jharkhand helps brands connect with audiences in an authentic way.',
 
-        'benefits' => [
-            [
-                'title' => 'Boost Brand Awareness',
-                'description' => 'Reach targeted audiences already interested in your niche'
-            ],
-            [
-                'title' => 'Build Trust',
-                'description' => 'Influencers help your brand gain credibility faster.'
-            ],
-            [
-                'title' => 'Increase Engagement',
-                'description' => 'Get likes, comments, shares, clicks, and website visits.'
-            ]
-        ],
+
 
         'faq' => [
 
             [
                 'question' => 'How does influencer marketing help my business?',
-                'answer' => 'It increases brand awareness, trust, traffic, leads, and sales.'
+                'answer' => 'It increases brand awareness, trust, website traffic, leads, and sales.'
             ],
 
             [
                 'question' => 'Which platforms do you provide influencer marketing for?',
-                'answer' => 'We provide campaigns for Instagram, YouTube, Facebook, LinkedIn, and short video platforms.'
+                'answer' => 'We manage campaigns on Instagram, YouTube, Facebook, LinkedIn, and other social media platforms.'
             ],
 
             [
                 'question' => 'What types of influencer campaigns do you manage?',
-                'answer' => 'We manage awareness, product launch, affiliate, engagement, and sales campaigns.'
+                'answer' => 'We handle product launches, brand awareness, affiliate marketing, engagement campaigns, and promotional collaborations.'
             ]
-        ]
+
+        ],
     ],
 
-
-
-
-
-
     'social-media' => [
-        'title' => 'social media',
+        'title' => 'Social Media',
 
         'image' => 'assets/images/service/socialmedia.webp',
 
-        'description' => 'In today’s visually driven digital era, a strong and creative social media presence is essential for every brand.  
-',
+        'description' => 'In today’s visually driven digital era, a strong and creative social media presence is essential for every brand.',
 
-        'features' => [],
+        'features' => [
+            'Facebook Marketing',
+            'Instagram Marketing',
+            'Content Creation',
+            'Page Management',
+            'Paid Campaigns'
+        ],
 
         'details_title' => 'Strengthen Your Online Presence with Siddexa IT – Expert Social Media Marketing Services',
 
@@ -237,245 +248,264 @@ As a result, your business gets better visibility, more orders, and long-term gr
 
         'benefits' => [
             [
-                'title' => 'Boost Brand Awareness',
-                'description' => 'Reach targeted audiences already interested in your niche'
+                'title' => 'Brand Awareness',
+                'description' => 'Reach thousands of potential customers on social media.'
             ],
             [
-                'title' => 'Build Trust',
-                'description' => 'Influencers help your brand gain credibility faster.'
+                'title' => 'Customer Engagement',
+                'description' => 'Build stronger relationships with your audience.'
             ],
             [
-                'title' => 'Increase Engagement',
-                'description' => 'Get likes, comments, shares, clicks, and website visits.'
+                'title' => 'Lead Generation',
+                'description' => 'Generate quality leads through targeted campaigns.'
             ]
+
         ],
 
         'faq' => [
 
             [
-                'question' => 'How does influencer marketing help my business?',
-                'answer' => 'It increases brand awareness, trust, traffic, leads, and sales.'
+                'question' => 'Which social media platforms do you manage?',
+                'answer' => 'We manage Facebook, Instagram, LinkedIn, Twitter, YouTube, and other social media platforms.'
             ],
 
             [
-                'question' => 'Which platforms do you provide influencer marketing for?',
-                'answer' => 'We provide campaigns for Instagram, YouTube, Facebook, LinkedIn, and short video platforms.'
+                'question' => 'How often will you post content?',
+                'answer' => 'We create a customized content calendar based on your business goals and posting requirements.'
             ],
 
             [
-                'question' => 'What types of influencer campaigns do you manage?',
-                'answer' => 'We manage awareness, product launch, affiliate, engagement, and sales campaigns.'
+                'question' => 'Can social media increase my sales?',
+                'answer' => 'Yes. Consistent social media marketing improves brand awareness, engagement, and customer conversions.'
             ]
+
         ],
     ],
 
-
-
-
     'digital-marketing' => [
 
-        'title' => 'digital-marketing',
+        'title' => 'Digital Marketing',
 
         'image' => 'assets/images/service/digital-marketing.webp',
 
-        'description' => 'We specialize in Search Engine Optimization (SEO), Social Media Marketing (SMM), Google Ads (PPC), Content Marketing, Email Marketing, Branding, Online Reputation Management (ORM), and Website Traffic Growth.
-',
+        'description' => 'We specialize in Search Engine Optimization (SEO), Social Media Marketing (SMM), Google Ads (PPC), Content Marketing, Email Marketing, Branding, Online Reputation Management (ORM), and Website Traffic Growth.',
 
-        'features' => [],
+        'features' => [
+            'Search Engine Optimization',
+            'Google Ads',
+            'Social Media Marketing',
+            'Content Marketing',
+            'Email Marketing'
+        ],
+
+        'benefits' => [
+            [
+                'title' => 'Increase Online Visibility',
+                'description' => 'Reach more customers across digital channels.'
+            ],
+            [
+                'title' => 'Generate More Leads',
+                'description' => 'Drive qualified traffic that converts into customers.'
+            ],
+            [
+                'title' => 'Business Growth',
+                'description' => 'Achieve measurable results with data-driven marketing strategies.'
+            ]
+        ],
 
         'details_title' => 'Where Businesses Go from Visible to Unforgettable',
 
         'details_description' => 'At Siddexa IT, we are more than just a digital solutions company — we are your growth partners. Based in the heart of Jharkhand, we specialize in helping businesses of all sizes grow, evolve, and make a lasting impact in the digital world. Our mission is simple: to help your business stand out, reach the right audience, and achieve measurable success online.',
-        'details_description' => 'Our team is not just a service provider; we work as an extension of your organization. We take the time to understand your business, your goals, and your audience. We help define your brand’s unique voice, craft meaningful messages, and create digital experiences that capture attention, build trust, and inspire action. Every project we take on is tailored to reflect your brand’s essence and purpose, ensuring your digital presence is authentic, memorable, and impactful.',
+        'details_description1' => 'Our team is not just a service provider; we work as an extension of your organization. We take the time to understand your business, your goals, and your audience. We help define your brand’s unique voice, craft meaningful messages, and create digital experiences that capture attention, build trust, and inspire action. Every project we take on is tailored to reflect your brand’s essence and purpose, ensuring your digital presence is authentic, memorable, and impactful.',
 
-        'benefits' => [
-            [
-                'title' => 'Boost Brand Awareness',
-                'description' => 'Reach targeted audiences already interested in your niche'
-            ],
-            [
-                'title' => 'Build Trust',
-                'description' => 'Influencers help your brand gain credibility faster.'
-            ],
-            [
-                'title' => 'Increase Engagement',
-                'description' => 'Get likes, comments, shares, clicks, and website visits.'
-            ]
-        ],
+
+
 
         'faq' => [
 
             [
-                'question' => 'How does influencer marketing help my business?',
-                'answer' => 'It increases brand awareness, trust, traffic, leads, and sales.'
+                'question' => 'What digital marketing services do you provide?',
+                'answer' => 'We offer SEO, Google Ads, social media marketing, content marketing, email marketing, and branding services.'
             ],
 
             [
-                'question' => 'Which platforms do you provide influencer marketing for?',
-                'answer' => 'We provide campaigns for Instagram, YouTube, Facebook, LinkedIn, and short video platforms.'
+                'question' => 'How long does digital marketing take to show results?',
+                'answer' => 'Paid advertising can deliver immediate results, while SEO and organic marketing usually take 3–6 months.'
             ],
 
             [
-                'question' => 'What types of influencer campaigns do you manage?',
-                'answer' => 'We manage awareness, product launch, affiliate, engagement, and sales campaigns.'
+                'question' => 'Can digital marketing help small businesses?',
+                'answer' => 'Yes. Digital marketing is one of the most cost-effective ways for small businesses to generate leads and grow online.'
             ]
+
         ],
     ],
 
-    'Whatsapp-Business-API' => [
+    'whatsapp-business-api' => [
 
         'title' => 'Whatsapp Business API',
 
         'image' => 'assets/images/service/Whatsapp-Business.webp',
 
-        'description' => 'In today’s visually driven digital era, a strong and creative social media presence is essential for every brand.  
-',
-
-        'features' => [],
-
+        'description' => 'In today’s visually driven digital era, a strong and creative social media presence is essential for every brand.',
         'details_title' => 'Strengthen Your Online Presence with Siddexa IT – Expert Social Media Marketing Services',
 
         'details_description' => 'Our retail & ecommerce services are designed to help your brand stand out in a competitive online market. We focus on usability, speed, and customer experience so your store looks professional and sells more.',
         'details_description1' => 'From online store setup to sales growth, we provide retail & ecommerce in Jharkhand that improves customer experience, increases conversions, and supports long-term business success. Whether you are starting a new store or growing an existing one, we help you sell smarter online.',
 
+        'features' => [
+            'Automated Messaging',
+            'Bulk Notifications',
+            'CRM Integration',
+            'Chatbot Support',
+            'Verified Business Account'
+        ],
+
         'benefits' => [
             [
-                'title' => 'Boost Brand Awareness',
-                'description' => 'Reach targeted audiences already interested in your niche'
+                'title' => 'Instant Customer Communication',
+                'description' => 'Connect with customers quickly through WhatsApp.'
             ],
             [
-                'title' => 'Build Trust',
-                'description' => 'Influencers help your brand gain credibility faster.'
+                'title' => 'Business Automation',
+                'description' => 'Automate customer support and notifications.'
             ],
             [
-                'title' => 'Increase Engagement',
-                'description' => 'Get likes, comments, shares, clicks, and website visits.'
+                'title' => 'Higher Engagement',
+                'description' => 'Increase message open rates and customer responses.'
             ]
         ],
 
         'faq' => [
 
             [
-                'question' => 'How does influencer marketing help my business?',
-                'answer' => 'It increases brand awareness, trust, traffic, leads, and sales.'
+                'question' => 'What is WhatsApp Business API?',
+                'answer' => 'It allows businesses to send automated messages, notifications, customer support, and marketing campaigns through WhatsApp.'
             ],
 
             [
-                'question' => 'Which platforms do you provide influencer marketing for?',
-                'answer' => 'We provide campaigns for Instagram, YouTube, Facebook, LinkedIn, and short video platforms.'
+                'question' => 'Can I send bulk WhatsApp messages?',
+                'answer' => 'Yes, using approved WhatsApp templates and following Meta guidelines.'
             ],
 
             [
-                'question' => 'What types of influencer campaigns do you manage?',
-                'answer' => 'We manage awareness, product launch, affiliate, engagement, and sales campaigns.'
+                'question' => 'Can WhatsApp API integrate with my CRM?',
+                'answer' => 'Yes. We integrate WhatsApp Business API with CRM, ERP, websites, and other business applications.'
             ]
+
         ],
     ],
 
-
-
-    'App-Development' => [
+    'app-development' => [
 
         'title' => 'App Development',
 
         'image' => 'assets/images/service/App-Development.webp',
 
-        'description' => 'In today’s visually driven digital era, a strong and creative social media presence is essential for every brand.  
-',
-
-        'features' => [],
+        'description' => 'In today’s visually driven digital era, a strong and creative social media presence is essential for every brand.',
 
         'details_title' => 'Strengthen Your Online Presence with Siddexa IT – Expert Social Media Marketing Services',
 
-        'details_description' => 'Siddexa IT is a leading Application development company based in India, specializing in custom application development, enterprise software solutions, and offshore software development services. Our team of experienced software engineers delivers reliable, high-quality software tailored to your business needs. By combining industry best practices, time-tested development processes, and a commitment to innovation, we help companies reduce costs, accelerate growth, and achieve measurable results.
+        'details_description' => 'Siddexa IT is a leading Application development company based in India, specializing in custom application development, enterprise software solutions, and offshore software development services. Our team of experienced software engineers delivers reliable, high-quality software tailored to your business needs. By combining industry best practices, time-tested development processes, and a commitment to innovation, we help companies reduce costs, accelerate growth, and achieve measurable results. Whether you are a startup, SME, or large enterprise, our application development services are designed to optimize your digital transformation journey while ensuring high performance, scalability, and security.',
 
-Whether you are a startup, SME, or large enterprise, our application development services are designed to optimize your digital transformation journey while ensuring high performance, scalability, and security.',
+        'features' => [
+            'Android App Development',
+            'iOS App Development',
+            'Cross-Platform Apps',
+            'Custom UI/UX',
+            'API Integration'
+        ],
 
         'benefits' => [
             [
-                'title' => 'Boost Brand Awareness',
-                'description' => 'Reach targeted audiences already interested in your niche'
+                'title' => 'Reach Mobile Users',
+                'description' => 'Expand your business through mobile applications.'
             ],
             [
-                'title' => 'Build Trust',
-                'description' => 'Influencers help your brand gain credibility faster.'
+                'title' => 'Better User Experience',
+                'description' => 'Deliver fast, responsive, and engaging mobile apps.'
             ],
             [
-                'title' => 'Increase Engagement',
-                'description' => 'Get likes, comments, shares, clicks, and website visits.'
+                'title' => 'Scalable Solutions',
+                'description' => 'Applications designed to grow with your business.'
             ]
         ],
 
         'faq' => [
 
             [
-                'question' => 'How does influencer marketing help my business?',
-                'answer' => 'It increases brand awareness, trust, traffic, leads, and sales.'
+                'question' => 'Do you develop Android and iOS apps?',
+                'answer' => 'Yes. We develop native and cross-platform mobile applications for Android and iOS.'
             ],
 
             [
-                'question' => 'Which platforms do you provide influencer marketing for?',
-                'answer' => 'We provide campaigns for Instagram, YouTube, Facebook, LinkedIn, and short video platforms.'
+                'question' => 'Can you publish my app on the Play Store and App Store?',
+                'answer' => 'Yes. We assist with app testing, publishing, and deployment.'
             ],
 
             [
-                'question' => 'What types of influencer campaigns do you manage?',
-                'answer' => 'We manage awareness, product launch, affiliate, engagement, and sales campaigns.'
+                'question' => 'Do you provide app maintenance?',
+                'answer' => 'Yes. We offer ongoing updates, bug fixes, security improvements, and technical support.'
             ]
-        ]
+
+        ],
     ],
 
-
-    'Web-App-Development' => [
+    'web-app-development' => [
 
         'title' => 'Web App Development',
 
         'image' => 'assets/images/service/Web-App-Development.webp',
 
-        'description' => 'In today’s fast-evolving digital landscape, web applications are at the heart of every modern business. 
-',
-
-        'features' => [],
-
+        'description' => 'In today’s fast-evolving digital landscape, web applications are at the heart of every modern business.',
         'details_title' => 'we deliver custom Web Application Development Services in India designed to help businesses transform their ideas into powerful, user-centric, and secure digital experiences. ',
 
         'details_description' => 'We specialize in full-stack web development using technologies such as React, Angular, Node.js, Laravel, PHP, Python (Django/Flask), and .NET, ensuring seamless performance and strong security. Whether you need a custom enterprise portal, a secure e-commerce solution, or a progressive web application (PWA), our solutions are built for speed, scalability, and success.',
 
+        'features' => [
+            'Custom Web Applications',
+            'Progressive Web Apps',
+            'Cloud Integration',
+            'Responsive Interface',
+            'Secure Architecture'
+        ],
+
         'benefits' => [
             [
-                'title' => 'Boost Brand Awareness',
-                'description' => 'Reach targeted audiences already interested in your niche'
+                'title' => 'Improve Productivity',
+                'description' => 'Automate business operations with custom web applications.'
             ],
             [
-                'title' => 'Build Trust',
-                'description' => 'Influencers help your brand gain credibility faster.'
+                'title' => 'Access Anywhere',
+                'description' => 'Use your application securely from any device.'
             ],
             [
-                'title' => 'Increase Engagement',
-                'description' => 'Get likes, comments, shares, clicks, and website visits.'
+                'title' => 'Business Scalability',
+                'description' => 'Expand functionality as your business grows.'
             ]
         ],
 
         'faq' => [
 
             [
-                'question' => 'How does influencer marketing help my business?',
-                'answer' => 'It increases brand awareness, trust, traffic, leads, and sales.'
+                'question' => 'What is a web application?',
+                'answer' => 'A web application is browser-based software that users can access online without installing it.'
             ],
 
             [
-                'question' => 'Which platforms do you provide influencer marketing for?',
-                'answer' => 'We provide campaigns for Instagram, YouTube, Facebook, LinkedIn, and short video platforms.'
+                'question' => 'Can you develop custom web applications?',
+                'answer' => 'Yes. We build secure, scalable, and fully customized web applications for businesses.'
             ],
 
             [
-                'question' => 'What types of influencer campaigns do you manage?',
-                'answer' => 'We manage awareness, product launch, affiliate, engagement, and sales campaigns.'
+                'question' => 'Which technologies do you use?',
+                'answer' => 'We work with PHP, Laravel, React, Node.js, Angular, Python, and modern web technologies.'
             ]
+
         ],
     ],
 
-    'AI&ML-Development' => [
+    'ai&ml-development' => [
 
         'title' => 'AI & ML Development',
 
@@ -483,92 +513,104 @@ Whether you are a startup, SME, or large enterprise, our application development
 
         'description' => 'In today’s fast-evolving digital landscape, web applications are at the heart of every modern business.',
 
-        'features' => [],
-
         'details_title' => 'we deliver custom Web Application Development Services in India designed to help businesses transform their ideas into powerful, user-centric, and secure digital experiences. ',
 
         'details_description' => 'We specialize in full-stack web development using technologies such as React, Angular, Node.js, Laravel, PHP, Python (Django/Flask), and .NET, ensuring seamless performance and strong security. Whether you need a custom enterprise portal, a secure e-commerce solution, or a progressive web application (PWA), our solutions are built for speed, scalability, and success.',
 
+        'features' => [
+            'AI Chatbot Development',
+            'Machine Learning Models',
+            'Predictive Analytics',
+            'Business Process Automation',
+            'Data Intelligence'
+        ],
+
         'benefits' => [
             [
-                'title' => 'Boost Brand Awareness',
-                'description' => 'Reach targeted audiences already interested in your niche'
+                'title' => 'Smarter Decision Making',
+                'description' => 'Leverage AI insights for better business decisions.'
             ],
             [
-                'title' => 'Build Trust',
-                'description' => 'Influencers help your brand gain credibility faster.'
+                'title' => 'Reduce Manual Work',
+                'description' => 'Automate repetitive tasks and improve efficiency.'
             ],
             [
-                'title' => 'Increase Engagement',
-                'description' => 'Get likes, comments, shares, clicks, and website visits.'
+                'title' => 'Enhanced Customer Experience',
+                'description' => 'Deliver personalized and intelligent customer interactions.'
             ]
         ],
 
         'faq' => [
 
             [
-                'question' => 'How does influencer marketing help my business?',
-                'answer' => 'It increases brand awareness, trust, traffic, leads, and sales.'
+                'question' => 'What AI solutions do you provide?',
+                'answer' => 'We develop AI chatbots, predictive analytics, recommendation systems, automation tools, and machine learning models.'
             ],
 
             [
-                'question' => 'Which platforms do you provide influencer marketing for?',
-                'answer' => 'We provide campaigns for Instagram, YouTube, Facebook, LinkedIn, and short video platforms.'
+                'question' => 'Can AI improve my business processes?',
+                'answer' => 'Yes. AI automates repetitive tasks, improves decision-making, and enhances customer experiences.'
             ],
 
             [
-                'question' => 'What types of influencer campaigns do you manage?',
-                'answer' => 'We manage awareness, product launch, affiliate, engagement, and sales campaigns.'
+                'question' => 'Do you build custom AI models?',
+                'answer' => 'Yes. We create AI and machine learning solutions based on your business requirements.'
             ]
+
         ],
     ],
 
-    'API-Services' => [
+    'api-services' => [
 
         'title' => 'API Services',
 
         'image' => 'assets/images/service/API Services.webp',
 
-        'description' => 'In today’s fast-evolving digital landscape, web applications are at the heart of every modern business. 
-',
-
-        'features' => [],
-
+        'description' => 'In today’s fast-evolving digital landscape, web applications are at the heart of every modern business.',
         'details_title' => 'we deliver custom Web Application Development Services in India designed to help businesses transform their ideas into powerful, user-centric, and secure digital experiences. ',
 
         'details_description' => 'We specialize in full-stack web development using technologies such as React, Angular, Node.js, Laravel, PHP, Python (Django/Flask), and .NET, ensuring seamless performance and strong security. Whether you need a custom enterprise portal, a secure e-commerce solution, or a progressive web application (PWA), our solutions are built for speed, scalability, and success.',
 
+        'features' => [
+            'REST API Development',
+            'Third-Party API Integration',
+            'Payment Gateway APIs',
+            'CRM & ERP Integration',
+            'API Security'
+        ],
+
         'benefits' => [
             [
-                'title' => 'Boost Brand Awareness',
-                'description' => 'Reach targeted audiences already interested in your niche'
+                'title' => 'Seamless Integration',
+                'description' => 'Connect multiple applications with secure APIs.'
             ],
             [
-                'title' => 'Build Trust',
-                'description' => 'Influencers help your brand gain credibility faster.'
+                'title' => 'Faster Development',
+                'description' => 'Reduce development time using reliable API integrations.'
             ],
             [
-                'title' => 'Increase Engagement',
-                'description' => 'Get likes, comments, shares, clicks, and website visits.'
+                'title' => 'Improved Business Efficiency',
+                'description' => 'Automate workflows and streamline business operations.'
             ]
         ],
 
         'faq' => [
 
             [
-                'question' => 'How does influencer marketing help my business?',
-                'answer' => 'It increases brand awareness, trust, traffic, leads, and sales.'
+                'question' => 'What API services do you provide?',
+                'answer' => 'We develop, integrate, and maintain REST APIs, payment APIs, CRM integrations, and third-party API solutions.'
             ],
 
             [
-                'question' => 'Which platforms do you provide influencer marketing for?',
-                'answer' => 'We provide campaigns for Instagram, YouTube, Facebook, LinkedIn, and short video platforms.'
+                'question' => 'Can you integrate third-party APIs?',
+                'answer' => 'Yes. We integrate payment gateways, WhatsApp, Google APIs, social media APIs, shipping APIs, and many others.'
             ],
 
             [
-                'question' => 'What types of influencer campaigns do you manage?',
-                'answer' => 'We manage awareness, product launch, affiliate, engagement, and sales campaigns.'
+                'question' => 'Are your APIs secure?',
+                'answer' => 'Yes. We implement authentication, authorization, encryption, and industry-standard security practices.'
             ]
+
         ],
     ],
 ];
@@ -722,24 +764,18 @@ $data = $services[$service];
 
                                                 <?php foreach ($data['faq'] as $key => $faq): ?>
 
-                                                    <div class="accordion-item <?= $key == 0 ? 'active' : ''; ?>">
-
-                                                        <button class="faq-title <?= $key != 0 ? 'collapsed' : ''; ?>"
-                                                            type="button" data-bs-toggle="collapse"
-                                                            data-bs-target="#faq-<?= $key; ?>">
+                                                    <div class="accordion-item">
+                                                        <button class="faq-title" data-bs-toggle="collapse"
+                                                            data-bs-target="#faq<?= $key ?>">
 
                                                             <?= $faq['question']; ?>
 
                                                         </button>
 
-                                                        <div id="faq-<?= $key; ?>"
-                                                            class="collapse <?= $key == 0 ? 'show' : ''; ?>"
-                                                            data-bs-parent="#faqOne">
-
-                                                            <div class="accordion-body">
+                                                        <div id="faq<?= $key ?>" class="collapse">
+                                                            <div class="accordion-body faq-text">
                                                                 <p><?= $faq['answer']; ?></p>
                                                             </div>
-
                                                         </div>
 
                                                     </div>
@@ -747,7 +783,6 @@ $data = $services[$service];
                                                 <?php endforeach; ?>
 
                                             </div>
-
                                         </div>
                                         <div class="tj-post__navigation mb-0 wow fadeInUp" data-wow-delay=".3s">
                                             <div class="tj-nav__post previous">
@@ -774,22 +809,7 @@ $data = $services[$service];
                                             data-wow-delay=".1s">
                                             <h4 class="widget-title">More Services</h4>
 
-                                            <!-- <ul>
-                                                <?php foreach ($services as $key => $service): ?>
-                                                <li>
-                                                    <a href="service-details.php?service=<?= $key; ?>"
-                                                        class="<?= ($service == $key) ? 'active' : ''; ?>">
 
-                                                        <?= $service['title']; ?>
-
-                                                        <span class="icon">
-                                                            <i class="fa-solid fa-arrow-right"></i>
-                                                        </span>
-
-                                                    </a>
-                                                </li>
-                                                <?php endforeach; ?>
-                                            </ul> -->
                                             <?php
                                             $currentService = $_GET['service'] ?? 'website-design';
                                             ?>
@@ -842,6 +862,8 @@ $data = $services[$service];
         <a href="https://wa.me/76778 89831" target="_blank" class="whatsapp-float">
             <img src="assets/images/whatsapp.png" alt="WhatsApp">
         </a>
+
+
         <!-- JS here -->
         <script src="assets/js/jquery.min.js" defer></script>
         <script src="assets/js/bootstrap.bundle.min.js" defer></script>

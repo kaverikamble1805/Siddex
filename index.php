@@ -140,7 +140,7 @@ $page = basename($_SERVER['PHP_SELF']);
 
                                         </li>
                                         <li><a href="about.php">About Us</a>
-                                        </li>
+                                        </li>           
 
                                         <li class="has-dropdown">
                                             <a href="service-details.php?service=website-design">Services</a>
@@ -157,11 +157,8 @@ $page = basename($_SERVER['PHP_SELF']);
                                                                 <div class="mega-menu-list">
                                                                     <a
                                                                         href="service-details.php?service=website-design">Website
-                                                                        Designing</a>
-                                                                    <a
-                                                                        href="service-details.php?service=web-development">Web
-                                                                        Development</a>
-                                                                    <a href="service-details.php?service=ecommerce">E-commerce
+                                                                        Designing & Development</a>
+                                                                    <a href="service-details.php?service=retail-ecommerce">E-commerce
                                                                         Development</a>
                                                                     <a href="service-details.php?service=hosting">Domain
                                                                         & Hosting</a>
@@ -186,7 +183,7 @@ $page = basename($_SERVER['PHP_SELF']);
                                                                     <a
                                                                         href="service-details.php?service=digital-marketing">Digital
                                                                         Marketing</a>
-                                                                    <a href="service-details.php?service=whatsapp-api">WhatsApp
+                                                                    <a href="service-details.php?service=whatsapp-business-api">WhatsApp
                                                                         Business API</a>
                                                                 </div>
                                                             </div>
@@ -201,9 +198,9 @@ $page = basename($_SERVER['PHP_SELF']);
                                                                     <a
                                                                         href="service-details.php?service=app-development">App
                                                                         Development</a>
-                                                                    <a href="service-details.php?service=web-app">Web
+                                                                    <a href="service-details.php?service=web-app-development">Web
                                                                         App Development</a>
-                                                                    <a href="service-details.php?service=ai-ml">AI & ML
+                                                                    <a href="service-details.php?service=ai&ml-development">AI & ML
                                                                         Development</a>
                                                                     <a
                                                                         href="service-details.php?service=digital-engineering">Digital
@@ -327,8 +324,8 @@ $page = basename($_SERVER['PHP_SELF']);
                                             <a href="shop.php">Shop</a>
                                             <ul class="sub-menu">
                                                 <li><a href="shop.php">Shop</a></li>
-                                                <li><a href="#">Shop Details</a></li>
-                                                <li><a href="#">Cart</a></li>
+                                                <li><a href="shop-details.php">Shop Details</a></li>
+                                                <li><a href="cart.php">Cart</a></li>
                                                 <li><a href="#">Checkout</a></li>
                                                 <li><a href="#">Wishlist</a></li>
                                                 <li><a href="#">New</a></li>
@@ -444,11 +441,8 @@ $page = basename($_SERVER['PHP_SELF']);
                                                                 <div class="mega-menu-list">
                                                                     <a
                                                                         href="service-details.php?service=website-design">Website
-                                                                        Designing</a>
-                                                                    <a
-                                                                        href="service-details.php?service=web-development">Web
-                                                                        Development</a>
-                                                                    <a href="service-details.php?service=ecommerce">E-commerce
+                                                                        Designing & Development</a>
+                                                                    <a href="service-details.php?service=retail-ecommerce">E-commerce
                                                                         Development</a>
                                                                     <a href="service-details.php?service=hosting">Domain
                                                                         & Hosting</a>
@@ -473,7 +467,7 @@ $page = basename($_SERVER['PHP_SELF']);
                                                                     <a
                                                                         href="service-details.php?service=digital-marketing">Digital
                                                                         Marketing</a>
-                                                                    <a href="service-details.php?service=whatsapp-api">WhatsApp
+                                                                    <a href="service-details.php?service=whatsapp-business-api">WhatsApp
                                                                         Business API</a>
                                                                 </div>
                                                             </div>
@@ -488,9 +482,9 @@ $page = basename($_SERVER['PHP_SELF']);
                                                                     <a
                                                                         href="service-details.php?service=app-development">App
                                                                         Development</a>
-                                                                    <a href="service-details.php?service=web-app">Web
+                                                                    <a href="service-details.php?service=web-app-development">Web
                                                                         App Development</a>
-                                                                    <a href="service-details.php?service=ai-ml">AI & ML
+                                                                    <a href="service-details.php?service=ai&ml-development">AI & ML
                                                                         Development</a>
                                                                     <a
                                                                         href="service-details.php?service=digital-engineering">Digital
@@ -616,8 +610,8 @@ $page = basename($_SERVER['PHP_SELF']);
                                             <a href="shop.php">Shop</a>
                                             <ul class="sub-menu">
                                                 <li><a href="shop.php">Shop</a></li>
-                                                <li><a href="#">Shop Details</a></li>
-                                                <li><a href="#">Cart</a></li>
+                                                <li><a href="shop-details.php">Shop Details</a></li>
+                                                <li><a href="cart.php">Cart</a></li>
                                                 <li><a href="#">Checkout</a></li>
                                                 <li><a href="#">Wishlist</a></li>
                                                 <li><a href="#">New</a></li>
