@@ -183,7 +183,8 @@
                                                                  Designing & Development</a>
                                                              <a href="service-details.php?service=retail-ecommerce">E-commerce
                                                                  Development</a>
-                                                             <a href="service-details.php?service=hosting">Domain &
+                                                             <a href="service-details.php?service=domain-hosting">Domain
+                                                                 &
                                                                  Hosting</a>
                                                          </div>
                                                      </div>
@@ -260,7 +261,7 @@
                                      </ul>
                                  </li>
                                  <li class="has-dropdown <?= $page == 'index.php' ? 'current-menu-item' : '' ?>">
-                                     <a href="#">Products</a>
+                                     <a href="product-details.php">Products</a>
                                      <ul class="sub-menu header__mega-menu mega-menu mega-menu-pages">
                                          <li>
                                              <div class="mega-menu-wrapper">
@@ -269,13 +270,24 @@
                                                      <div class="mega-menu-pages-single-inner">
                                                          <h6 class="mega-menu-title">Ecommerce Product</h6>
                                                          <div class="mega-menu-list">
-                                                             <a href="#">Multi Vendor (Web + APP)</a>
-                                                             <a href="#">Multi Vendor (ReactJs)</a>
-                                                             <a href="#">Online Grocery (Web + APP)</a>
-                                                             <a href="#">Online Grocery (APP Only)</a>
-                                                             <a href="">Ecomm Single Vendor (Web + APP)</a>
-                                                             <a href="#">Ecommerce Single Vendor (Web)</a>
-                                                             <a href="#">Ecommerce Single Vendor (APP)</a>
+                                                             <a href="product-details.php?product=multi-vendor-web-app">Multi
+                                                                 Vendor (Web + APP)</a>
+                                                             <a href="product-details.php?product=multi-vendor-reactjs">Multi
+                                                                 Vendor (ReactJs)</a>
+                                                             <a
+                                                                 href="product-details.php?product=online-grocery-webapi">Online
+                                                                 Grocery (Web + APP)</a>
+                                                             <a
+                                                                 href="product-details.php?product=online-grocery-apionly">Online
+                                                                 Grocery (APP Only)</a>
+                                                             <a href="product-details.php?product=ecomm-single-vendor">Ecomm
+                                                                 Single Vendor (Web + APP)</a>
+                                                             <a
+                                                                 href="product-details.php?product=ecomm-single-vendor-web">Ecommerce
+                                                                 Single Vendor (Web)</a>
+                                                             <a
+                                                                 href="product-details.php?product=ecomm-single-vendor-app">Ecommerce
+                                                                 Single Vendor (APP)</a>
                                                          </div>
                                                      </div>
 
@@ -284,13 +296,20 @@
                                                      <div class="mega-menu-pages-single-inner">
                                                          <h6 class="mega-menu-title">CMS</h6>
                                                          <div class="mega-menu-list">
-                                                             <a href="#">Mass Attendance Management System</a>
-                                                             <a href="#">Human Resource Management System</a>
-                                                             <a href="#">Community Management</a>
-                                                             <a href="#">E-commerce Solution</a>
-                                                             <a href="#">MLM (Multi-Level Marketing) Software</a>
-                                                             <a href="#">Industry Automation ERP</a>
-                                                             <a href="#">E-commerce Platform For Digital
+                                                             <a href="product-details.php?product=mass-attendance">Mass
+                                                                 Attendance Management System</a>
+                                                             <a href="product-details.php?product=human-resource">Human
+                                                                 Resource Management System</a>
+                                                             <a href="product-details.php?product=community-management">Community
+                                                                 Management</a>
+                                                             <a href="product-details.php?product=ecommerce-solution">E-commerce
+                                                                 Solution</a>
+                                                             <a href="product-details.php?product=mlm-software">MLM
+                                                                 (Multi-Level Marketing) Software</a>
+                                                             <a href="product-details.php?product=industry-erp">Industry
+                                                                 Automation ERP</a>
+                                                             <a href="product-details.php?product=ecommerce-platform">E-commerce
+                                                                 Platform For Digital
                                                                  Production</a>
 
                                                          </div>
@@ -301,14 +320,22 @@
                                                      <div class="mega-menu-pages-single-inner">
                                                          <h6 class="mega-menu-title">CMS</h6>
                                                          <div class="mega-menu-list">
-                                                             <a href="#">Smart Farming & Agriculture
+                                                             <a href="product-details.php?product=smart-farming">Smart
+                                                                 Farming & Agriculture
                                                                  Solutions</a>
-                                                             <a href="#">News Portal Design & Development</a>
-                                                             <a href="#">Grocery Application Development</a>
-                                                             <a href="#">College Management System</a>
-                                                             <a href="#">Food Delivery Application</a>
-                                                             <a href="#">Vehicle Tracking System</a>
-                                                             <a href="#">Classified Application</a>
+                                                             <a href="product-details.php?product=news-portal">News
+                                                                 Portal Design & Development</a>
+                                                             <a href="product-details.php?product=grocery-application">Grocery
+                                                                 Application Development</a>
+                                                             <a href="product-details.php?product=college-management">College
+                                                                 Management System</a>
+                                                             <a href="product-details.php?product=food-delivery">Food
+                                                                 Delivery Application</a>
+                                                             <a href="product-details.php?product=vehicle-tracking">Vehicle
+                                                                 Tracking System</a>
+                                                             <a
+                                                                 href="product-details.php?product=classified-application">Classified
+                                                                 Application</a>
                                                          </div>
                                                      </div>
 
@@ -468,7 +495,8 @@
                                                                  Designing & Development</a>
                                                              <a href="service-details.php?service=retail-ecommerce">E-commerce
                                                                  Development</a>
-                                                             <a href="service-details.php?service=hosting">Domain &
+                                                             <a href="service-details.php?service=domain-hosting">Domain
+                                                                 &
                                                                  Hosting</a>
                                                          </div>
                                                      </div>
@@ -545,7 +573,7 @@
                                      </ul>
                                  </li>
                                  <li class="has-dropdown <?= $page == 'index.php' ? 'current-menu-item' : '' ?>">
-                                     <a href="#">Products</a>
+                                     <a href="product-details.php">Products</a>
                                      <ul class="sub-menu header__mega-menu mega-menu mega-menu-pages">
                                          <li>
                                              <div class="mega-menu-wrapper">
@@ -554,13 +582,24 @@
                                                      <div class="mega-menu-pages-single-inner">
                                                          <h6 class="mega-menu-title">Ecommerce Product</h6>
                                                          <div class="mega-menu-list">
-                                                             <a href="#">Multi Vendor (Web + APP)</a>
-                                                             <a href="#">Multi Vendor (ReactJs)</a>
-                                                             <a href="#">Online Grocery (Web + APP)</a>
-                                                             <a href="#">Online Grocery (APP Only)</a>
-                                                             <a href="">Ecomm Single Vendor (Web + APP)</a>
-                                                             <a href="#">Ecommerce Single Vendor (Web)</a>
-                                                             <a href="#">Ecommerce Single Vendor (APP)</a>
+                                                             <a href="product-details.php?product=multi-vendor-web-app">Multi
+                                                                 Vendor (Web + APP)</a>
+                                                             <a href="product-details.php?product=multi-vendor-reactjs">Multi
+                                                                 Vendor (ReactJs)</a>
+                                                             <a
+                                                                 href="product-details.php?product=online-grocery-webapi">Online
+                                                                 Grocery (Web + APP)</a>
+                                                             <a
+                                                                 href="product-details.php?product=online-grocery-apionly">Online
+                                                                 Grocery (APP Only)</a>
+                                                             <a href="product-details.php?product=ecomm-single-vendor">Ecomm
+                                                                 Single Vendor (Web + APP)</a>
+                                                             <a
+                                                                 href="product-details.php?product=ecomm-single-vendor-web">Ecommerce
+                                                                 Single Vendor (Web)</a>
+                                                             <a
+                                                                 href="product-details.php?product=ecomm-single-vendor-app">Ecommerce
+                                                                 Single Vendor (APP)</a>
                                                          </div>
                                                      </div>
 
@@ -569,13 +608,20 @@
                                                      <div class="mega-menu-pages-single-inner">
                                                          <h6 class="mega-menu-title">CMS</h6>
                                                          <div class="mega-menu-list">
-                                                             <a href="#">Mass Attendance Management System</a>
-                                                             <a href="#">Human Resource Management System</a>
-                                                             <a href="#">Community Management</a>
-                                                             <a href="#">E-commerce Solution</a>
-                                                             <a href="#">MLM (Multi-Level Marketing) Software</a>
-                                                             <a href="#">Industry Automation ERP</a>
-                                                             <a href="#">E-commerce Platform For Digital
+                                                             <a href="product-details.php?product=mass-attendance">Mass
+                                                                 Attendance Management System</a>
+                                                             <a href="product-details.php?product=human-resource">Human
+                                                                 Resource Management System</a>
+                                                             <a href="product-details.php?product=community-management">Community
+                                                                 Management</a>
+                                                             <a href="product-details.php?product=ecommerce-solution">E-commerce
+                                                                 Solution</a>
+                                                             <a href="product-details.php?product=mlm-software">MLM
+                                                                 (Multi-Level Marketing) Software</a>
+                                                             <a href="product-details.php?product=industry-erp">Industry
+                                                                 Automation ERP</a>
+                                                             <a href="product-details.php?product=ecommerce-platform">E-commerce
+                                                                 Platform For Digital
                                                                  Production</a>
 
                                                          </div>
@@ -586,14 +632,22 @@
                                                      <div class="mega-menu-pages-single-inner">
                                                          <h6 class="mega-menu-title">CMS</h6>
                                                          <div class="mega-menu-list">
-                                                             <a href="#">Smart Farming & Agriculture
+                                                             <a href="product-details.php?product=smart-farming">Smart
+                                                                 Farming & Agriculture
                                                                  Solutions</a>
-                                                             <a href="#">News Portal Design & Development</a>
-                                                             <a href="#">Grocery Application Development</a>
-                                                             <a href="#">College Management System</a>
-                                                             <a href="#">Food Delivery Application</a>
-                                                             <a href="#">Vehicle Tracking System</a>
-                                                             <a href="#">Classified Application</a>
+                                                             <a href="product-details.php?product=news-portal">News
+                                                                 Portal Design & Development</a>
+                                                             <a href="product-details.php?product=grocery-application">Grocery
+                                                                 Application Development</a>
+                                                             <a href="product-details.php?product=college-management">College
+                                                                 Management System</a>
+                                                             <a href="product-details.php?product=food-delivery">Food
+                                                                 Delivery Application</a>
+                                                             <a href="product-details.php?product=vehicle-tracking">Vehicle
+                                                                 Tracking System</a>
+                                                             <a
+                                                                 href="product-details.php?product=classified-application">Classified
+                                                                 Application</a>
                                                          </div>
                                                      </div>
 

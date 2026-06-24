@@ -613,6 +613,113 @@ $services = [
 
         ],
     ],
+    'domain-hosting' => [
+
+        'title' => 'Domain & Hosting Services',
+
+        'image' => 'assets/images/service/domain-hosting.webp',
+
+        'description' => 'Build your online presence with reliable domain registration and secure web hosting services. We provide fast, secure, and scalable hosting solutions for businesses of all sizes.',
+
+        'features' => [
+            'Domain Registration',
+            'Shared Hosting',
+            'Cloud Hosting',
+            'SSL Certificate',
+            'Email Hosting'
+        ],
+
+        'details_title' => 'Reliable Domain Registration & Web Hosting Solutions',
+
+        'details_description' => 'We help businesses secure the perfect domain name and provide high-performance hosting solutions. Our hosting services ensure maximum uptime, security, fast loading speeds, and scalability for future growth.',
+
+        'benefits' => [
+            [
+                'title' => '99.9% Uptime',
+                'description' => 'Keep your website accessible and running smoothly around the clock.'
+            ],
+            [
+                'title' => 'Enhanced Security',
+                'description' => 'Protect your website with SSL certificates, backups, and malware protection.'
+            ],
+            [
+                'title' => 'Fast Performance',
+                'description' => 'Optimized servers ensure quick page loading and better user experience.'
+            ]
+        ],
+
+        'faq' => [
+
+            [
+                'question' => 'Can you register a domain for my business?',
+                'answer' => 'Yes. We help you choose and register the best domain name for your brand.'
+            ],
+
+            [
+                'question' => 'Which hosting plans do you provide?',
+                'answer' => 'We provide shared hosting, VPS hosting, cloud hosting, and dedicated server solutions.'
+            ],
+
+            [
+                'question' => 'Do you provide SSL certificates?',
+                'answer' => 'Yes. We provide SSL certificates to secure your website and customer data.'
+            ]
+        ]
+    ],
+
+    'voice-call-center' => [
+
+        'title' => 'Voice Call Center Solutions',
+
+        'image' => 'assets/images/service/voice-call-center.webp',
+
+        'description' => 'Improve customer communication with professional voice call center solutions. We provide inbound, outbound, customer support, sales, and automated calling services.',
+
+        'features' => [
+            'Inbound Calling',
+            'Outbound Calling',
+            'IVR Setup',
+            'Call Recording',
+            'CRM Integration'
+        ],
+
+        'details_title' => 'Professional Voice Call Center Services',
+
+        'details_description' => 'Our voice call center solutions help businesses manage customer interactions efficiently. From customer support to sales and lead generation, we provide scalable communication systems that improve customer satisfaction and business growth.',
+
+        'benefits' => [
+            [
+                'title' => 'Better Customer Support',
+                'description' => 'Handle customer queries quickly and professionally.'
+            ],
+            [
+                'title' => 'Increased Sales',
+                'description' => 'Generate more leads and conversions through outbound calling campaigns.'
+            ],
+            [
+                'title' => '24/7 Availability',
+                'description' => 'Provide round-the-clock support with automated and live call handling.'
+            ]
+        ],
+
+        'faq' => [
+
+            [
+                'question' => 'Do you provide inbound and outbound call center services?',
+                'answer' => 'Yes. We offer both inbound customer support and outbound sales calling solutions.'
+            ],
+
+            [
+                'question' => 'Can the call center be integrated with CRM?',
+                'answer' => 'Yes. We integrate call center systems with CRM platforms for better customer management.'
+            ],
+
+            [
+                'question' => 'Do you provide IVR setup?',
+                'answer' => 'Yes. We configure custom IVR systems for efficient call routing and customer support.'
+            ]
+        ]
+    ],
 ];
 
 $service = isset($_GET['service']) ? trim($_GET['service']) : 'website-design';
@@ -711,10 +818,10 @@ $data = $services[$service];
 
                                             <ul>
                                                 <?php foreach ($data['features'] as $feature): ?>
-                                                    <li>
-                                                        <span><i class="fa-solid fa-check"></i></span>
-                                                        <?= $feature; ?>
-                                                    </li>
+                                                <li>
+                                                    <span><i class="fa-solid fa-check"></i></span>
+                                                    <?= $feature; ?>
+                                                </li>
                                                 <?php endforeach; ?>
                                             </ul>
                                             <div class="images-wrap">
@@ -740,19 +847,19 @@ $data = $services[$service];
 
                                                 <?php foreach ($data['benefits'] as $index => $item): ?>
 
-                                                    <div class="service-details-item">
+                                                <div class="service-details-item">
 
-                                                        <span class="number">
-                                                            <?= sprintf('%02d.', $index + 1); ?>
-                                                        </span>
+                                                    <span class="number">
+                                                        <?= sprintf('%02d.', $index + 1); ?>
+                                                    </span>
 
-                                                        <h6 class="title"><?= $item['title']; ?></h6>
+                                                    <h6 class="title"><?= $item['title']; ?></h6>
 
-                                                        <div class="desc">
-                                                            <p><?= $item['description']; ?></p>
-                                                        </div>
-
+                                                    <div class="desc">
+                                                        <p><?= $item['description']; ?></p>
                                                     </div>
+
+                                                </div>
 
                                                 <?php endforeach; ?>
 
@@ -764,21 +871,21 @@ $data = $services[$service];
 
                                                 <?php foreach ($data['faq'] as $key => $faq): ?>
 
-                                                    <div class="accordion-item">
-                                                        <button class="faq-title" data-bs-toggle="collapse"
-                                                            data-bs-target="#faq<?= $key ?>">
+                                                <div class="accordion-item">
+                                                    <button class="faq-title" data-bs-toggle="collapse"
+                                                        data-bs-target="#faq<?= $key ?>">
 
-                                                            <?= $faq['question']; ?>
+                                                        <?= $faq['question']; ?>
 
-                                                        </button>
+                                                    </button>
 
-                                                        <div id="faq<?= $key ?>" class="collapse">
-                                                            <div class="accordion-body faq-text">
-                                                                <p><?= $faq['answer']; ?></p>
-                                                            </div>
+                                                    <div id="faq<?= $key ?>" class="collapse">
+                                                        <div class="accordion-body faq-text">
+                                                            <p><?= $faq['answer']; ?></p>
                                                         </div>
-
                                                     </div>
+
+                                                </div>
 
                                                 <?php endforeach; ?>
 
@@ -816,15 +923,15 @@ $data = $services[$service];
 
                                             <ul>
                                                 <?php foreach ($services as $key => $item): ?>
-                                                    <li>
-                                                        <a href="service-details.php?service=<?= $key; ?>"
-                                                            class="<?= ($currentService == $key) ? 'active' : ''; ?>">
-                                                            <?= $item['title']; ?>
-                                                            <span class="icon">
-                                                                <i class="fa-solid fa-arrow-right"></i>
-                                                            </span>
-                                                        </a>
-                                                    </li>
+                                                <li>
+                                                    <a href="service-details.php?service=<?= $key; ?>"
+                                                        class="<?= ($currentService == $key) ? 'active' : ''; ?>">
+                                                        <?= $item['title']; ?>
+                                                        <span class="icon">
+                                                            <i class="fa-solid fa-arrow-right"></i>
+                                                        </span>
+                                                    </a>
+                                                </li>
                                                 <?php endforeach; ?>
                                             </ul>
 
