@@ -11,20 +11,20 @@
         <title>Bexon - Corporate Business php Template</title>
 
         <!-- Place favicon.ico in the root directory -->
-        <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png">
+        <link rel="shortcut icon" type="image/x-icon" href="../assets/images/fav.png">
 
         <!-- CSS here -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-        <link rel="stylesheet" href="assets/css/animate.min.css">
-        <link rel="stylesheet" href="assets/css/bexon-icons.css">
-        <link rel="stylesheet" href="assets/css/nice-select.css">
-        <link rel="stylesheet" href="assets/css/swiper.min.css">
-        <link rel="stylesheet" href="assets/css/venobox.min.css">
-        <link rel="stylesheet" href="assets/css/odometer-theme-default.css">
-        <link rel="stylesheet" href="assets/css/meanmenu.css">
-        <link rel="stylesheet" href="assets/css/main.css">
-        <link rel="stylesheet" href="assets/css/shop.css">
+        <link rel="stylesheet" href="../assets/css/animate.min.css">
+        <link rel="stylesheet" href="../assets/css/bexon-icons.css">
+        <link rel="stylesheet" href="../assets/css/nice-select.css">
+        <link rel="stylesheet" href="../assets/css/swiper.min.css">
+        <link rel="stylesheet" href="../assets/css/venobox.min.css">
+        <link rel="stylesheet" href="../assets/css/odometer-theme-default.css">
+        <link rel="stylesheet" href="../assets/css/meanmenu.css">
+        <link rel="stylesheet" href="../assets/css/main.css">
+        <link rel="stylesheet" href="../assets/css/shop.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     </head>
 
@@ -32,7 +32,7 @@
         <div class="body-overlay"></div>
 
         <!-- navbar -->
-        <?php include 'reusable/navbar.php'; ?>
+        <?php require_once '../reusable/navbar.php'; ?>
 
 
         <div id="smooth-wrapper">
@@ -40,7 +40,7 @@
                 <main id="primary" class="site-main">
                     <div class="space-for-header"></div>
                     <!-- start: Breadcrumb Section -->
-                    <section class="tj-page-header section-gap-x" data-bg-image="assets/images/bg/pheader-bg.webp">
+                    <section class="tj-page-header section-gap-x" data-bg-image="../assets/images/bg/pheader-bg.webp">
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-12">
@@ -60,7 +60,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="page-header-overlay" data-bg-image="assets/images/shape/pheader-overlay.webp"></div>
+                        <div class="page-header-overlay" data-bg-image="../assets/images/shape/pheader-overlay.webp">
+                        </div>
                     </section>
                     <!-- end: Breadcrumb Section -->
 
@@ -78,22 +79,22 @@
                                                     <button class="nav-link tj-pdt-thumb-img active" id="thumb-1-tab"
                                                         data-bs-toggle="pill" data-bs-target="#thumb-1" type="button"
                                                         role="tab" aria-controls="thumb-1" aria-selected="true"><img
-                                                            src="assets/images/product/product-1.webp"
+                                                            src="../assets/images/product/product-1.webp"
                                                             alt="images"></button>
                                                     <button class="nav-link tj-pdt-thumb-img" id="thumb-2-tab"
                                                         data-bs-toggle="pill" data-bs-target="#thumb-2" type="button"
                                                         role="tab" aria-controls="thumb-2" aria-selected="false"><img
-                                                            src="assets/images/product/product-11.webp"
+                                                            src="../assets/images/product/product-11.webp"
                                                             alt="images"></button>
                                                     <button class="nav-link tj-pdt-thumb-img" id="thumb-3-tab"
                                                         data-bs-toggle="pill" data-bs-target="#thumb-3" type="button"
                                                         role="tab" aria-controls="thumb-3" aria-selected="false"><img
-                                                            src="assets/images/product/product-1.webp"
+                                                            src="../assets/images/product/product-1.webp"
                                                             alt="images"></button>
                                                     <button class="nav-link tj-pdt-thumb-img" id="thumb-4-tab"
                                                         data-bs-toggle="pill" data-bs-target="#thumb-4" type="button"
                                                         role="tab" aria-controls="thumb-4" aria-selected="false"><img
-                                                            src="assets/images/product/product-2.webp"
+                                                            src="../assets/images/product/product-2.webp"
                                                             alt="images"></button>
                                                 </div>
                                                 <div class="tab-content tj-product-img-wrap order-1 order-md-2">
@@ -102,20 +103,21 @@
                                                     </div>
                                                     <div class="tj-product-action-btn">
                                                         <a class="ig-gallery" data-gall="gallery01"
-                                                            href="assets/images/product/product-1.webp"><i
+                                                            href="../assets/images/product/product-1.webp"><i
                                                                 class="tji-search"></i></a>
                                                         <a class="ig-gallery" data-gall="gallery01"
-                                                            href="assets/images/product/product-11.webp"><i
+                                                            href="../assets/images/product/product-11.webp"><i
                                                                 class="tji-search"></i></a>
                                                         <a class="ig-gallery" data-gall="gallery01"
-                                                            href="assets/images/product/product-2.webp"><i
+                                                            href="../assets/images/product/product-2.webp"><i
                                                                 class="tji-search"></i></a>
                                                     </div>
                                                     <div class="tab-pane fade show active" id="thumb-1" role="tabpanel"
                                                         aria-labelledby="thumb-1-tab" tabindex="0">
                                                         <div class="product-img-area">
                                                             <div class="product-img">
-                                                                <img src="assets/images/product/product-1.webp" alt="">
+                                                                <img src="../assets/images/product/product-1.webp"
+                                                                    alt="">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -123,7 +125,8 @@
                                                         aria-labelledby="thumb-2-tab" tabindex="0">
                                                         <div class="product-img-area">
                                                             <div class="product-img">
-                                                                <img src="assets/images/product/product-11.webp" alt="">
+                                                                <img src="../assets/images/product/product-11.webp"
+                                                                    alt="">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -131,7 +134,8 @@
                                                         aria-labelledby="thumb-3-tab" tabindex="0">
                                                         <div class="product-img-area">
                                                             <div class="product-img">
-                                                                <img src="assets/images/product/product-1.webp" alt="">
+                                                                <img src="../assets/images/product/product-1.webp"
+                                                                    alt="">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -139,7 +143,8 @@
                                                         aria-labelledby="thumb-4-tab" tabindex="0">
                                                         <div class="product-img-area">
                                                             <div class="product-img">
-                                                                <img src="assets/images/product/product-2.webp" alt="">
+                                                                <img src="../assets/images/product/product-2.webp"
+                                                                    alt="">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -210,7 +215,8 @@
                                                     </div>
 
                                                     <!-- buy now button -->
-                                                    <a href="checkout.php" class="tj-product-details-buy-now-btn w-100">
+                                                    <a href="../shop/checkout.php"
+                                                        class="tj-product-details-buy-now-btn w-100">
                                                         <span class="btn-text"><span>Shop now</span></span></a>
                                                 </div>
                                                 <div class="tj-product-details-query">
@@ -342,7 +348,7 @@
                                                                             <li class="review">
                                                                                 <div class="comment_container">
                                                                                     <img class="avatar"
-                                                                                        src="assets/images/blog/avatar-1.webp"
+                                                                                        src="../assets/images/blog/avatar-1.webp"
                                                                                         alt="">
                                                                                     <div class="comment-text">
                                                                                         <div class="star-rating">
@@ -488,8 +494,8 @@
                                             <div class="tj-product">
                                                 <div class="tj-product-item">
                                                     <div class="tj-product-thumb">
-                                                        <a href="shop-details.php">
-                                                            <img src="./assets/images/product/product-1.webp" alt="">
+                                                        <a href="../shop/shop-details.php">
+                                                            <img src="./../assets/images/product/product-1.webp" alt="">
                                                         </a>
 
                                                         <div class="tj-product-badge product-on-sale">
@@ -529,10 +535,10 @@
                                                     </div>
                                                     <div class="tj-product-content">
                                                         <div class="tj-product-tag d-none">
-                                                            <a href="shop-details.php"> Power</a>
+                                                            <a href="../shop/shop-details.php"> Power</a>
                                                         </div>
                                                         <h3 class="tj-product-title">
-                                                            <a href="shop-details.php">Personal
+                                                            <a href="../shop/shop-details.php">Personal
                                                                 holding earbud</a>
                                                         </h3>
 
@@ -549,8 +555,8 @@
                                             <div class="tj-product">
                                                 <div class="tj-product-item">
                                                     <div class="tj-product-thumb">
-                                                        <a href="shop-details.php">
-                                                            <img src="./assets/images/product/product-2.webp" alt="">
+                                                        <a href="../shop/shop-details.php">
+                                                            <img src="./../assets/images/product/product-2.webp" alt="">
                                                         </a>
 
                                                         <div class="tj-product-badge product-on-sale">
@@ -586,7 +592,7 @@
                                                                 Charger</a>
                                                         </div>
                                                         <h3 class="tj-product-title">
-                                                            <a href="shop-details.php">Echo tune wireless
+                                                            <a href="../shop/shop-details.php">Echo tune wireless
                                                                 headphones</a>
                                                         </h3>
 
@@ -603,8 +609,8 @@
                                             <div class="tj-product">
                                                 <div class="tj-product-item">
                                                     <div class="tj-product-thumb">
-                                                        <a href="shop-details.php">
-                                                            <img src="./assets/images/product/product-6.webp" alt="">
+                                                        <a href="../shop/shop-details.php">
+                                                            <img src="./../assets/images/product/product-6.webp" alt="">
                                                         </a>
 
 
@@ -641,10 +647,10 @@
                                                     </div>
                                                     <div class="tj-product-content">
                                                         <div class="tj-product-tag d-none">
-                                                            <a href="shop-details.php"> Power</a>
+                                                            <a href="../shop/shop-details.php"> Power</a>
                                                         </div>
                                                         <h3 class="tj-product-title">
-                                                            <a href="shop-details.php">Cool mini USB
+                                                            <a href="../shop/shop-details.php">Cool mini USB
                                                                 fan</a>
                                                         </h3>
 
@@ -669,7 +675,7 @@
 
                 <!-- start: Footer Section -->
                 <!-- navbar -->
-                <?php include 'reusable/footer.php'; ?>
+                <?php require_once '../reusable/footer.php'; ?>
                 <!-- end: Footer Section -->
             </div>
         </div>
@@ -678,25 +684,25 @@
         <div id="back-to-top"><a class="top arrow" href="#top"><i class="fa fa-angle-up"></i> </a></div>
 
         <a href="https://wa.me/76778 89831" target="_blank" class="whatsapp-float">
-            <img src="assets/images/whatsapp.png" alt="WhatsApp">
+            <img src="../assets/images/whatsapp.png" alt="WhatsApp">
         </a>
         <!-- JS here -->
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/bootstrap.bundle.min.js"></script>
-        <script src="assets/js/gsap.min.js"></script>
-        <script src="assets/js/ScrollSmoother.js"></script>
-        <script src="assets/js/gsap-scroll-to-plugin.min.js"></script>
-        <script src="assets/js/gsap-scroll-trigger.min.js"></script>
-        <script src="assets/js/gsap-split-text.min.js"></script>
-        <script src="assets/js/jquery.nice-select.min.js"></script>
-        <script src="assets/js/swiper.min.js"></script>
-        <script src="assets/js/odometer.min.js"></script>
-        <script src="assets/js/venobox.min.js"></script>
-        <script src="assets/js/appear.min.js"></script>
-        <script src="assets/js/wow.min.js"></script>
-        <script src="assets/js/meanmenu.js"></script>
-        <script src="assets/js/validate.min.js"></script>
-        <script src="assets/js/main.js"></script>
+        <script src="../assets/js/jquery.min.js"></script>
+        <script src="../assets/js/bootstrap.bundle.min.js"></script>
+        <script src="../assets/js/gsap.min.js"></script>
+        <script src="../assets/js/ScrollSmoother.js"></script>
+        <script src="../assets/js/gsap-scroll-to-plugin.min.js"></script>
+        <script src="../assets/js/gsap-scroll-trigger.min.js"></script>
+        <script src="../assets/js/gsap-split-text.min.js"></script>
+        <script src="../assets/js/jquery.nice-select.min.js"></script>
+        <script src="../assets/js/swiper.min.js"></script>
+        <script src="../assets/js/odometer.min.js"></script>
+        <script src="../assets/js/venobox.min.js"></script>
+        <script src="../assets/js/appear.min.js"></script>
+        <script src="../assets/js/wow.min.js"></script>
+        <script src="../assets/js/meanmenu.js"></script>
+        <script src="../assets/js/validate.min.js"></script>
+        <script src="../assets/js/main.js"></script>
     </body>
 
     </html>

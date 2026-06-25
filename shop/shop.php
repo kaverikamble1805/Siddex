@@ -11,19 +11,19 @@
         <title>Bexon - Corporate Business php Template</title>
 
         <!-- Place favicon.ico in the root directory -->
-        <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png">
+        <link rel="shortcut icon" type="image/x-icon" href="../assets/images/fav.png">
 
         <!-- CSS here -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-        <link rel="stylesheet" href="assets/css/animate.min.css">
-        <link rel="stylesheet" href="assets/css/bexon-icons.css">
-        <link rel="stylesheet" href="assets/css/nice-select.css">
-        <link rel="stylesheet" href="assets/css/swiper.min.css">
-        <link rel="stylesheet" href="assets/css/venobox.min.css">
-        <link rel="stylesheet" href="assets/css/odometer-theme-default.css">
-        <link rel="stylesheet" href="assets/css/meanmenu.css">
-        <link rel="stylesheet" href="assets/css/main.css">
+        <link rel="stylesheet" href="../assets/css/animate.min.css">
+        <link rel="stylesheet" href="../assets/css/bexon-icons.css">
+        <link rel="stylesheet" href="../assets/css/nice-select.css">
+        <link rel="stylesheet" href="../assets/css/swiper.min.css">
+        <link rel="stylesheet" href="../assets/css/venobox.min.css">
+        <link rel="stylesheet" href="../assets/css/odometer-theme-default.css">
+        <link rel="stylesheet" href="../assets/css/meanmenu.css">
+        <link rel="stylesheet" href="../assets/css/main.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     </head>
 
@@ -31,7 +31,7 @@
         <div class="body-overlay"></div>
 
         <!-- navbar -->
-        <?php include 'reusable/navbar.php'; ?>
+        <?php require_once '../reusable/navbar.php';  ?>
 
 
         <div id="smooth-wrapper">
@@ -39,7 +39,7 @@
                 <main id="primary" class="site-main">
                     <div class="space-for-header"></div>
                     <!-- start: Breadcrumb Section -->
-                    <section class="tj-page-header section-gap-x" data-bg-image="assets/images/bg/pheader-bg.webp">
+                    <section class="tj-page-header section-gap-x" data-bg-image="../assets/images/bg/pheader-bg.webp">
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-12">
@@ -59,7 +59,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="page-header-overlay" data-bg-image="assets/images/shape/pheader-overlay.webp"></div>
+                        <div class="page-header-overlay" data-bg-image="../assets/images/shape/pheader-overlay.webp">
+                        </div>
                     </section>
                     <!-- end: Breadcrumb Section -->
 
@@ -96,8 +97,8 @@
                                             <div class="tj-product">
                                                 <div class="tj-product-item">
                                                     <div class="tj-product-thumb">
-                                                        <a href="shop-details.php">
-                                                            <img src="./assets/images/product/product-1.webp" alt="">
+                                                        <a href="/shop/shop-details.php">
+                                                            <img src="./../assets/images/product/product-1.webp" alt="">
                                                         </a>
 
                                                         <div class="tj-product-badge product-on-sale">
@@ -137,10 +138,10 @@
                                                     </div>
                                                     <div class="tj-product-content">
                                                         <div class="tj-product-tag d-none">
-                                                            <a href="shop-details.php"> Power</a>
+                                                            <a href="/shop/shop-details.php"> Power</a>
                                                         </div>
                                                         <h3 class="tj-product-title">
-                                                            <a href="shop-details.php">Personal
+                                                            <a href="/shop/shop-details.php">Personal
                                                                 holding earbud</a>
                                                         </h3>
 
@@ -157,8 +158,8 @@
                                             <div class="tj-product">
                                                 <div class="tj-product-item">
                                                     <div class="tj-product-thumb">
-                                                        <a href="shop-details.php">
-                                                            <img src="./assets/images/product/product-2.webp" alt="">
+                                                        <a href="/shop/shop-details.php">
+                                                            <img src="./../assets/images/product/product-2.webp" alt="">
                                                         </a>
 
                                                         <div class="tj-product-badge product-on-sale">
@@ -194,7 +195,8 @@
                                                                 Charger</a>
                                                         </div>
                                                         <h3 class="tj-product-title">
-                                                            <a href="shop-details.php">Echo tune wireless headphones</a>
+                                                            <a href="/shop/shop-details.php">Echo tune wireless
+                                                                headphones</a>
                                                         </h3>
 
                                                         <div class="tj-product-price-wrapper">
@@ -210,8 +212,8 @@
                                             <div class="tj-product">
                                                 <div class="tj-product-item">
                                                     <div class="tj-product-thumb">
-                                                        <a href="shop-details.php">
-                                                            <img src="./assets/images/product/product-7.webp" alt="">
+                                                        <a href="/shop/shop-details.php">
+                                                            <img src="./../assets/images/product/product-7.webp" alt="">
                                                         </a>
 
 
@@ -248,10 +250,10 @@
                                                     </div>
                                                     <div class="tj-product-content">
                                                         <div class="tj-product-tag d-none">
-                                                            <a href="hshop-details.php"> Speaker</a>
+                                                            <a href="h/shop/shop-details.php"> Speaker</a>
                                                         </div>
                                                         <h3 class="tj-product-title">
-                                                            <a href="shop-details.php">Base
+                                                            <a href="/shop/shop-details.php">Base
                                                                 booster speaker</a>
                                                         </h3>
 
@@ -267,8 +269,8 @@
                                             <div class="tj-product">
                                                 <div class="tj-product-item">
                                                     <div class="tj-product-thumb">
-                                                        <a href="shop-details.php">
-                                                            <img src="./assets/images/product/product-6.webp" alt="">
+                                                        <a href="/shop/shop-details.php">
+                                                            <img src="./../assets/images/product/product-6.webp" alt="">
                                                         </a>
 
 
@@ -305,10 +307,10 @@
                                                     </div>
                                                     <div class="tj-product-content">
                                                         <div class="tj-product-tag d-none">
-                                                            <a href="shop-details.php"> Power</a>
+                                                            <a href="/shop/shop-details.php"> Power</a>
                                                         </div>
                                                         <h3 class="tj-product-title">
-                                                            <a href="shop-details.php">Cool mini USB
+                                                            <a href="/shop/shop-details.php">Cool mini USB
                                                                 fan</a>
                                                         </h3>
 
@@ -324,8 +326,8 @@
                                             <div class="tj-product">
                                                 <div class="tj-product-item">
                                                     <div class="tj-product-thumb">
-                                                        <a href="shop-details.php">
-                                                            <img src="./assets/images/product/product-5.webp" alt="">
+                                                        <a href="/shop/shop-details.php">
+                                                            <img src="./../assets/images/product/product-5.webp" alt="">
                                                         </a>
 
 
@@ -362,10 +364,10 @@
                                                     </div>
                                                     <div class="tj-product-content">
                                                         <div class="tj-product-tag d-none">
-                                                            <a href="shop-details.php"> Cover</a>
+                                                            <a href="/shop/shop-details.php"> Cover</a>
                                                         </div>
                                                         <h3 class="tj-product-title">
-                                                            <a href="shop-details.php">Pure
+                                                            <a href="/shop/shop-details.php">Pure
                                                                 white slim cover</a>
                                                         </h3>
 
@@ -381,8 +383,8 @@
                                             <div class="tj-product">
                                                 <div class="tj-product-item">
                                                     <div class="tj-product-thumb">
-                                                        <a href="shop-details.php">
-                                                            <img src="./assets/images/product/product-4.webp" alt="">
+                                                        <a href="/shop/shop-details.php">
+                                                            <img src="./../assets/images/product/product-4.webp" alt="">
                                                         </a>
 
                                                         <div class="tj-product-badge product-on-sale">
@@ -422,10 +424,10 @@
                                                     </div>
                                                     <div class="tj-product-content">
                                                         <div class="tj-product-tag d-none">
-                                                            <a href="hshop-details.php"> Speaker</a>
+                                                            <a href="h/shop/shop-details.php"> Speaker</a>
                                                         </div>
                                                         <h3 class="tj-product-title">
-                                                            <a href="shop-details.php">Hi-Fi
+                                                            <a href="/shop/shop-details.php">Hi-Fi
                                                                 bluetooth speaker</a>
                                                         </h3>
 
@@ -483,13 +485,14 @@
                                         <div class="product-widget  widget_product_categories">
                                             <h5 class="product-widget-title">Categories</h5>
                                             <ul class="product-categories">
-                                                <li><a href="shop-details.php">Bluetooth</a>
+                                                <li><a href="/shop/shop-details.php">Bluetooth</a>
                                                     <span class="count">(1)</span>
                                                 </li>
-                                                <li><a href="shop-details.php">Charger</a> <span
+                                                <li><a href="/shop/shop-details.php">Charger</a> <span
                                                         class="count">(2)</span></li>
-                                                <li><a href="shop-details.php">Cover</a> <span>(1)</span></li>
-                                                <li><a href="shop-details.php">Power</a> <span class="count">(2)</span>
+                                                <li><a href="/shop/shop-details.php">Cover</a> <span>(1)</span></li>
+                                                <li><a href="/shop/shop-details.php">Power</a> <span
+                                                        class="count">(2)</span>
                                                 </li>
                                                 <li><a
                                                         href="https://solvior.themejunction.net/product-category/speaker/">Speaker</a>
@@ -503,9 +506,9 @@
                                                 <li class="tj-recent-product-list sidebar-recent-post">
                                                     <div class="single-post d-flex align-items-center ">
                                                         <div class="post-image">
-                                                            <a href="shop-details.php">
+                                                            <a href="/shop/shop-details.php">
                                                                 <img width="300" height="300"
-                                                                    src="./assets/images/product/product-1.webp"
+                                                                    src="./../assets/images/product/product-1.webp"
                                                                     class="attachment-_thumbnail size-_thumbnail"
                                                                     alt="Personal holding earbud">
                                                             </a>
@@ -513,7 +516,7 @@
 
                                                         <div class="post-header">
                                                             <h5 class="tj-product-title">
-                                                                <a href="shop-details.php">
+                                                                <a href="/shop/shop-details.php">
                                                                     Personal holding earbud </a>
                                                             </h5>
                                                             <div
@@ -528,9 +531,9 @@
                                                 <li class="tj-recent-product-list sidebar-recent-post">
                                                     <div class="single-post d-flex align-items-center ">
                                                         <div class="post-image">
-                                                            <a href="shop-details.php">
+                                                            <a href="/shop/shop-details.php">
                                                                 <img width="300" height="300"
-                                                                    src="./assets/images/product/product-2.webp"
+                                                                    src="./../assets/images/product/product-2.webp"
                                                                     class="attachment-_thumbnail size-_thumbnail"
                                                                     alt="Super fast charger">
                                                             </a>
@@ -538,7 +541,7 @@
 
                                                         <div class="post-header">
                                                             <h5 class="tj-product-title">
-                                                                <a href="shop-details.php">
+                                                                <a href="/shop/shop-details.php">
                                                                     Echo tune wireless headphones</a>
                                                             </h5>
                                                             <div
@@ -553,16 +556,16 @@
                                                 <li class="tj-recent-product-list sidebar-recent-post">
                                                     <div class="single-post d-flex align-items-center ">
                                                         <div class="post-image">
-                                                            <a href="shop-details.php">
+                                                            <a href="/shop/shop-details.php">
                                                                 <img width="300" height="300"
-                                                                    src="./assets/images/product/product-7.webp"
+                                                                    src="./../assets/images/product/product-7.webp"
                                                                     class="attachment-_thumbnail size-_thumbnail"
                                                                     alt="Base booster speaker"> </a>
                                                         </div>
 
                                                         <div class="post-header">
                                                             <h5 class="tj-product-title">
-                                                                <a href="shop-details.php">
+                                                                <a href="/shop/shop-details.php">
                                                                     Base booster speaker </a>
                                                             </h5>
                                                             <div
@@ -577,13 +580,13 @@
                                         </div>
                                         <div class="product-widget  widget_product_tag_cloud">
                                             <h5 class="product-widget-title">Tags</h5>
-                                            <div class="tagcloud"><a href="shop-details.php">Compact</a>
-                                                <a href="shop-details.php">Durable</a>
-                                                <a href="shop-details.php">Fast</a>
-                                                <a href="shop-details.php" class="tag-cloud-link">Portable</a>
-                                                <a href="shop-details.php" class="tag-cloud-link ">Powerful</a>
-                                                <a href="shop-details.php" class="tag-cloud-link ">Reliable</a>
-                                                <a href="shop-details.php" class="tag-cloud-link ">Retiable</a>
+                                            <div class="tagcloud"><a href="/shop/shop-details.php">Compact</a>
+                                                <a href="/shop/shop-details.php">Durable</a>
+                                                <a href="/shop/shop-details.php">Fast</a>
+                                                <a href="/shop/shop-details.php" class="tag-cloud-link">Portable</a>
+                                                <a href="/shop/shop-details.php" class="tag-cloud-link ">Powerful</a>
+                                                <a href="/shop/shop-details.php" class="tag-cloud-link ">Reliable</a>
+                                                <a href="/shop/shop-details.php" class="tag-cloud-link ">Retiable</a>
                                             </div>
                                         </div>
                                     </div>
@@ -595,30 +598,30 @@
                     <!-- end: Shop Section -->
                 </main>
 
-                <?php include 'reusable/footer.php'; ?>
+                <?php require_once '../reusable/footer.php'; ?>
             </div>
         </div>
         <div id="back-to-top"><a class="top arrow" href="#top"><i class="fa fa-angle-up"></i> </a></div>
 
         <a href="https://wa.me/76778 89831" target="_blank" class="whatsapp-float">
-            <img src="assets/images/whatsapp.png" alt="WhatsApp">
+            <img src="../assets/images/whatsapp.png" alt="WhatsApp">
         </a>
         <!-- JS here -->
-        <script src="assets/js/jquery.min.js" defer></script>
-        <script src="assets/js/bootstrap.bundle.min.js" defer></script>
-        <script src="assets/js/gsap.min.js" defer></script>
-        <script src="assets/js/ScrollSmoother.js" defer></script>
-        <script src="assets/js/gsap-scroll-to-plugin.min.js" defer></script>
-        <script src="assets/js/gsap-scroll-trigger.min.js" defer></script>
-        <script src="assets/js/gsap-split-text.min.js" defer></script>
-        <script src="assets/js/jquery.nice-select.min.js" defer></script>
-        <script src="assets/js/swiper.min.js" defer></script>
-        <script src="assets/js/odometer.min.js" defer></script>
-        <script src="assets/js/venobox.min.js" defer></script>
-        <script src="assets/js/appear.min.js" defer></script>
-        <script src="assets/js/wow.min.js" defer></script>
-        <script src="assets/js/meanmenu.js" defer></script>
-        <script src="assets/js/main.js" defer></script>
+        <script src="../assets/js/jquery.min.js" defer></script>
+        <script src="../assets/js/bootstrap.bundle.min.js" defer></script>
+        <script src="../assets/js/gsap.min.js" defer></script>
+        <script src="../assets/js/ScrollSmoother.js" defer></script>
+        <script src="../assets/js/gsap-scroll-to-plugin.min.js" defer></script>
+        <script src="../assets/js/gsap-scroll-trigger.min.js" defer></script>
+        <script src="../assets/js/gsap-split-text.min.js" defer></script>
+        <script src="../assets/js/jquery.nice-select.min.js" defer></script>
+        <script src="../assets/js/swiper.min.js" defer></script>
+        <script src="../assets/js/odometer.min.js" defer></script>
+        <script src="../assets/js/venobox.min.js" defer></script>
+        <script src="../assets/js/appear.min.js" defer></script>
+        <script src="../assets/js/wow.min.js" defer></script>
+        <script src="../assets/js/meanmenu.js" defer></script>
+        <script src="../assets/js/main.js" defer></script>
 
     </body>
 

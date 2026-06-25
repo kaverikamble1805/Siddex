@@ -137,11 +137,11 @@ Progressbar js
   });
 
   // Mobile Menu Js
-  // $("#mobile-menu").meanmenu({
-  // 	meanMenuContainer: ".mobile_menu",
-  // 	meanScreenWidth: "991",
-  // 	meanExpand: ['<i class="fa-solid fa-chevron-down"></i>'],
-  // });
+  $("#mobile-menu").meanmenu({
+    meanMenuContainer: ".mobile_menu",
+    meanScreenWidth: "991",
+    meanExpand: ['<i class="fa-solid fa-chevron-down"></i>'],
+  });
 
   // Hamburger Menu Js
   $(".mobile_menu_bar").on("click", function () {
@@ -1437,8 +1437,7 @@ Progressbar js
               start: `top-=${startOffset} top`,
               endTrigger: container,
               end: () =>
-                `bottom top+=${
-                  lastPanel.offsetHeight + startOffset + paddingBottom
+                `bottom top+=${lastPanel.offsetHeight + startOffset + paddingBottom
                 }`,
               pin: true,
               pinSpacing: false,
@@ -1542,8 +1541,7 @@ Progressbar js
                     start: `top-=${startOffset} top`,
                     endTrigger: container,
                     end: () =>
-                      `bottom top+=${
-                        lastPanel.offsetHeight + startOffset + paddingBottom
+                      `bottom top+=${lastPanel.offsetHeight + startOffset + paddingBottom
                       }`,
                     pin: true,
                     pinSpacing: false,
@@ -1634,9 +1632,8 @@ Progressbar js
                 scrollTrigger: {
                   trigger: panel,
                   start: `top bottom`,
-                  end: `${
-                    i === 0 || i === 2 ? "bottom+=200" : "bottom+=300"
-                  } bottom`,
+                  end: `${i === 0 || i === 2 ? "bottom+=200" : "bottom+=300"
+                    } bottom`,
                   pin: false,
                   pinSpacing: false,
                   scrub: true,
@@ -1963,8 +1960,8 @@ Progressbar js
   }
 
   /* ---------------------------------------------------------
-			32. Price Slider
-	--------------------------------------------------------- */
+      32. Price Slider
+  --------------------------------------------------------- */
   if ($("#slider-range").length) {
     $("#slider-range").slider({
       range: true,
@@ -2053,8 +2050,8 @@ Progressbar js
   }
 
   /*---------------------------------------------------------
-	 copyright year
-	---------------------------------------------------------*/
+   copyright year
+  ---------------------------------------------------------*/
   const yearEl = document.querySelector(".copyright-text span");
 
   if (yearEl) {

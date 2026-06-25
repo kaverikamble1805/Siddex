@@ -1,16 +1,17 @@
  <?php
     $page = basename($_SERVER['PHP_SELF']);
+    $base_url = "http://localhost/siddex1/Siddex";
     ?>
  <!-- Preloader Start -->
  <div class="tj-preloader is-loading">
      <div class="tj-preloader-inner">
          <div class="tj-preloader-ball-wrap">
-             <div class="tj-preloader-ball-inner-wrap">
+             <!-- <div class="tj-preloader-ball-inner-wrap">
                  <div class="tj-preloader-ball-inner">
                      <div class="tj-preloader-ball"></div>
                  </div>
                  <div class="tj-preloader-ball-shadow"></div>
-             </div>
+             </div> -->
              <div id="tj-weave-anim" class="tj-preloader-text">Loading...</div>
          </div>
      </div>
@@ -32,7 +33,7 @@
              <div class="hamburger_top d-flex align-items-center justify-content-between">
                  <div class="hamburger_logo">
                      <a href="index.php" class="mobile_logo">
-                         <img src="assets/images/logo.png" alt="Logo">
+                         <img src="<?= $base_url ?>/assets/images/logo.png" alt="Logo">
                      </a>
                  </div>
                  <div class="hamburger_close">
@@ -98,7 +99,7 @@
              <div class="hamburger_top d-flex align-items-center justify-content-between">
                  <div class="hamburger_logo">
                      <a href="index.php" class="mobile_logo">
-                         <img src="assets/images/logo.png" alt="Logo">
+                         <img src="<?= $base_url ?>/assets/images/logo.png" alt="Logo">
                      </a>
                  </div>
                  <div class="hamburger_close">
@@ -153,20 +154,21 @@
                  <div class="header-wrapper">
                      <!-- site logo -->
                      <div class="site_logo">
-                         <a class="logo" href="index.php"><img src="assets/images/logo.png" alt=""></a>
+                         <a class="logo" href="index.php"><img src="<?= $base_url ?>/assets/images/logo.png" alt=""></a>
                      </div>
 
                      <!-- navigation -->
                      <div class="menu-area d-none d-lg-inline-flex align-items-center">
                          <nav id="mobile-menu" class="mainmenu">
                              <ul>
-                                 <li class="<?= $page == 'index.php' ? 'current-menu-item' : '' ?>"><a
-                                         href="index.php">Home</a>
+                                 <li class="<?= $page == 'index.php' ? 'current-menu-ancestor' : '' ?>"><a
+                                         href="<?= $base_url ?>/index.php">Home</a>
                                  </li>
                                  <li class="<?= $page == 'about.php' ? 'current-menu-item' : '' ?>"><a
-                                         href="about.php">About Us</a>
+                                         href="<?= $base_url ?>/about.php">About Us</a>
                                  </li>
-                                 <li class="has-dropdown">
+                                 <li
+                                     class="has-dropdown <?= $page == 'service-details.php' ? 'current-menu-item' : '' ?>">
                                      <a href="service-details.php?service=website-design">Services</a>
 
                                      <ul class="sub-menu header__mega-menu mega-menu mega-menu-pages">
@@ -260,8 +262,9 @@
                                          </li>
                                      </ul>
                                  </li>
-                                 <li class="has-dropdown <?= $page == 'index.php' ? 'current-menu-item' : '' ?>">
-                                     <a href="product-details.php">Products</a>
+                                 <li
+                                     class="has-dropdown <?= $page == 'product-details.php' ? 'current-menu-item' : '' ?>">
+                                     <a href="<?= $base_url ?>/product-details.php">Products</a>
                                      <ul class="sub-menu header__mega-menu mega-menu mega-menu-pages">
                                          <li>
                                              <div class="mega-menu-wrapper">
@@ -270,23 +273,26 @@
                                                      <div class="mega-menu-pages-single-inner">
                                                          <h6 class="mega-menu-title">Ecommerce Product</h6>
                                                          <div class="mega-menu-list">
-                                                             <a href="product-details.php?product=multi-vendor-web-app">Multi
+                                                             <a
+                                                                 href="<?= $base_url ?>/product-details.php?product=multi-vendor-web-app">Multi
                                                                  Vendor (Web + APP)</a>
-                                                             <a href="product-details.php?product=multi-vendor-reactjs">Multi
+                                                             <a
+                                                                 href="<?= $base_url ?>/product-details.php?product=multi-vendor-reactjs">Multi
                                                                  Vendor (ReactJs)</a>
                                                              <a
-                                                                 href="product-details.php?product=online-grocery-webapi">Online
+                                                                 href="<?= $base_url ?>/product-details.php?product=online-grocery-webapi">Online
                                                                  Grocery (Web + APP)</a>
                                                              <a
-                                                                 href="product-details.php?product=online-grocery-apionly">Online
+                                                                 href="<?= $base_url ?>/product-details.php?product=online-grocery-apionly">Online
                                                                  Grocery (APP Only)</a>
-                                                             <a href="product-details.php?product=ecomm-single-vendor">Ecomm
+                                                             <a
+                                                                 href="<?= $base_url ?>/product-details.php?product=ecomm-single-vendor">Ecomm
                                                                  Single Vendor (Web + APP)</a>
                                                              <a
-                                                                 href="product-details.php?product=ecomm-single-vendor-web">Ecommerce
+                                                                 href="<?= $base_url ?>/product-details.php?product=ecomm-single-vendor-web">Ecommerce
                                                                  Single Vendor (Web)</a>
                                                              <a
-                                                                 href="product-details.php?product=ecomm-single-vendor-app">Ecommerce
+                                                                 href="<?= $base_url ?>/product-details.php?product=ecomm-single-vendor-app">Ecommerce
                                                                  Single Vendor (APP)</a>
                                                          </div>
                                                      </div>
@@ -296,19 +302,26 @@
                                                      <div class="mega-menu-pages-single-inner">
                                                          <h6 class="mega-menu-title">CMS</h6>
                                                          <div class="mega-menu-list">
-                                                             <a href="product-details.php?product=mass-attendance">Mass
+                                                             <a
+                                                                 href="<?= $base_url ?>/product-details.php?product=mass-attendance">Mass
                                                                  Attendance Management System</a>
-                                                             <a href="product-details.php?product=human-resource">Human
+                                                             <a
+                                                                 href="<?= $base_url ?>/product-details.php?product=human-resource">Human
                                                                  Resource Management System</a>
-                                                             <a href="product-details.php?product=community-management">Community
+                                                             <a
+                                                                 href="<?= $base_url ?>/product-details.php?product=community-management">Community
                                                                  Management</a>
-                                                             <a href="product-details.php?product=ecommerce-solution">E-commerce
+                                                             <a
+                                                                 href="<?= $base_url ?>/product-details.php?product=ecommerce-solution">E-commerce
                                                                  Solution</a>
-                                                             <a href="product-details.php?product=mlm-software">MLM
+                                                             <a
+                                                                 href="<?= $base_url ?>/product-details.php?product=mlm-software">MLM
                                                                  (Multi-Level Marketing) Software</a>
-                                                             <a href="product-details.php?product=industry-erp">Industry
+                                                             <a
+                                                                 href="<?= $base_url ?>/product-details.php?product=industry-erp">Industry
                                                                  Automation ERP</a>
-                                                             <a href="product-details.php?product=ecommerce-platform">E-commerce
+                                                             <a
+                                                                 href="<?= $base_url ?>/product-details.php?product=ecommerce-platform">E-commerce
                                                                  Platform For Digital
                                                                  Production</a>
 
@@ -320,21 +333,27 @@
                                                      <div class="mega-menu-pages-single-inner">
                                                          <h6 class="mega-menu-title">CMS</h6>
                                                          <div class="mega-menu-list">
-                                                             <a href="product-details.php?product=smart-farming">Smart
+                                                             <a
+                                                                 href="<?= $base_url ?>/product-details.php?product=smart-farming">Smart
                                                                  Farming & Agriculture
                                                                  Solutions</a>
-                                                             <a href="product-details.php?product=news-portal">News
+                                                             <a
+                                                                 href="<?= $base_url ?>/product-details.php?product=news-portal">News
                                                                  Portal Design & Development</a>
-                                                             <a href="product-details.php?product=grocery-application">Grocery
+                                                             <a
+                                                                 href="<?= $base_url ?>/product-details.php?product=grocery-application">Grocery
                                                                  Application Development</a>
-                                                             <a href="product-details.php?product=college-management">College
+                                                             <a
+                                                                 href="<?= $base_url ?>/product-details.php?product=college-management">College
                                                                  Management System</a>
-                                                             <a href="product-details.php?product=food-delivery">Food
+                                                             <a
+                                                                 href="<?= $base_url ?>/product-details.php?product=food-delivery">Food
                                                                  Delivery Application</a>
-                                                             <a href="product-details.php?product=vehicle-tracking">Vehicle
+                                                             <a
+                                                                 href="<?= $base_url ?>/product-details.php?product=vehicle-tracking">Vehicle
                                                                  Tracking System</a>
                                                              <a
-                                                                 href="product-details.php?product=classified-application">Classified
+                                                                 href="<?= $base_url ?>/product-details.php?product=classified-application">Classified
                                                                  Application</a>
                                                          </div>
                                                      </div>
@@ -366,25 +385,22 @@
                                          </li>
                                      </ul>
                                  </li>
-                                 <li class="<?= $page == 'index.php' ? 'current-menu-item' : '' ?>"><a
-                                         href="careers.php">Career</a></li>
-                                 <li class="has-dropdown <?= $page == 'shop.php' ? 'current-menu-item' : '' ?>"><a
-                                         href="shop.php">Shop</a>
+                                 <li class="<?= $page == 'careers.php' ? 'current-menu-item' : '' ?>"><a
+                                         href="<?= $base_url ?>/careers.php">Career</a></li>
+                                 <li class="has-dropdown <?= $page == 'shop.php' ? 'current-menu-item' : '' ?>">
+                                     <a href="<?= $base_url ?>/shop/shop.php">Shop</a>
                                      <ul class="sub-menu">
-                                         <li><a href="shop.php">Shop</a></li>
-                                         <li><a href="shop-details.php">Shop Details</a></li>
-                                         <li><a href="cart.php">Cart</a></li>
-                                         <li><a href="#">Checkout</a></li>
-                                         <li><a href="#">Wishlist</a></li>
-                                         <li><a href="#">New</a></li>
-                                         <li><a href="#">Login</a></li>
-                                         <li><a href="#">Tracking</a></li>
-                                         <li><a href="#">Order confirm</a></li>
-                                         <li><a href="#">Registration</a></li>
+                                         <li><a href="<?= $base_url ?>/shop/shop.php">Shop</a></li>
+                                         <li><a href="<?= $base_url ?>/shop/shop-details.php">Shop Details</a>
+                                         </li>
+                                         <li><a href="<?= $base_url ?>/shop/cart.php">Cart</a></li>
+                                         <li><a href="<?= $base_url ?>/shop/checkout.php">Checkout</a></li>
+                                         <li><a href="<?= $base_url ?>/shop/wishlist.php">Wishlist</a></li>
+                                         <li><a href="<?= $base_url ?>/shop/login.php">Login</a></li>
                                      </ul>
                                  </li>
                                  <li class="<?= $page == 'contact.php' ? 'current-menu-item' : '' ?>"><a
-                                         href="contact.php">Contact</a></li>
+                                         href="<?= $base_url ?>/contact.php">Contact</a></li>
                              </ul>
                          </nav>
                      </div>
@@ -464,115 +480,131 @@
                  <div class="header-wrapper">
                      <!-- site logo -->
                      <div class="site_logo">
-                         <a class="logo" href="index.php"><img src="assets/images/logo.png" alt=""></a>
+                         <a class="logo" href="index.php"><img src="<?= $base_url ?>/assets/images/logo.png" alt=""></a>
                      </div>
 
                      <!-- navigation -->
                      <div class="menu-area d-none d-lg-inline-flex align-items-center">
                          <nav class="mainmenu">
                              <ul>
-                                 <li class="current-menu-ancestor"><a href="index.php">Home</a>
+                                 <li class="<?= $page == 'index.php' ? 'current-menu-ancestor' : '' ?>"><a
+                                         href="<?= $base_url ?>/index.php">Home</a>
 
                                  </li>
                                  <li class="<?= $page == 'about.php' ? 'current-menu-item' : '' ?>"><a
-                                         href="about.php">About Us</a>
+                                         href="<?= $base_url ?>/about.php"">About Us</a>
 
                                  </li>
-                                 <li class="has-dropdown">
-                                     <a href="service-details.php?service=website-design">Services</a>
+                                 <li
+                                     class=" has-dropdown
+                                         <?= $page == 'service-details.php' ? 'current-menu-item' : '' ?>">
+                                         <a href="service-details.php?service=website-design">Services</a>
 
-                                     <ul class="sub-menu header__mega-menu mega-menu mega-menu-pages">
-                                         <li>
-                                             <div class="mega-menu-wrapper">
+                                         <ul class="sub-menu header__mega-menu mega-menu mega-menu-pages">
+                                             <li>
+                                                 <div class="mega-menu-wrapper">
 
-                                                 <!-- OUR EXPERTISE -->
-                                                 <div class="mega-menu-pages-single">
-                                                     <div class="mega-menu-pages-single-inner">
-                                                         <h6 class="mega-menu-title">OUR EXPERTISE</h6>
+                                                     <!-- OUR EXPERTISE -->
+                                                     <div class="mega-menu-pages-single">
+                                                         <div class="mega-menu-pages-single-inner">
+                                                             <h6 class="mega-menu-title">OUR EXPERTISE</h6>
 
-                                                         <div class="mega-menu-list">
-                                                             <a href="service-details.php?service=website-design">Website
-                                                                 Designing & Development</a>
-                                                             <a href="service-details.php?service=retail-ecommerce">E-commerce
-                                                                 Development</a>
-                                                             <a href="service-details.php?service=domain-hosting">Domain
-                                                                 &
-                                                                 Hosting</a>
-                                                         </div>
-                                                     </div>
-                                                 </div>
-
-                                                 <!-- MEDIA & PR -->
-                                                 <div class="mega-menu-pages-single">
-                                                     <div class="mega-menu-pages-single-inner">
-                                                         <h6 class="mega-menu-title">MEDIA & PR</h6>
-
-                                                         <div class="mega-menu-list">
-                                                             <a href="service-details.php?service=influencer-marketing">Influencer
-                                                                 Marketing</a>
-                                                             <a href="service-details.php?service=voice-call-centre">Voice
-                                                                 Call Centre</a>
-                                                             <a href="service-details.php?service=social-media">Social
-                                                                 Media Management</a>
-                                                             <a href="service-details.php?service=digital-marketing">Digital
-                                                                 Marketing</a>
-                                                             <a
-                                                                 href="service-details.php?service=whatsapp-business-api">WhatsApp
-                                                                 Business API</a>
-                                                         </div>
-                                                     </div>
-                                                 </div>
-
-                                                 <!-- TRENDING TECHNOLOGY -->
-                                                 <div class="mega-menu-pages-single">
-                                                     <div class="mega-menu-pages-single-inner">
-                                                         <h6 class="mega-menu-title">TRENDING TECHNOLOGY</h6>
-
-                                                         <div class="mega-menu-list">
-                                                             <a href="service-details.php?service=app-development">App
-                                                                 Development</a>
-                                                             <a href="service-details.php?service=web-app-development">Web
-                                                                 App
-                                                                 Development</a>
-                                                             <a href="service-details.php?service=ai&ml-development">AI
-                                                                 & ML
-                                                                 Development</a>
-                                                             <a href="service-details.php?service=digital-engineering">Digital
-                                                                 Engineering</a>
-                                                             <a href="service-details.php?service=api-services">API
-                                                                 Services</a>
-                                                         </div>
-                                                     </div>
-                                                 </div>
-
-                                                 <!-- Right Side Banner -->
-                                                 <div class="mega-menu-pages-single">
-                                                     <div class="mega-menu-pages-single-inner">
-                                                         <div class="feature-box">
-                                                             <div class="feature-content">
-                                                                 <h2 class="title">Need Help?</h2>
-                                                                 <span>Let's Build Your Business Online</span>
-
-                                                                 <a class="read-more feature-contact"
-                                                                     href="tel:+918321890640">
-                                                                     <i class="fa-solid fa-phone"></i>
-                                                                     <span>+91 83218 90640</span>
-                                                                 </a>
-                                                             </div>
-
-                                                             <div class="feature-images">
-                                                                 <img src="assets/images/service/service-ad.webp"
-                                                                     alt="Services">
+                                                             <div class="mega-menu-list">
+                                                                 <a
+                                                                     href="<?= $base_url ?>/service-details.php?service=website-design">Website
+                                                                     Designing & Development</a>
+                                                                 <a
+                                                                     href="<?= $base_url ?>/service-details.php?service=retail-ecommerce">E-commerce
+                                                                     Development</a>
+                                                                 <a
+                                                                     href="<?= $base_url ?>/service-details.php?service=domain-hosting">Domain
+                                                                     &
+                                                                     Hosting</a>
                                                              </div>
                                                          </div>
                                                      </div>
-                                                 </div>
 
-                                             </div>
-                                         </li>
-                                     </ul>
+                                                     <!-- MEDIA & PR -->
+                                                     <div class="mega-menu-pages-single">
+                                                         <div class="mega-menu-pages-single-inner">
+                                                             <h6 class="mega-menu-title">MEDIA & PR</h6>
+
+                                                             <div class="mega-menu-list">
+                                                                 <a
+                                                                     href="<?= $base_url ?>/service-details.php?service=influencer-marketing">Influencer
+                                                                     Marketing</a>
+                                                                 <a
+                                                                     href="<?= $base_url ?>/service-details.php?service=voice-call-centre">Voice
+                                                                     Call Centre</a>
+                                                                 <a
+                                                                     href="<?= $base_url ?>/service-details.php?service=social-media">Social
+                                                                     Media Management</a>
+                                                                 <a
+                                                                     href="<?= $base_url ?>/service-details.php?service=digital-marketing">Digital
+                                                                     Marketing</a>
+                                                                 <a
+                                                                     href="<?= $base_url ?>/service-details.php?service=whatsapp-business-api">WhatsApp
+                                                                     Business API</a>
+                                                             </div>
+                                                         </div>
+                                                     </div>
+
+                                                     <!-- TRENDING TECHNOLOGY -->
+                                                     <div class="mega-menu-pages-single">
+                                                         <div class="mega-menu-pages-single-inner">
+                                                             <h6 class="mega-menu-title">TRENDING TECHNOLOGY</h6>
+
+                                                             <div class="mega-menu-list">
+                                                                 <a
+                                                                     href="<?= $base_url ?>/service-details.php?service=app-development">App
+                                                                     Development</a>
+                                                                 <a
+                                                                     href="<?= $base_url ?>/service-details.php?service=web-app-development">Web
+                                                                     App
+                                                                     Development</a>
+                                                                 <a
+                                                                     href="<?= $base_url ?>/service-details.php?service=ai&ml-development">AI
+                                                                     & ML
+                                                                     Development</a>
+                                                                 <a
+                                                                     href="<?= $base_url ?>/service-details.php?service=digital-engineering">Digital
+                                                                     Engineering</a>
+                                                                 <a
+                                                                     href="<?= $base_url ?>/service-details.php?service=api-services">API
+                                                                     Services</a>
+                                                             </div>
+                                                         </div>
+                                                     </div>
+
+                                                     <!-- Right Side Banner -->
+                                                     <div class="mega-menu-pages-single">
+                                                         <div class="mega-menu-pages-single-inner">
+                                                             <div class="feature-box">
+                                                                 <div class="feature-content">
+                                                                     <h2 class="title">Need Help?</h2>
+                                                                     <span>Let's Build Your Business Online</span>
+
+                                                                     <a class="read-more feature-contact"
+                                                                         href="tel:+918321890640">
+                                                                         <i class="fa-solid fa-phone"></i>
+                                                                         <span>+91 83218 90640</span>
+                                                                     </a>
+                                                                 </div>
+
+                                                                 <div class="feature-images">
+                                                                     <img src="assets/images/service/service-ad.webp"
+                                                                         alt="Services">
+                                                                 </div>
+                                                             </div>
+                                                         </div>
+                                                     </div>
+
+                                                 </div>
+                                             </li>
+                                         </ul>
                                  </li>
-                                 <li class="has-dropdown <?= $page == 'index.php' ? 'current-menu-item' : '' ?>">
+                                 <li
+                                     class="has-dropdown <?= $page == 'product-details.php' ? 'current-menu-item' : '' ?>">
                                      <a href="product-details.php">Products</a>
                                      <ul class="sub-menu header__mega-menu mega-menu mega-menu-pages">
                                          <li>
@@ -582,23 +614,26 @@
                                                      <div class="mega-menu-pages-single-inner">
                                                          <h6 class="mega-menu-title">Ecommerce Product</h6>
                                                          <div class="mega-menu-list">
-                                                             <a href="product-details.php?product=multi-vendor-web-app">Multi
+                                                             <a
+                                                                 href="<?= $base_url ?>/product-details.php?product=multi-vendor-web-app">Multi
                                                                  Vendor (Web + APP)</a>
-                                                             <a href="product-details.php?product=multi-vendor-reactjs">Multi
+                                                             <a
+                                                                 href="<?= $base_url ?>/product-details.php?product=multi-vendor-reactjs">Multi
                                                                  Vendor (ReactJs)</a>
                                                              <a
-                                                                 href="product-details.php?product=online-grocery-webapi">Online
+                                                                 href="<?= $base_url ?>/product-details.php?product=online-grocery-webapi">Online
                                                                  Grocery (Web + APP)</a>
                                                              <a
-                                                                 href="product-details.php?product=online-grocery-apionly">Online
+                                                                 href="<?= $base_url ?>/product-details.php?product=online-grocery-apionly">Online
                                                                  Grocery (APP Only)</a>
-                                                             <a href="product-details.php?product=ecomm-single-vendor">Ecomm
+                                                             <a
+                                                                 href="<?= $base_url ?>/product-details.php?product=ecomm-single-vendor">Ecomm
                                                                  Single Vendor (Web + APP)</a>
                                                              <a
-                                                                 href="product-details.php?product=ecomm-single-vendor-web">Ecommerce
+                                                                 href="<?= $base_url ?>/product-details.php?product=ecomm-single-vendor-web">Ecommerce
                                                                  Single Vendor (Web)</a>
                                                              <a
-                                                                 href="product-details.php?product=ecomm-single-vendor-app">Ecommerce
+                                                                 href="<?= $base_url ?>/product-details.php?product=ecomm-single-vendor-app">Ecommerce
                                                                  Single Vendor (APP)</a>
                                                          </div>
                                                      </div>
@@ -608,19 +643,26 @@
                                                      <div class="mega-menu-pages-single-inner">
                                                          <h6 class="mega-menu-title">CMS</h6>
                                                          <div class="mega-menu-list">
-                                                             <a href="product-details.php?product=mass-attendance">Mass
+                                                             <a
+                                                                 href="<?= $base_url ?>/product-details.php?product=mass-attendance">Mass
                                                                  Attendance Management System</a>
-                                                             <a href="product-details.php?product=human-resource">Human
+                                                             <a
+                                                                 href="<?= $base_url ?>/product-details.php?product=human-resource">Human
                                                                  Resource Management System</a>
-                                                             <a href="product-details.php?product=community-management">Community
+                                                             <a
+                                                                 href="<?= $base_url ?>/product-details.php?product=community-management">Community
                                                                  Management</a>
-                                                             <a href="product-details.php?product=ecommerce-solution">E-commerce
+                                                             <a
+                                                                 href="<?= $base_url ?>/product-details.php?product=ecommerce-solution">E-commerce
                                                                  Solution</a>
-                                                             <a href="product-details.php?product=mlm-software">MLM
+                                                             <a
+                                                                 href="<?= $base_url ?>/product-details.php?product=mlm-software">MLM
                                                                  (Multi-Level Marketing) Software</a>
-                                                             <a href="product-details.php?product=industry-erp">Industry
+                                                             <a
+                                                                 href="<?= $base_url ?>/product-details.php?product=industry-erp">Industry
                                                                  Automation ERP</a>
-                                                             <a href="product-details.php?product=ecommerce-platform">E-commerce
+                                                             <a
+                                                                 href="<?= $base_url ?>/product-details.php?product=ecommerce-platform">E-commerce
                                                                  Platform For Digital
                                                                  Production</a>
 
@@ -632,21 +674,27 @@
                                                      <div class="mega-menu-pages-single-inner">
                                                          <h6 class="mega-menu-title">CMS</h6>
                                                          <div class="mega-menu-list">
-                                                             <a href="product-details.php?product=smart-farming">Smart
+                                                             <a
+                                                                 href="<?= $base_url ?>/product-details.php?product=smart-farming">Smart
                                                                  Farming & Agriculture
                                                                  Solutions</a>
-                                                             <a href="product-details.php?product=news-portal">News
+                                                             <a
+                                                                 href="<?= $base_url ?>/product-details.php?product=news-portal">News
                                                                  Portal Design & Development</a>
-                                                             <a href="product-details.php?product=grocery-application">Grocery
+                                                             <a
+                                                                 href="<?= $base_url ?>/product-details.php?product=grocery-application">Grocery
                                                                  Application Development</a>
-                                                             <a href="product-details.php?product=college-management">College
+                                                             <a
+                                                                 href="<?= $base_url ?>/product-details.php?product=college-management">College
                                                                  Management System</a>
-                                                             <a href="product-details.php?product=food-delivery">Food
+                                                             <a
+                                                                 href="<?= $base_url ?>/product-details.php?product=food-delivery">Food
                                                                  Delivery Application</a>
-                                                             <a href="product-details.php?product=vehicle-tracking">Vehicle
+                                                             <a
+                                                                 href="<?= $base_url ?>/product-details.php?product=vehicle-tracking">Vehicle
                                                                  Tracking System</a>
                                                              <a
-                                                                 href="product-details.php?product=classified-application">Classified
+                                                                 href="<?= $base_url ?>/product-details.php?product=classified-application">Classified
                                                                  Application</a>
                                                          </div>
                                                      </div>
@@ -678,26 +726,23 @@
                                          </li>
                                      </ul>
                                  </li>
-                                 <li class="<?= $page == 'index.php' ? 'current-menu-item' : '' ?>"><a
-                                         href="careers.php">Career</a></li>
+                                 <li class="<?= $page == 'careers.php' ? 'current-menu-item' : '' ?>"><a
+                                         href="<?= $base_url ?>/careers.php">Career</a></li>
 
-                                 <li class="has-dropdown <?= $page == 'shop.php' ? 'current-menu-item' : '' ?>"><a
-                                         href="shop.php">Shop</a>
+                                 <li class="has-dropdown <?= $page == 'shop.php' ? 'current-menu-item' : '' ?>">
+                                     <a href="<?= $base_url ?>/shop/shop.php">Shop</a>
                                      <ul class="sub-menu">
-                                         <li><a href="shop.php">Shop</a></li>
-                                         <li><a href="shop-details.php">Shop Details</a></li>
-                                         <li><a href="cart.php">Cart</a></li>
-                                         <li><a href="#">Checkout</a></li>
-                                         <li><a href="#">Wishlist</a></li>
-                                         <li><a href="#">New</a></li>
-                                         <li><a href="#">Login</a></li>
-                                         <li><a href="#">Tracking</a></li>
-                                         <li><a href="#">Order confirm</a></li>
-                                         <li><a href="#">Registration</a></li>
+                                         <li><a href="<?= $base_url ?>/shop/shop.php">Shop</a></li>
+                                         <li><a href="<?= $base_url ?>/shop/shop-details.php">Shop Details</a>
+                                         </li>
+                                         <li><a href="<?= $base_url ?>/shop/cart.php">Cart</a></li>
+                                         <li><a href="<?= $base_url ?>/shop/checkout.php">Checkout</a></li>
+                                         <li><a href="<?= $base_url ?>/shop/wishlist.php">Wishlist</a></li>
+                                         <li><a href="<?= $base_url ?>/shop/login.php">Login</a></li>
                                      </ul>
                                  </li>
-                                 <li <?= $page == 'shop.php' ? 'current-menu-item' : '' ?>"><a
-                                         href="contact.php">Contact</a></li>
+                                 <li <?= $page == 'contact.php' ? 'current-menu-item' : '' ?>"><a
+                                         href="<?= $base_url ?>/contact.php">Contact</a></li>
                              </ul>
                          </nav>
                      </div>

@@ -353,320 +353,91 @@ $products = [
 
     'ecomm-single-vendor-app' => [
 
-        'title' => 'WhatsApp Business API',
-
-        'image' => 'assets/images/service/Whatsapp-Business.webp',
-
-        'description' => 'Empower your business communication with WhatsApp Business API. Automate customer interactions, send notifications, manage support queries, and engage customers through the world’s most popular messaging platform.',
-
-        'details_title' => 'WhatsApp Business API Solutions for Modern Businesses',
-
-        'details_description' => 'We help businesses integrate WhatsApp Business API to streamline customer communication, automate support, send transactional messages, and improve customer engagement. Our solutions are secure, scalable, and fully compliant with Meta guidelines.',
-
-        'details_description1' => 'Whether you need automated notifications, customer support chatbots, CRM integration, or marketing campaigns, our WhatsApp Business API solutions help improve response times and customer satisfaction.',
-
-        'features' => [
-            'Automated Messaging',
-            'Bulk Notifications',
-            'CRM Integration',
-            'Chatbot Support',
-            'Verified Business Account'
-        ],
-
-        'benefits' => [
-            [
-                'title' => 'Instant Customer Communication',
-                'description' => 'Connect with customers quickly through WhatsApp.'
-            ],
-            [
-                'title' => 'Business Automation',
-                'description' => 'Automate customer support and notifications.'
-            ],
-            [
-                'title' => 'Higher Engagement',
-                'description' => 'Increase message open rates and customer responses.'
-            ]
-        ],
-
+        'title' => 'Single Vendor Ecommerce App',
+        'image' => 'assets/images/service/ecommerce-app.webp',
+        'description' => 'Launch your online store with a powerful single-vendor ecommerce mobile application. Sell products, manage orders, accept payments, and provide customers with a seamless shopping experience through Android and iOS apps.',
+        'details_title' => 'Custom Single Vendor Ecommerce App Development',
+        'details_description' => 'We develop feature-rich ecommerce mobile applications for businesses looking to sell products online through a dedicated branded platform. Our apps are designed for performance, security, and user engagement.',
+        'details_description1' => 'From product management and secure payments to order tracking and customer support, our ecommerce applications provide everything required to grow your online business.',
+        'features' => ['Android & iOS Apps', 'Product Management', 'Secure Payment Gateway', 'Order Tracking', 'Customer Dashboard'],
+        'benefits' => [['title' => 'Increase Sales', 'description' => 'Sell products directly through your mobile application.'], ['title' => 'Better Customer Experience', 'description' => 'Provide fast and convenient shopping experiences.'], ['title' => 'Brand Growth', 'description' => 'Strengthen your brand with a dedicated ecommerce app.']],
         'faq' => [
-            [
-                'question' => 'What is WhatsApp Business API?',
-                'answer' => 'It enables businesses to automate customer communication, notifications, support, and marketing through WhatsApp.'
-            ],
-            [
-                'question' => 'Can I send bulk WhatsApp messages?',
-                'answer' => 'Yes, using approved message templates and Meta guidelines.'
-            ],
-            [
-                'question' => 'Can WhatsApp API integrate with my CRM?',
-                'answer' => 'Yes. We integrate WhatsApp API with CRM, ERP, websites, and custom applications.'
-            ]
+            ['question' => 'Do you develop Android and iOS ecommerce apps?', 'answer' => 'Yes. We develop ecommerce applications for both Android and iOS platforms.'],
+            ['question' => 'Can payment gateways be integrated?', 'answer' => 'Yes. We support Razorpay, Stripe, PayPal, and other payment gateways.'],
+            ['question' => 'Can customers track orders?', 'answer' => 'Yes. Real-time order tracking is included.']
         ],
     ],
 
     'mass-attendance' => [
 
-        'title' => 'App Development',
-
-        'image' => 'assets/images/service/App-Development.webp',
-
-        'description' => 'We develop powerful Android, iOS, and cross-platform mobile applications that help businesses improve customer engagement, automate operations, and drive growth.',
-
-        'details_title' => 'Custom Mobile App Development Services',
-
-        'details_description' => 'Our expert developers build high-performance mobile applications tailored to your business needs. From startup ideas to enterprise-grade solutions, we create secure, scalable, and user-friendly apps.',
-
-        'details_description1' => 'Using modern technologies and best development practices, we deliver mobile applications that provide seamless experiences across Android and iOS devices while ensuring scalability and long-term success.',
-
-        'features' => [
-            'Android App Development',
-            'iOS App Development',
-            'Cross-Platform Apps',
-            'Custom UI/UX',
-            'API Integration'
-        ],
-
-        'benefits' => [
-            [
-                'title' => 'Reach Mobile Users',
-                'description' => 'Expand your business through mobile applications.'
-            ],
-            [
-                'title' => 'Better User Experience',
-                'description' => 'Deliver fast, responsive, and engaging mobile apps.'
-            ],
-            [
-                'title' => 'Scalable Solutions',
-                'description' => 'Applications designed to grow with your business.'
-            ]
-        ],
-
-        'faq' => [
-            [
-                'question' => 'Do you develop Android and iOS apps?',
-                'answer' => 'Yes. We develop native and cross-platform applications.'
-            ],
-            [
-                'question' => 'Can you publish my app on app stores?',
-                'answer' => 'Yes. We assist with Play Store and App Store deployment.'
-            ],
-            [
-                'question' => 'Do you provide maintenance services?',
-                'answer' => 'Yes. We offer updates, bug fixes, security improvements, and support.'
-            ]
-        ],
+        'title' => 'Attendance Management System',
+        'image' => 'assets/images/service/attendance-management.webp',
+        'description' => 'Digitize attendance tracking with a smart attendance management system. Monitor employee or student attendance, generate reports, manage shifts, and improve operational efficiency.',
+        'details_title' => 'Smart Attendance Management Solution',
+        'details_description' => 'Our attendance management software helps organizations automate attendance tracking, reduce manual errors, and improve workforce management through real-time monitoring and reporting.',
+        'details_description1' => 'Suitable for schools, colleges, offices, factories, and enterprises, our attendance system provides accurate attendance records and detailed analytics.',
+        'features' => ['Biometric Integration', 'Attendance Tracking', 'Shift Management', 'Leave Management', 'Reports & Analytics'],
+        'benefits' => [['title' => 'Automated Attendance', 'description' => 'Eliminate manual attendance processes.'], ['title' => 'Accurate Reporting', 'description' => 'Generate real-time attendance and leave reports.'], ['title' => 'Improved Productivity', 'description' => 'Monitor attendance and workforce efficiency effectively.']],
+        'faq' => [['question' => 'Can biometric devices be integrated?', 'answer' => 'Yes. Our system supports biometric and RFID integrations.'], ['question' => 'Does it support leave management?', 'answer' => 'Yes. Employees can apply for and track leave requests.'], ['question' => 'Can attendance reports be exported?', 'answer' => 'Yes. Reports can be exported in multiple formats.']]
     ],
 
     'human-resource' => [
 
-        'title' => 'Web App Development',
-
-        'image' => 'assets/images/service/Web-App-Development.webp',
-
-        'description' => 'We build secure, scalable, and high-performance web applications that streamline business operations, improve productivity, and deliver exceptional user experiences.',
-
-        'details_title' => 'Custom Web Application Development Services',
-
-        'details_description' => 'Our web application development services help businesses transform ideas into powerful digital solutions. We develop custom portals, enterprise applications, SaaS platforms, dashboards, and business management systems.',
-
-        'details_description1' => 'Using technologies like React, Angular, Node.js, Laravel, PHP, Python, and .NET, we create robust web applications that are optimized for performance, security, and scalability.',
-
-        'features' => [
-            'Custom Web Applications',
-            'Progressive Web Apps',
-            'Cloud Integration',
-            'Responsive Interface',
-            'Secure Architecture'
-        ],
-
-        'benefits' => [
-            [
-                'title' => 'Improve Productivity',
-                'description' => 'Automate business operations with custom web applications.'
-            ],
-            [
-                'title' => 'Access Anywhere',
-                'description' => 'Use your application securely from any device.'
-            ],
-            [
-                'title' => 'Business Scalability',
-                'description' => 'Expand functionality as your business grows.'
-            ]
-        ],
-
+        'title' => 'Human Resource Management System (HRMS)',
+        'image' => 'assets/images/service/hrms.webp',
+        'description' => 'Streamline your workforce management with a powerful Human Resource Management System. Manage employees, attendance, payroll, recruitment, leave requests, and performance tracking from a centralized platform.',
+        'details_title' => 'Complete Human Resource Management Solution',
+        'details_description' => 'Our HRMS software helps organizations automate HR processes, reduce administrative workload, and improve employee management through a secure and user-friendly platform.',
+        'details_description1' => 'From employee onboarding and attendance tracking to payroll processing and performance evaluation, our HRMS solution simplifies every aspect of human resource management.',
+        'features' => ['Employee Management', 'Attendance Tracking', 'Payroll Management', 'Leave Management', 'Performance Evaluation'],
+        'benefits' => [['title' => 'Automated HR Operations', 'description' => 'Reduce manual HR tasks and improve efficiency.'], ['title' => 'Accurate Payroll', 'description' => 'Manage salaries, deductions, and benefits effortlessly.'], ['title' => 'Better Workforce Management', 'description' => 'Track employee performance and attendance in real time.']],
         'faq' => [
-            [
-                'question' => 'What is a web application?',
-                'answer' => 'A web application is software accessed through a web browser without installation.'
-            ],
-            [
-                'question' => 'Can you develop custom web applications?',
-                'answer' => 'Yes. We build fully customized web applications based on business requirements.'
-            ],
-            [
-                'question' => 'Which technologies do you use?',
-                'answer' => 'We work with React, Angular, Laravel, PHP, Node.js, Python, .NET, and other modern technologies.'
-            ]
+            ['question' => 'What is an HRMS?', 'answer' => 'HRMS is a software solution that manages employee records, payroll, attendance, recruitment, and HR processes.'],
+            ['question' => 'Can payroll be automated?', 'answer' => 'Yes. The system automates salary calculations, deductions, and payroll reports.'],
+            ['question' => 'Does it support leave management?', 'answer' => 'Yes. Employees can apply for leave and managers can approve requests digitally.']
         ],
     ],
 
     'community-management' => [
 
-        'title' => 'AI & ML Development',
-
-        'image' => 'assets/images/service/AI&ML-Development.webp',
-
-        'description' => 'Transform your business with Artificial Intelligence and Machine Learning solutions. We develop intelligent systems that automate processes, analyze data, predict trends, and deliver personalized customer experiences.',
-
-        'details_title' => 'Custom AI & Machine Learning Development Services',
-
-        'details_description' => 'Our AI & ML development services help businesses leverage advanced technologies to improve efficiency, automate workflows, and gain valuable insights from data. We create intelligent solutions tailored to your business goals.',
-
-        'details_description1' => 'From AI chatbots and recommendation engines to predictive analytics and custom machine learning models, we build scalable solutions that drive innovation and business growth.',
-
-        'features' => [
-            'AI Chatbot Development',
-            'Machine Learning Models',
-            'Predictive Analytics',
-            'Business Process Automation',
-            'Data Intelligence'
-        ],
-
-        'benefits' => [
-            [
-                'title' => 'Smarter Decision Making',
-                'description' => 'Leverage AI insights for better business decisions.'
-            ],
-            [
-                'title' => 'Reduce Manual Work',
-                'description' => 'Automate repetitive tasks and improve efficiency.'
-            ],
-            [
-                'title' => 'Enhanced Customer Experience',
-                'description' => 'Deliver personalized and intelligent customer interactions.'
-            ]
-        ],
-
+        'title' => 'Community Management System',
+        'image' => 'assets/images/service/community-management.webp',
+        'description' => 'Manage residential societies, apartments, clubs, and communities efficiently with a smart Community Management System. Simplify communication, maintenance tracking, billing, and member management.',
+        'details_title' => 'Smart Community Management Solution',
+        'details_description' => 'Our community management software helps housing societies, residential complexes, and community organizations streamline daily operations through a centralized digital platform.',
+        'details_description1' => 'From visitor management and maintenance requests to announcements, billing, and member communication, our solution improves transparency and operational efficiency.',
+        'features' => ['Resident Management', 'Visitor Management', 'Maintenance Tracking', 'Billing & Payments', 'Community Announcements'],
+        'benefits' => [['title' => 'Improved Communication', 'description' => 'Keep residents informed through instant notifications and updates.'], ['title' => 'Efficient Operations', 'description' => 'Manage community activities and maintenance requests digitally.'], ['title' => 'Secure Management', 'description' => 'Monitor visitors and maintain community security effectively.']],
         'faq' => [
-            [
-                'question' => 'What AI solutions do you provide?',
-                'answer' => 'We develop AI chatbots, recommendation engines, predictive analytics, automation tools, and machine learning models.'
-            ],
-            [
-                'question' => 'Can AI improve my business processes?',
-                'answer' => 'Yes. AI helps automate tasks, reduce costs, improve productivity, and enhance customer experiences.'
-            ],
-            [
-                'question' => 'Do you build custom AI models?',
-                'answer' => 'Yes. We create custom AI and machine learning solutions based on your business requirements.'
-            ]
+            ['question' => 'Who can use the community management system?', 'answer' => 'Housing societies, apartment complexes, gated communities, clubs, and associations can use it.'],
+            ['question' => 'Can residents pay maintenance fees online?', 'answer' => 'Yes. The system supports online billing and payment collection.'],
+            ['question' => 'Does it include visitor management?', 'answer' => 'Yes. Visitors can be tracked and managed through the platform.']
         ],
     ],
 
     'ecommerce-solution' => [
 
-        'title' => 'API Services',
-
-        'image' => 'assets/images/service/API Services.webp',
-
-        'description' => 'We provide secure, scalable, and high-performance API development and integration services that connect applications, automate workflows, and improve business efficiency.',
-
-        'details_title' => 'Custom API Development & Integration Services',
-
-        'details_description' => 'Our API services help businesses connect websites, mobile applications, payment gateways, CRM systems, ERP platforms, and third-party services through reliable and secure integrations.',
-
-        'details_description1' => 'Whether you need REST APIs, third-party integrations, payment gateway APIs, or custom backend services, we deliver scalable solutions that ensure seamless communication between systems.',
-
-        'features' => [
-            'REST API Development',
-            'Third-Party API Integration',
-            'Payment Gateway APIs',
-            'CRM & ERP Integration',
-            'API Security'
-        ],
-
-        'benefits' => [
-            [
-                'title' => 'Seamless Integration',
-                'description' => 'Connect multiple applications with secure APIs.'
-            ],
-            [
-                'title' => 'Faster Development',
-                'description' => 'Reduce development time using reliable API integrations.'
-            ],
-            [
-                'title' => 'Improved Business Efficiency',
-                'description' => 'Automate workflows and streamline business operations.'
-            ]
-        ],
-
-        'faq' => [
-            [
-                'question' => 'What API services do you provide?',
-                'answer' => 'We develop REST APIs, custom APIs, payment APIs, and third-party integrations.'
-            ],
-            [
-                'question' => 'Can you integrate third-party APIs?',
-                'answer' => 'Yes. We integrate payment gateways, WhatsApp APIs, Google APIs, shipping APIs, CRM systems, and more.'
-            ],
-            [
-                'question' => 'Are your APIs secure?',
-                'answer' => 'Yes. We implement authentication, encryption, and industry-standard security practices.'
-            ]
-        ],
+        'title' => 'Ecommerce Solution',
+        'image' => 'assets/images/service/ecommerce-solution.webp',
+        'description' => 'Build and grow your online business with a complete ecommerce solution. We develop secure, scalable, and feature-rich ecommerce platforms that help businesses sell products, manage orders, and increase revenue.',
+        'details_title' => 'Complete Ecommerce Development Solution',
+        'details_description' => 'Our ecommerce solutions are designed to help startups, retailers, wholesalers, and enterprises establish a strong online presence. We provide custom ecommerce websites, mobile apps, payment integrations, and inventory management systems.',
+        'details_description1' => 'From product listing and customer management to secure checkout and order tracking, our ecommerce solutions offer everything needed to run a successful online store.',
+        'features' => ['Custom Ecommerce Website', 'Payment Gateway Integration', 'Inventory Management', 'Order Management', 'Customer Dashboard'],
+        'benefits' => [['title' => 'Increase Online Sales', 'description' => 'Reach more customers and boost revenue through digital channels.'], ['title' => 'Better Customer Experience', 'description' => 'Provide a smooth and secure shopping experience.'], ['title' => 'Easy Store Management', 'description' => 'Manage products, orders, and customers from one platform.']],
+        'faq' => [['question' => 'Can you develop custom ecommerce platforms?', 'answer' => 'Yes. We build ecommerce solutions tailored to your business requirements.'], ['question' => 'Do you integrate payment gateways?', 'answer' => 'Yes. We integrate Razorpay, Stripe, PayPal, and other payment gateways.'], ['question' => 'Can ecommerce solutions support mobile users?', 'answer' => 'Yes. Our ecommerce platforms are fully responsive and mobile-friendly.']]
     ],
 
     'mlm-software' => [
-
-        'title' => 'Domain & Hosting Services',
-
-        'image' => 'assets/images/service/domain-hosting.webp',
-
-        'description' => 'Build your online presence with reliable domain registration and secure hosting solutions. We provide fast, secure, and scalable hosting services for websites, applications, and online businesses.',
-
-        'features' => [
-            'Domain Registration',
-            'Shared Hosting',
-            'Cloud Hosting',
-            'SSL Certificate',
-            'Email Hosting'
-        ],
-
-        'details_title' => 'Reliable Domain Registration & Hosting Solutions',
-
-        'details_description' => 'We help businesses secure professional domain names and provide powerful hosting services that ensure excellent performance, maximum uptime, and robust security.',
-
-        'details_description1' => 'Whether you need hosting for a business website, ecommerce platform, web application, or enterprise portal, our solutions are optimized for speed, security, and future scalability.',
-
-        'benefits' => [
-            [
-                'title' => '99.9% Uptime',
-                'description' => 'Keep your website available to visitors around the clock.'
-            ],
-            [
-                'title' => 'Enhanced Security',
-                'description' => 'Protect your website with SSL, backups, and advanced security measures.'
-            ],
-            [
-                'title' => 'Fast Performance',
-                'description' => 'Optimized servers deliver faster loading speeds and better user experiences.'
-            ]
-        ],
-
-        'faq' => [
-            [
-                'question' => 'Can you register a domain for my business?',
-                'answer' => 'Yes. We help you choose and register the ideal domain name for your brand.'
-            ],
-            [
-                'question' => 'What hosting services do you provide?',
-                'answer' => 'We offer shared hosting, cloud hosting, VPS hosting, and dedicated server solutions.'
-            ],
-            [
-                'question' => 'Do you provide SSL certificates?',
-                'answer' => 'Yes. We provide SSL certificates to secure websites and customer data.'
-            ]
-        ]
+        'title' => 'MLM Software Development',
+        'image' => 'assets/images/service/mlm-software.webp',
+        'description' => 'Manage and grow your direct selling business with advanced MLM software solutions. Our MLM platforms support multiple compensation plans, member management, commissions, genealogy tracking, and secure transactions.',
+        'details_title' => 'Custom MLM Software Development Services',
+        'details_description' => 'We develop secure and scalable MLM software for direct selling companies, network marketing organizations, and affiliate businesses. Our solutions simplify member management, commission calculation, and business operations.',
+        'details_description1' => 'Whether you require Binary, Unilevel, Matrix, Board, Generation, or Hybrid MLM plans, we provide customized software solutions that help automate and manage your network marketing business efficiently.',
+        'features' => ['Member Management', 'Commission Management', 'Genealogy Tree', 'Wallet Management', 'Multiple MLM Plans'],
+        'benefits' => [['title' => 'Automated Commission Calculation', 'description' => 'Reduce manual work with automatic commission processing.'], ['title' => 'Efficient Network Management', 'description' => 'Track downlines, genealogy, and team performance easily.'], ['title' => 'Business Growth', 'description' => 'Scale your MLM business with a secure and reliable platform.']],
+        'faq' => [['question' => 'Which MLM plans do you support?', 'answer' => 'We support Binary, Unilevel, Matrix, Board, Generation, and customized MLM plans.'], ['question' => 'Can commissions be calculated automatically?', 'answer' => 'Yes. Our MLM software automates commission and bonus calculations.'], ['question' => 'Do you provide mobile apps for MLM software?', 'answer' => 'Yes. We develop MLM software with Android, iOS, and web support.']]
     ],
 
     'industry-erp' => [
@@ -1355,14 +1126,14 @@ $data = $products[$product];
 
 
                                             <?php
-                                            $currentService = $_GET['service'] ?? 'website-design';
+                                            $currentProduct = $_GET['product'] ?? 'website-design';
                                             ?>
 
                                             <ul>
                                                 <?php foreach ($products as $key => $item): ?>
                                                 <li>
-                                                    <a href="service-details.php?service=<?= $key; ?>"
-                                                        class="<?= ($currentService == $key) ? 'active' : ''; ?>">
+                                                    <a href="product-details.php?product=<?= $key; ?>"
+                                                        class="<?= ($currentProduct == $key) ? 'active' : ''; ?>">
                                                         <?= $item['title']; ?>
                                                         <span class="icon">
                                                             <i class="fa-solid fa-arrow-right"></i>

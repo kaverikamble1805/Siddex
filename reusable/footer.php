@@ -5,7 +5,7 @@
                  <div class="col-12">
                      <div class="footer-subscribe wow fadeInUp" data-wow-delay=".3s">
                          <div class="subscribe-logo">
-                             <img src="assets/images/logo.png" alt="">
+                             <img src="../assets/images/logo.png" alt="">
                          </div>
                          <div class="subscribe-form">
                              <form action="#">
@@ -28,7 +28,7 @@
                      <div class="footer-widget footer-col-1 wow fadeInUp" data-wow-delay=".1s">
                          <div class="footer-logo">
                              <a href="index.php">
-                                 <img src="assets/images/logo.png" alt="Logos">
+                                 <img src="../assets/images/logo.png" alt="Logos">
                              </a>
                          </div>
                          <div class="footer-text">
