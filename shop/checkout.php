@@ -50,7 +50,7 @@
                                             <span>
                                                 <a href="index.php">Home</a>
                                             </span>
-                                            <span><i class="tji-arrow-right"></i></span>
+                                            <span><i class="fa-solid fa-chevron-right"></i></span>
                                             <span>
                                                 <span>Checkout</span>
                                             </span>
@@ -102,7 +102,7 @@
                                                                             <span class="btn-text"><span>Apply
                                                                                     coupon</span></span>
                                                                             <span class="btn-icon"><i
-                                                                                    class="tji-arrow-right-long"></i></span>
+                                                                                    class="fa-solid fa-chevron-right-long"></i></span>
 
                                                                         </button>
                                                                     </div>
@@ -1110,7 +1110,7 @@
                                                                     class="tj-primary-btn checkout-button button alt wc-forward">
                                                                     <span class="btn-text"><span> checkout</span></span>
                                                                     <span class="btn-icon"><i
-                                                                            class="tji-arrow-right-long"></i></span>
+                                                                            class="fa-solid fa-chevron-right-long"></i></span>
 
                                                                 </a>
                                                             </div>

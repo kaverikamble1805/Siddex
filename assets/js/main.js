@@ -2031,20 +2031,68 @@ Progressbar js
       },
       submitHandler: function (form) {
         // start ajax request
+        // $.ajax({
+        //   type: "POST",
+        //   url: "./PHPMailer-master/sendemail.php",
+        //   data: $("#contact-form").serialize(),
+        //   cache: false,
+        //   // success: function (data) {
+        //   //   if (data == "Y") {
+        //   //     $("#message_sent").modal("show");
+        //   //     $("#contact-form").trigger("reset");
+        //   //   } else {
+        //   //     $("#message_fail").modal("show");
+        //   //   }
+        //   // },
+        //   success: function (data) {
+
+        //     data = $.trim(data);
+
+        //     if (data === "Y") {
+
+        //       var modal = new bootstrap.Modal(document.getElementById("message_sent"));
+        //       modal.show();
+
+        //       $("#contact-form")[0].reset();
+
+        //     } else {
+
+        //       var modal = new bootstrap.Modal(document.getElementById("message_fail"));
+        //       modal.show();
+
+        //     }
+        //   },
+        // });
         $.ajax({
           type: "POST",
-          url: "assets/mail/contact-form.html",
-          data: $("#contact-form").serialize(),
+          url: "./PHPMailer-master/sendemail.php",
+          data: $(form).serialize(),
           cache: false,
+
           success: function (data) {
-            if (data == "Y") {
-              $("#message_sent").modal("show");
-              $("#contact-form").trigger("reset");
+
+            data = $.trim(data);
+
+            console.log(data);
+
+            if (data === "Y") {
+
+              var modal = new bootstrap.Modal(document.getElementById("message_sent"));
+              modal.show();
+
+              form.reset();
+
             } else {
-              $("#message_fail").modal("show");
+
+              console.log("Returned:", data);
+
+              var modal = new bootstrap.Modal(document.getElementById("message_fail"));
+              modal.show();
             }
-          },
+          }
         });
+
+        return false;
       },
     });
   }

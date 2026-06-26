@@ -463,7 +463,7 @@
                                                                                                 class="btn-text"><span>Submit
                                                                                                     reviews</span></span>
                                                                                             <span class="btn-icon"><i
-                                                                                                    class="tji-arrow-right-long"></i></span>
+                                                                                                    class="fa-solid fa-chevron-right-long"></i></span>
                                                                                         </button>
                                                                                     </p>
                                                                                 </form>

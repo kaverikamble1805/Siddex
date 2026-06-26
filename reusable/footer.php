@@ -5,7 +5,7 @@
                  <div class="col-12">
                      <div class="footer-subscribe wow fadeInUp" data-wow-delay=".3s">
                          <div class="subscribe-logo">
-                             <img src="../assets/images/logo.png" alt="">
+                             <img src="<?= $base_url ?>/assets/images/logo.png" alt="">
                          </div>
                          <div class="subscribe-form">
                              <form action="#">
@@ -27,8 +27,7 @@
                  <div class="col-xl-3 col-md-6">
                      <div class="footer-widget footer-col-1 wow fadeInUp" data-wow-delay=".1s">
                          <div class="footer-logo">
-                             <a href="index.php">
-                                 <img src="../assets/images/logo.png" alt="Logos">
+                             <a class="logo" href="index.php"><img src="<?= $base_url ?>/assets/images/logo.png" alt="">
                              </a>
                          </div>
                          <div class="footer-text">
@@ -84,7 +83,7 @@
                                  <a href="mailto:support@bexon.com">M: support@bexon.com</a>
                              </div>
                              <div class="contact-item">
-                                 <span><i class="tji-clock"></i> Mon-Fri 10am-10pm</span>
+                                 <span><i class="fa-regular fa-clock"></i> Mon-Fri 10am-10pm</span>
                              </div>
                          </div>
                      </div>

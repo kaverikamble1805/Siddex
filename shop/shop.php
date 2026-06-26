@@ -452,7 +452,7 @@
                                                             <li><a aria-label="Page 2" class="page-numbers"
                                                                     href="#">2</a></li>
                                                             <li><a class="next page-numbers" href="#"> <i
-                                                                        class="tji-arrow-right"></i>
+                                                                        class="fa-solid fa-chevron-right"></i>
                                                                 </a></li>
                                                         </ul>
                                                     </nav>

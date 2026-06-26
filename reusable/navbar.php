@@ -741,7 +741,7 @@
                                          <li><a href="<?= $base_url ?>/shop/login.php">Login</a></li>
                                      </ul>
                                  </li>
-                                 <li <?= $page == 'contact.php' ? 'current-menu-item' : '' ?>"><a
+                                 <li class="<?= $page == 'contact.php' ? 'current-menu-item' : '' ?>"><a
                                          href="<?= $base_url ?>/contact.php">Contact</a></li>
                              </ul>
                          </nav>

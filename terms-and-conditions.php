@@ -50,7 +50,7 @@
                                             <span>
                                                 <a href="index.html">Home</a>
                                             </span>
-                                            <span><i class="tji-arrow-right"></i></span>
+                                            <span><i class="fa-solid fa-chevron-right"></i></span>
                                             <span>
                                                 <span>Terms and Conditions</span>
                                             </span>
@@ -246,7 +246,7 @@
         </a>
         <!-- JS here -->
         <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
         <script src="assets/js/gsap.min.js"></script>
         <script src="assets/js/ScrollSmoother.js"></script>
         <script src="assets/js/gsap-scroll-to-plugin.min.js"></script>

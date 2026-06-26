@@ -473,122 +473,121 @@ $base_url = "http://localhost/siddex1/Siddex";
                             <div class="menu-area d-none d-lg-inline-flex align-items-center">
                                 <nav class="mainmenu">
                                     <ul>
-                                        <li class="<?= $page == 'about.php' ? 'current-menu-ancestor' : '' ?>"><a
+                                        <li class="<?= $page == 'index.php' ? 'current-menu-ancestor' : '' ?>"><a
                                                 href="<?= $base_url ?>/index.php">Home</a>
 
                                         </li>
                                         <li class="<?= $page == 'about.php' ? 'current-menu-item' : '' ?>"><a
-                                                href="<?= $base_url ?>/about.php"">About Us</a>
+                                                href="<?= $base_url ?>/about.php">About Us</a>
 
-                                 </li>
-                                 <li
-                                     class=" has-dropdown
+                                        </li>
+                                        <li class=" has-dropdown
                                                 <?= $page == 'service-details.php' ? 'current-menu-item' : '' ?>">
-                                                <a href="service-details.php?service=website-design">Services</a>
+                                            <a href="service-details.php?service=website-design">Services</a>
 
-                                                <ul class="sub-menu header__mega-menu mega-menu mega-menu-pages">
-                                                    <li>
-                                                        <div class="mega-menu-wrapper">
+                                            <ul class="sub-menu header__mega-menu mega-menu mega-menu-pages">
+                                                <li>
+                                                    <div class="mega-menu-wrapper">
 
-                                                            <!-- OUR EXPERTISE -->
-                                                            <div class="mega-menu-pages-single">
-                                                                <div class="mega-menu-pages-single-inner">
-                                                                    <h6 class="mega-menu-title">OUR EXPERTISE</h6>
+                                                        <!-- OUR EXPERTISE -->
+                                                        <div class="mega-menu-pages-single">
+                                                            <div class="mega-menu-pages-single-inner">
+                                                                <h6 class="mega-menu-title">OUR EXPERTISE</h6>
 
-                                                                    <div class="mega-menu-list">
-                                                                        <a
-                                                                            href="<?= $base_url ?>/service-details.php?service=website-design">Website
-                                                                            Designing & Development</a>
-                                                                        <a
-                                                                            href="<?= $base_url ?>/service-details.php?service=retail-ecommerce">E-commerce
-                                                                            Development</a>
-                                                                        <a
-                                                                            href="<?= $base_url ?>/service-details.php?service=domain-hosting">Domain
-                                                                            &
-                                                                            Hosting</a>
-                                                                    </div>
+                                                                <div class="mega-menu-list">
+                                                                    <a
+                                                                        href="<?= $base_url ?>/service-details.php?service=website-design">Website
+                                                                        Designing & Development</a>
+                                                                    <a
+                                                                        href="<?= $base_url ?>/service-details.php?service=retail-ecommerce">E-commerce
+                                                                        Development</a>
+                                                                    <a
+                                                                        href="<?= $base_url ?>/service-details.php?service=domain-hosting">Domain
+                                                                        &
+                                                                        Hosting</a>
                                                                 </div>
                                                             </div>
-
-                                                            <!-- MEDIA & PR -->
-                                                            <div class="mega-menu-pages-single">
-                                                                <div class="mega-menu-pages-single-inner">
-                                                                    <h6 class="mega-menu-title">MEDIA & PR</h6>
-
-                                                                    <div class="mega-menu-list">
-                                                                        <a
-                                                                            href="<?= $base_url ?>/service-details.php?service=influencer-marketing">Influencer
-                                                                            Marketing</a>
-                                                                        <a
-                                                                            href="<?= $base_url ?>/service-details.php?service=voice-call-centre">Voice
-                                                                            Call Centre</a>
-                                                                        <a
-                                                                            href="<?= $base_url ?>/service-details.php?service=social-media">Social
-                                                                            Media Management</a>
-                                                                        <a
-                                                                            href="<?= $base_url ?>/service-details.php?service=digital-marketing">Digital
-                                                                            Marketing</a>
-                                                                        <a
-                                                                            href="<?= $base_url ?>/service-details.php?service=whatsapp-business-api">WhatsApp
-                                                                            Business API</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-
-                                                            <!-- TRENDING TECHNOLOGY -->
-                                                            <div class="mega-menu-pages-single">
-                                                                <div class="mega-menu-pages-single-inner">
-                                                                    <h6 class="mega-menu-title">TRENDING TECHNOLOGY</h6>
-
-                                                                    <div class="mega-menu-list">
-                                                                        <a
-                                                                            href="<?= $base_url ?>/service-details.php?service=app-development">App
-                                                                            Development</a>
-                                                                        <a
-                                                                            href="<?= $base_url ?>/service-details.php?service=web-app-development">Web
-                                                                            App
-                                                                            Development</a>
-                                                                        <a
-                                                                            href="<?= $base_url ?>/service-details.php?service=ai&ml-development">AI
-                                                                            & ML
-                                                                            Development</a>
-                                                                        <a
-                                                                            href="<?= $base_url ?>/service-details.php?service=digital-engineering">Digital
-                                                                            Engineering</a>
-                                                                        <a
-                                                                            href="<?= $base_url ?>/service-details.php?service=api-services">API
-                                                                            Services</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-
-                                                            <!-- Right Side Banner -->
-                                                            <div class="mega-menu-pages-single">
-                                                                <div class="mega-menu-pages-single-inner">
-                                                                    <div class="feature-box">
-                                                                        <div class="feature-content">
-                                                                            <h2 class="title">Need Help?</h2>
-                                                                            <span>Let's Build Your Business
-                                                                                Online</span>
-
-                                                                            <a class="read-more feature-contact"
-                                                                                href="tel:+918321890640">
-                                                                                <i class="fa-solid fa-phone"></i>
-                                                                                <span>+91 83218 90640</span>
-                                                                            </a>
-                                                                        </div>
-
-                                                                        <div class="feature-images">
-                                                                            <img src="assets/images/service/service-ad.webp"
-                                                                                alt="Services">
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-
                                                         </div>
-                                                    </li>
-                                                </ul>
+
+                                                        <!-- MEDIA & PR -->
+                                                        <div class="mega-menu-pages-single">
+                                                            <div class="mega-menu-pages-single-inner">
+                                                                <h6 class="mega-menu-title">MEDIA & PR</h6>
+
+                                                                <div class="mega-menu-list">
+                                                                    <a
+                                                                        href="<?= $base_url ?>/service-details.php?service=influencer-marketing">Influencer
+                                                                        Marketing</a>
+                                                                    <a
+                                                                        href="<?= $base_url ?>/service-details.php?service=voice-call-centre">Voice
+                                                                        Call Centre</a>
+                                                                    <a
+                                                                        href="<?= $base_url ?>/service-details.php?service=social-media">Social
+                                                                        Media Management</a>
+                                                                    <a
+                                                                        href="<?= $base_url ?>/service-details.php?service=digital-marketing">Digital
+                                                                        Marketing</a>
+                                                                    <a
+                                                                        href="<?= $base_url ?>/service-details.php?service=whatsapp-business-api">WhatsApp
+                                                                        Business API</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <!-- TRENDING TECHNOLOGY -->
+                                                        <div class="mega-menu-pages-single">
+                                                            <div class="mega-menu-pages-single-inner">
+                                                                <h6 class="mega-menu-title">TRENDING TECHNOLOGY</h6>
+
+                                                                <div class="mega-menu-list">
+                                                                    <a
+                                                                        href="<?= $base_url ?>/service-details.php?service=app-development">App
+                                                                        Development</a>
+                                                                    <a
+                                                                        href="<?= $base_url ?>/service-details.php?service=web-app-development">Web
+                                                                        App
+                                                                        Development</a>
+                                                                    <a
+                                                                        href="<?= $base_url ?>/service-details.php?service=ai&ml-development">AI
+                                                                        & ML
+                                                                        Development</a>
+                                                                    <a
+                                                                        href="<?= $base_url ?>/service-details.php?service=digital-engineering">Digital
+                                                                        Engineering</a>
+                                                                    <a
+                                                                        href="<?= $base_url ?>/service-details.php?service=api-services">API
+                                                                        Services</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                        <!-- Right Side Banner -->
+                                                        <div class="mega-menu-pages-single">
+                                                            <div class="mega-menu-pages-single-inner">
+                                                                <div class="feature-box">
+                                                                    <div class="feature-content">
+                                                                        <h2 class="title">Need Help?</h2>
+                                                                        <span>Let's Build Your Business
+                                                                            Online</span>
+
+                                                                        <a class="read-more feature-contact"
+                                                                            href="tel:+918321890640">
+                                                                            <i class="fa-solid fa-phone"></i>
+                                                                            <span>+91 83218 90640</span>
+                                                                        </a>
+                                                                    </div>
+
+                                                                    <div class="feature-images">
+                                                                        <img src="assets/images/service/service-ad.webp"
+                                                                            alt="Services">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </li>
+                                            </ul>
                                         </li>
                                         <li
                                             class="has-dropdown <?= $page == 'product-details.php' ? 'current-menu-item' : '' ?>">
@@ -728,7 +727,7 @@ $base_url = "http://localhost/siddex1/Siddex";
                                                 <li><a href="<?= $base_url ?>/shop/login.php">Login</a></li>
                                             </ul>
                                         </li>
-                                        <li <?= $page == 'contact.php' ? 'current-menu-item' : '' ?>"><a
+                                        <li class="<?= $page == 'contact.php' ? 'current-menu-item' : '' ?>"><a
                                                 href="<?= $base_url ?>/contact.php">Contact</a></li>
                                     </ul>
                                 </nav>
@@ -940,7 +939,7 @@ $base_url = "http://localhost/siddex1/Siddex";
                                     <div class="swiper-slide h5-maquee-slider-item">
                                         <div class="marquee-box">
                                             <div class="marquee-icon-wrapper">
-                                                <div class="marquee-icon"><i class="tji-star"></i></div>
+                                                <div class="marquee-icon"><i class="fa-solid fa-star"></i></div>
                                             </div>
                                             <div class="marquee-title">
                                                 <h4 class="title">Innovation</h4>
@@ -950,7 +949,7 @@ $base_url = "http://localhost/siddex1/Siddex";
                                     <div class="swiper-slide h5-maquee-slider-item">
                                         <div class="marquee-box">
                                             <div class="marquee-icon-wrapper">
-                                                <div class="marquee-icon"><i class="tji-star"></i></div>
+                                                <div class="marquee-icon"><i class="fa-solid fa-star"></i></div>
                                             </div>
                                             <div class="marquee-title">
                                                 <h4 class="title">Success</h4>
@@ -960,7 +959,7 @@ $base_url = "http://localhost/siddex1/Siddex";
                                     <div class="swiper-slide h5-maquee-slider-item">
                                         <div class="marquee-box">
                                             <div class="marquee-icon-wrapper">
-                                                <div class="marquee-icon"><i class="tji-star"></i></div>
+                                                <div class="marquee-icon"><i class="fa-solid fa-star"></i></div>
                                             </div>
                                             <div class="marquee-title">
                                                 <h4 class="title">Leadership</h4>
@@ -970,7 +969,7 @@ $base_url = "http://localhost/siddex1/Siddex";
                                     <div class="swiper-slide h5-maquee-slider-item">
                                         <div class="marquee-box">
                                             <div class="marquee-icon-wrapper">
-                                                <div class="marquee-icon"><i class="tji-star"></i></div>
+                                                <div class="marquee-icon"><i class="fa-solid fa-star"></i></div>
                                             </div>
                                             <div class="marquee-title">
                                                 <h4 class="title">Enterprise</h4>
@@ -980,7 +979,7 @@ $base_url = "http://localhost/siddex1/Siddex";
                                     <div class="swiper-slide h5-maquee-slider-item">
                                         <div class="marquee-box">
                                             <div class="marquee-icon-wrapper">
-                                                <div class="marquee-icon"><i class="tji-star"></i></div>
+                                                <div class="marquee-icon"><i class="fa-solid fa-star"></i></div>
                                             </div>
                                             <div class="marquee-title">
                                                 <h4 class="title">Business Growth</h4>
@@ -990,7 +989,7 @@ $base_url = "http://localhost/siddex1/Siddex";
                                     <div class="swiper-slide h5-maquee-slider-item">
                                         <div class="marquee-box">
                                             <div class="marquee-icon-wrapper">
-                                                <div class="marquee-icon"><i class="tji-star"></i></div>
+                                                <div class="marquee-icon"><i class="fa-solid fa-star"></i></div>
                                             </div>
                                             <div class="marquee-title">
                                                 <h4 class="title">Corporate</h4>
@@ -1000,7 +999,7 @@ $base_url = "http://localhost/siddex1/Siddex";
                                     <div class="swiper-slide h5-maquee-slider-item">
                                         <div class="marquee-box">
                                             <div class="marquee-icon-wrapper">
-                                                <div class="marquee-icon"><i class="tji-star"></i></div>
+                                                <div class="marquee-icon"><i class="fa-solid fa-star"></i></div>
                                             </div>
                                             <div class="marquee-title">
                                                 <h4 class="title">Results</h4>
@@ -1010,7 +1009,7 @@ $base_url = "http://localhost/siddex1/Siddex";
                                     <div class="swiper-slide h5-maquee-slider-item">
                                         <div class="marquee-box">
                                             <div class="marquee-icon-wrapper">
-                                                <div class="marquee-icon"><i class="tji-star"></i></div>
+                                                <div class="marquee-icon"><i class="fa-solid fa-star"></i></div>
                                             </div>
                                             <div class="marquee-title">
                                                 <h4 class="title">Innovation</h4>
@@ -1020,7 +1019,7 @@ $base_url = "http://localhost/siddex1/Siddex";
                                     <div class="swiper-slide h5-maquee-slider-item">
                                         <div class="marquee-box">
                                             <div class="marquee-icon-wrapper">
-                                                <div class="marquee-icon"><i class="tji-star"></i></div>
+                                                <div class="marquee-icon"><i class="fa-solid fa-star"></i></div>
                                             </div>
                                             <div class="marquee-title">
                                                 <h4 class="title">Success</h4>
@@ -1030,7 +1029,7 @@ $base_url = "http://localhost/siddex1/Siddex";
                                     <div class="swiper-slide h5-maquee-slider-item">
                                         <div class="marquee-box">
                                             <div class="marquee-icon-wrapper">
-                                                <div class="marquee-icon"><i class="tji-star"></i></div>
+                                                <div class="marquee-icon"><i class="fa-solid fa-star"></i></div>
                                             </div>
                                             <div class="marquee-title">
                                                 <h4 class="title">Leadership</h4>
@@ -1040,7 +1039,7 @@ $base_url = "http://localhost/siddex1/Siddex";
                                     <div class="swiper-slide h5-maquee-slider-item">
                                         <div class="marquee-box">
                                             <div class="marquee-icon-wrapper">
-                                                <div class="marquee-icon"><i class="tji-star"></i></div>
+                                                <div class="marquee-icon"><i class="fa-solid fa-star"></i></div>
                                             </div>
                                             <div class="marquee-title">
                                                 <h4 class="title">Enterprise</h4>
@@ -1050,7 +1049,7 @@ $base_url = "http://localhost/siddex1/Siddex";
                                     <div class="swiper-slide h5-maquee-slider-item">
                                         <div class="marquee-box">
                                             <div class="marquee-icon-wrapper">
-                                                <div class="marquee-icon"><i class="tji-star"></i></div>
+                                                <div class="marquee-icon"><i class="fa-solid fa-star"></i></div>
                                             </div>
                                             <div class="marquee-title">
                                                 <h4 class="title">Business Growth</h4>
@@ -1066,7 +1065,7 @@ $base_url = "http://localhost/siddex1/Siddex";
                                     <div class="swiper-slide h5-maquee-slider-item">
                                         <div class="marquee-box">
                                             <div class="marquee-icon-wrapper">
-                                                <div class="marquee-icon"><i class="tji-star"></i></div>
+                                                <div class="marquee-icon"><i class="fa-solid fa-star"></i></div>
                                             </div>
                                             <div class="marquee-title">
                                                 <h4 class="title">Innovation</h4>
@@ -1076,7 +1075,7 @@ $base_url = "http://localhost/siddex1/Siddex";
                                     <div class="swiper-slide h5-maquee-slider-item">
                                         <div class="marquee-box">
                                             <div class="marquee-icon-wrapper">
-                                                <div class="marquee-icon"><i class="tji-star"></i></div>
+                                                <div class="marquee-icon"><i class="fa-solid fa-star"></i></div>
                                             </div>
                                             <div class="marquee-title">
                                                 <h4 class="title">Success</h4>
@@ -1086,7 +1085,7 @@ $base_url = "http://localhost/siddex1/Siddex";
                                     <div class="swiper-slide h5-maquee-slider-item">
                                         <div class="marquee-box">
                                             <div class="marquee-icon-wrapper">
-                                                <div class="marquee-icon"><i class="tji-star"></i></div>
+                                                <div class="marquee-icon"><i class="fa-solid fa-star"></i></div>
                                             </div>
                                             <div class="marquee-title">
                                                 <h4 class="title">Leadership</h4>
@@ -1096,7 +1095,7 @@ $base_url = "http://localhost/siddex1/Siddex";
                                     <div class="swiper-slide h5-maquee-slider-item">
                                         <div class="marquee-box">
                                             <div class="marquee-icon-wrapper">
-                                                <div class="marquee-icon"><i class="tji-star"></i></div>
+                                                <div class="marquee-icon"><i class="fa-solid fa-star"></i></div>
                                             </div>
                                             <div class="marquee-title">
                                                 <h4 class="title">Enterprise</h4>
@@ -1106,7 +1105,7 @@ $base_url = "http://localhost/siddex1/Siddex";
                                     <div class="swiper-slide h5-maquee-slider-item">
                                         <div class="marquee-box">
                                             <div class="marquee-icon-wrapper">
-                                                <div class="marquee-icon"><i class="tji-star"></i></div>
+                                                <div class="marquee-icon"><i class="fa-solid fa-star"></i></div>
                                             </div>
                                             <div class="marquee-title">
                                                 <h4 class="title">Business Growth</h4>
@@ -1116,7 +1115,7 @@ $base_url = "http://localhost/siddex1/Siddex";
                                     <div class="swiper-slide h5-maquee-slider-item">
                                         <div class="marquee-box">
                                             <div class="marquee-icon-wrapper">
-                                                <div class="marquee-icon"><i class="tji-star"></i></div>
+                                                <div class="marquee-icon"><i class="fa-solid fa-star"></i></div>
                                             </div>
                                             <div class="marquee-title">
                                                 <h4 class="title">Corporate</h4>
@@ -1126,7 +1125,7 @@ $base_url = "http://localhost/siddex1/Siddex";
                                     <div class="swiper-slide h5-maquee-slider-item">
                                         <div class="marquee-box">
                                             <div class="marquee-icon-wrapper">
-                                                <div class="marquee-icon"><i class="tji-star"></i></div>
+                                                <div class="marquee-icon"><i class="fa-solid fa-star"></i></div>
                                             </div>
                                             <div class="marquee-title">
                                                 <h4 class="title">Results</h4>
@@ -1136,7 +1135,7 @@ $base_url = "http://localhost/siddex1/Siddex";
                                     <div class="swiper-slide h5-maquee-slider-item">
                                         <div class="marquee-box">
                                             <div class="marquee-icon-wrapper">
-                                                <div class="marquee-icon"><i class="tji-star"></i></div>
+                                                <div class="marquee-icon"><i class="fa-solid fa-star"></i></div>
                                             </div>
                                             <div class="marquee-title">
                                                 <h4 class="title">Innovation</h4>
@@ -1146,7 +1145,7 @@ $base_url = "http://localhost/siddex1/Siddex";
                                     <div class="swiper-slide h5-maquee-slider-item">
                                         <div class="marquee-box">
                                             <div class="marquee-icon-wrapper">
-                                                <div class="marquee-icon"><i class="tji-star"></i></div>
+                                                <div class="marquee-icon"><i class="fa-solid fa-star"></i></div>
                                             </div>
                                             <div class="marquee-title">
                                                 <h4 class="title">Success</h4>
@@ -1156,7 +1155,7 @@ $base_url = "http://localhost/siddex1/Siddex";
                                     <div class="swiper-slide h5-maquee-slider-item">
                                         <div class="marquee-box">
                                             <div class="marquee-icon-wrapper">
-                                                <div class="marquee-icon"><i class="tji-star"></i></div>
+                                                <div class="marquee-icon"><i class="fa-solid fa-star"></i></div>
                                             </div>
                                             <div class="marquee-title">
                                                 <h4 class="title">Leadership</h4>
@@ -1166,7 +1165,7 @@ $base_url = "http://localhost/siddex1/Siddex";
                                     <div class="swiper-slide h5-maquee-slider-item">
                                         <div class="marquee-box">
                                             <div class="marquee-icon-wrapper">
-                                                <div class="marquee-icon"><i class="tji-star"></i></div>
+                                                <div class="marquee-icon"><i class="fa-solid fa-star"></i></div>
                                             </div>
                                             <div class="marquee-title">
                                                 <h4 class="title">Enterprise</h4>
@@ -1176,7 +1175,7 @@ $base_url = "http://localhost/siddex1/Siddex";
                                     <div class="swiper-slide h5-maquee-slider-item">
                                         <div class="marquee-box">
                                             <div class="marquee-icon-wrapper">
-                                                <div class="marquee-icon"><i class="tji-star"></i></div>
+                                                <div class="marquee-icon"><i class="fa-solid fa-star"></i></div>
                                             </div>
                                             <div class="marquee-title">
                                                 <h4 class="title">Business Growth</h4>
@@ -1254,7 +1253,7 @@ $base_url = "http://localhost/siddex1/Siddex";
                                                 <a class="video-btn video-popup" data-autoplay="true"
                                                     data-vbtype="video" data-maxwidth="1200px"
                                                     href="https://www.youtube.com/watch?v=MLpWrANjFbI">
-                                                    <span class="play-btn"><i class="tji-play"></i></span>
+                                                    <span class="play-btn"><i class="fa-solid fa-play"></i></span>
                                                     <span class="video-text">Play our reels</span>
                                                 </a>
                                             </div>
@@ -1522,8 +1521,8 @@ $base_url = "http://localhost/siddex1/Siddex";
                                                 data-wow-delay=".5s">
                                                 <div class="slider-prev">
                                                     <span class="anim-icon">
-                                                        <i class="tji-arrow-left"></i>
-                                                        <i class="tji-arrow-left"></i>
+                                                        <i class="fa-solid fa-chevron-left"></i>
+                                                        <i class="fa-solid fa-chevron-left"></i>
                                                     </span>
                                                 </div>
                                                 <div class="slider-next">

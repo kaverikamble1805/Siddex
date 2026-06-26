@@ -132,7 +132,7 @@
                                 <div class="col-lg-6">
                                     <div class="contact-form wow fadeInUp" data-wow-delay=".1s">
                                         <h3 class="title">Feel Free to Get in Touch or Visit our Location.</h3>
-                                        <form id="contact-form">
+                                        <!-- <form id="contact-form">
                                             <div class="row">
                                                 <div class="col-sm-6">
                                                     <div class="form-input">
@@ -189,6 +189,71 @@
                                                     </button>
                                                 </div>
                                             </div>
+                                        </form> -->
+
+                                        <form id="contact-form" action="./PHPMailer-master/sendemail.php" method="POST">
+                                            <div class="row">
+                                                <div class="col-sm-6">
+                                                    <div class="form-input">
+                                                        <input type="text" name="conName" placeholder="Full Name*"
+                                                            required>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-6">
+                                                    <div class="form-input">
+                                                        <input type="email" name="conEmail" placeholder="Email Address*"
+                                                            required>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-6">
+                                                    <div class="form-input">
+                                                        <input type="tel" name="conPhone" placeholder="Phone Number*"
+                                                            required>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-6">
+                                                    <div class="form-input">
+                                                        <div class="tj-nice-select-box">
+                                                            <div class="tj-select">
+                                                                <select name="conSubject" required>
+                                                                    <option value="">Choose a Service</option>
+                                                                    <option value="Business Strategy">Business Strategy
+                                                                    </option>
+                                                                    <option value="Customer Experience">Customer
+                                                                        Experience</option>
+                                                                    <option value="Sustainability and ESG">
+                                                                        Sustainability and ESG</option>
+                                                                    <option value="Training and Development">Training
+                                                                        and Development</option>
+                                                                    <option value="IT Support & Maintenance">IT Support
+                                                                        & Maintenance</option>
+                                                                    <option value="Marketing Strategy">Marketing
+                                                                        Strategy</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-sm-12">
+                                                    <div class="form-input message-input">
+                                                        <textarea name="conMessage" placeholder="Type Message*"
+                                                            required></textarea>
+                                                    </div>
+                                                </div>
+
+                                                <div class="submit-btn">
+                                                    <button class="tj-primary-btn" type="submit">
+                                                        <span class="btn-text"><span>Submit Now</span></span>
+                                                        <span class="btn-icon">
+                                                            <i class="fa-solid fa-arrow-right"></i>
+                                                        </span>
+                                                    </button>
+                                                </div>
+                                            </div>
                                         </form>
                                     </div>
                                 </div>
@@ -213,7 +278,7 @@
         </div>
 
         <!-- BEGIN: Contact Form Success Modal Message -->
-        <div class="modal" id="message_sent" tabindex="-1">
+        <!-- <div class="modal" id="message_sent" tabindex="-1">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header alert alert-success" role="alert">
@@ -228,11 +293,11 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- END: Contact Form Success Modal Message -->
 
         <!-- BEGIN: Contact Form Fail Modal Message -->
-        <div class="modal" id="message_fail" tabindex="-1">
+        <!-- <div class="modal" id="message_fail" tabindex="-1">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header alert alert-danger" role="alert">
@@ -247,8 +312,52 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- END: Contact Form Fail Modal Message End -->
+
+        <div class="modal fade" id="successModal" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content border-0 rounded-4">
+
+                    <div class="modal-header text-white" style="background:linear-gradient(135deg,#00c853,#43a047);">
+                        <h5 class="modal-title">✔ Success</h5>
+                        <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body text-center p-4">
+                        <h4>Message Sent Successfully!</h4>
+                        <p>Thank you for contacting us.<br>We will get back to you shortly.</p>
+                    </div>
+
+                    <div class="modal-footer border-0">
+                        <button class="btn btn-success" data-bs-dismiss="modal">OK</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="errorModal" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content border-0 rounded-4">
+
+                    <div class="modal-header text-white" style="background:linear-gradient(135deg,#ff416c,#ff4b2b);">
+                        <h5 class="modal-title">✖ Error</h5>
+                        <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body text-center p-4">
+                        <h4>Something Went Wrong!</h4>
+                        <p>Please try again later.</p>
+                    </div>
+
+                    <div class="modal-footer border-0">
+                        <button class="btn btn-danger" data-bs-dismiss="modal">OK</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
         <div id="back-to-top"><a class="top arrow" href="#top"><i class="fa fa-angle-up"></i> </a></div>
 
         <a href="https://wa.me/76778 89831" target="_blank" class="whatsapp-float">
@@ -256,7 +365,7 @@
         </a>
         <!-- JS here -->
         <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
         <script src="assets/js/gsap.min.js"></script>
         <script src="assets/js/ScrollSmoother.js"></script>
         <script src="assets/js/gsap-scroll-to-plugin.min.js"></script>
@@ -271,6 +380,44 @@
         <script src="assets/js/meanmenu.js"></script>
         <script src="assets/js/validate.min.js"></script>
         <script src="assets/js/main.js"></script>
+
+        <?php if (isset($_GET['status']) && $_GET['status'] == 'success') { ?>
+        <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var modal = new bootstrap.Modal(document.getElementById("message_sent"));
+            modal.show();
+        });
+        </script>
+        <?php } ?>
+
+        <?php if (isset($_GET['status']) && $_GET['status'] == 'error') { ?>
+        <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var modal = new bootstrap.Modal(document.getElementById("message_fail"));
+            modal.show();
+        });
+        </script>
+        <?php } ?>
+
+        <?php if (isset($_GET['status']) && $_GET['status'] == "success") { ?>
+
+        <script>
+        window.onload = function() {
+            new bootstrap.Modal(document.getElementById('successModal')).show();
+        }
+        </script>
+
+        <?php } ?>
+
+        <?php if (isset($_GET['status']) && $_GET['status'] == "error") { ?>
+
+        <script>
+        window.onload = function() {
+            new bootstrap.Modal(document.getElementById('errorModal')).show();
+        }
+        </script>
+
+        <?php } ?>
     </body>
 
     </html>

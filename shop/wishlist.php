@@ -50,7 +50,7 @@
                                             <span>
                                                 <a href="index.php">Home</a>
                                             </span>
-                                            <span><i class="tji-arrow-right"></i></span>
+                                            <span><i class="fa-solid fa-chevron-right"></i></span>
                                             <span>
                                                 <span>Wishlist</span>
                                             </span>

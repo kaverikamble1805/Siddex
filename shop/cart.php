@@ -270,7 +270,7 @@
                                                                                 <span class="btn-text"><span>Apply
                                                                                         coupon</span></span>
                                                                                 <span class="btn-icon"><i
-                                                                                        class="tji-arrow-right-long"></i></span>
+                                                                                        class="fa-solid fa-chevron-right-long"></i></span>
 
                                                                             </button>
 
@@ -285,7 +285,7 @@
                                                                                 <span class="btn-text"><span>Update
                                                                                         cart</span></span>
                                                                                 <span class="btn-icon"><i
-                                                                                        class="tji-arrow-right-long"></i></span>
+                                                                                        class="fa-solid fa-chevron-right-long"></i></span>
 
                                                                             </button>
                                                                         </div>
@@ -329,7 +329,7 @@
                                                                     <span class="btn-text"><span>Proceed to
                                                                             checkout</span></span>
                                                                     <span class="btn-icon"><i
-                                                                            class="tji-arrow-right-long"></i></span>
+                                                                            class="fa-solid fa-chevron-right-long"></i></span>
 
                                                                 </a>
                                                             </div>
