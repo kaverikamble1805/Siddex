@@ -387,7 +387,15 @@
                                  </li>
                                  <li class="<?= $page == 'careers.php' ? 'current-menu-item' : '' ?>"><a
                                          href="<?= $base_url ?>/careers.php">Career</a></li>
-                                 <li class="has-dropdown <?= $page == 'shop.php' ? 'current-menu-item' : '' ?>">
+
+                                 <li class="has-dropdown <?= in_array($page, [
+                                                                'shop.php',
+                                                                'shop-details.php',
+                                                                'cart.php',
+                                                                'checkout.php',
+                                                                'wishlist.php',
+                                                                'login.php'
+                                                            ]) ? 'current-menu-item' : '' ?>">
                                      <a href="<?= $base_url ?>/shop/shop.php">Shop</a>
                                      <ul class="sub-menu">
                                          <li><a href="<?= $base_url ?>/shop/shop.php">Shop</a></li>
@@ -729,7 +737,14 @@
                                  <li class="<?= $page == 'careers.php' ? 'current-menu-item' : '' ?>"><a
                                          href="<?= $base_url ?>/careers.php">Career</a></li>
 
-                                 <li class="has-dropdown <?= $page == 'shop.php' ? 'current-menu-item' : '' ?>">
+                                 <li class="has-dropdown <?= in_array($page, [
+                                                                'shop.php',
+                                                                'shop-details.php',
+                                                                'cart.php',
+                                                                'checkout.php',
+                                                                'wishlist.php',
+                                                                'login.php'
+                                                            ]) ? 'current-menu-item' : '' ?>">
                                      <a href="<?= $base_url ?>/shop/shop.php">Shop</a>
                                      <ul class="sub-menu">
                                          <li><a href="<?= $base_url ?>/shop/shop.php">Shop</a></li>

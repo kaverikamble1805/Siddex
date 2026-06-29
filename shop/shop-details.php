@@ -484,8 +484,7 @@
                                     <div class="related-products has-border">
 
                                         <div class="sec-heading text-center">
-                                            <span class="sub-title wow fadeInUp" data-wow-delay="0.1s"><i
-                                                    class="tji-box"></i> Related
+                                            <span class="sub-title wow fadeInUp" data-wow-delay="0.1s"> Related
                                                 products</span>
                                             <h2 class="sec-title text-anim">Customers also bought</h2>
                                         </div>

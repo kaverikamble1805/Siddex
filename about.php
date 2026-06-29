@@ -69,8 +69,7 @@
                             <div class="row">
                                 <div class="col-12">
                                     <div class="sec-heading-wrap">
-                                        <span class="sub-title wow fadeInUp" data-wow-delay=".3s"><i
-                                                class="tji-box"></i>Choose the
+                                        <span class="sub-title wow fadeInUp" data-wow-delay=".3s">Choose the
                                             Best</span>
                                         <div class="heading-wrap-content">
                                             <div class="sec-heading">
@@ -173,8 +172,7 @@
                                 <div class="col-xl-6 col-lg-6 order-lg-2 order-1">
                                     <div class="about-content-area">
                                         <div class="sec-heading">
-                                            <span class="sub-title wow fadeInUp" data-wow-delay=".3s"><i
-                                                    class="tji-box"></i>Get to Know
+                                            <span class="sub-title wow fadeInUp" data-wow-delay=".3s">Get to Know
                                                 Us</span>
                                             <h2 class="sec-title title-anim">Driving Innovation and Excellence for
                                                 Sustainable Corporate Success
@@ -412,8 +410,7 @@
                             <div class="row">
                                 <div class="col-12">
                                     <div class="sec-heading text-center">
-                                        <span class="sub-title wow fadeInUp" data-wow-delay=".3s"><i
-                                                class="tji-box"></i> Meet Our Team</span>
+                                        <span class="sub-title wow fadeInUp" data-wow-delay=".3s"> Meet Our Team</span>
                                         <h2 class="sec-title title-anim">Success <span>Stories</span> Fuel our
                                             Innovation.</h2>
                                     </div>
@@ -554,8 +551,7 @@
                                 <div class="col-lg-4">
                                     <div class="content-wrap">
                                         <div class="sec-heading">
-                                            <span class="sub-title wow fadeInUp" data-wow-delay=".3s"><i
-                                                    class="tji-box"></i>Common
+                                            <span class="sub-title wow fadeInUp" data-wow-delay=".3s">Common
                                                 Questions</span>
                                             <h2 class="sec-title title-anim">Need <span>Help?</span> Start Here...</h2>
                                         </div>

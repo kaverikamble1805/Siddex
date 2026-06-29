@@ -68,8 +68,7 @@
                             <div class="row">
                                 <div class="col-12">
                                     <div class="sec-heading text-center">
-                                        <span class="sub-title wow fadeInUp" data-wow-delay=".1s"><i
-                                                class="tji-box"></i>Contact info</span>
+                                        <span class="sub-title wow fadeInUp" data-wow-delay=".1s">Contact info</span>
                                         <h2 class="sec-title title-anim"><span>Reach</span> Out to Us</h2>
                                     </div>
                                 </div>
@@ -78,7 +77,7 @@
                                 <div class="col-xl-3 col-lg-6 col-sm-6">
                                     <div class="contact-item style-2 wow fadeInUp" data-wow-delay=".3s">
                                         <div class="contact-icon">
-                                            <i class="tji-location-3"></i>
+                                            <i class="fa-solid fa-location-dot"></i>
                                         </div>
                                         <h3 class="contact-title">Our Location</h3>
                                         <p>993 Renner Burg, West Rond, MT 94251-030</p>
@@ -87,7 +86,7 @@
                                 <div class="col-xl-3 col-lg-6 col-sm-6">
                                     <div class="contact-item style-2 wow fadeInUp" data-wow-delay=".5s">
                                         <div class="contact-icon">
-                                            <i class="tji-envelop"></i>
+                                            <i class="fa-solid fa-envelope"></i>
                                         </div>
                                         <h3 class="contact-title">Email us</h3>
                                         <ul class="contact-list">
@@ -99,7 +98,7 @@
                                 <div class="col-xl-3 col-lg-6 col-sm-6">
                                     <div class="contact-item style-2 wow fadeInUp" data-wow-delay=".7s">
                                         <div class="contact-icon">
-                                            <i class="tji-phone"></i>
+                                            <i class="fa-solid fa-phone-volume"></i>
                                         </div>
                                         <h3 class="contact-title">Call us</h3>
                                         <ul class="contact-list">
@@ -111,7 +110,7 @@
                                 <div class="col-xl-3 col-lg-6 col-sm-6">
                                     <div class="contact-item style-2 wow fadeInUp" data-wow-delay=".9s">
                                         <div class="contact-icon">
-                                            <i class="tji-chat"></i>
+                                            <i class="fa-solid fa-comments"></i>
                                         </div>
                                         <h3 class="contact-title">Live chat</h3>
                                         <ul class="contact-list">
@@ -277,82 +276,24 @@
             </div>
         </div>
 
-        <!-- BEGIN: Contact Form Success Modal Message -->
-        <!-- <div class="modal" id="message_sent" tabindex="-1">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header alert alert-success" role="alert">
-                        <h5 class="modal-title">Message Sent Successfully</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <p>Thank you for contacting us. We will get back to you shortly.<br>Have a great day!</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- END: Contact Form Success Modal Message -->
 
-        <!-- BEGIN: Contact Form Fail Modal Message -->
-        <!-- <div class="modal" id="message_fail" tabindex="-1">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header alert alert-danger" role="alert">
-                        <h5 class="modal-title">Error</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <p>Oops! Something went wrong, please try again.</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- END: Contact Form Fail Modal Message End -->
-
-        <div class="modal fade" id="successModal" tabindex="-1">
+        <div class="modal fade" id="statusModal" tabindex="-1">
             <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content border-0 rounded-4">
+                <div class="modal-content border-0 rounded-4 contact-model">
 
-                    <div class="modal-header text-white" style="background:linear-gradient(135deg,#00c853,#43a047);">
-                        <h5 class="modal-title">✔ Success</h5>
-                        <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                    <div class="modal-header border-0">
+                        <h5 class="modal-title text-white" id="modalTitle"></h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
                     </div>
 
-                    <div class="modal-body text-center p-4">
-                        <h4>Message Sent Successfully!</h4>
-                        <p>Thank you for contacting us.<br>We will get back to you shortly.</p>
+                    <div class="modal-body text-center py-4">
+                        <p id="modalMessage" class="mb-0"></p>
                     </div>
 
-                    <div class="modal-footer border-0">
-                        <button class="btn btn-success" data-bs-dismiss="modal">OK</button>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="modal fade" id="errorModal" tabindex="-1">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content border-0 rounded-4">
-
-                    <div class="modal-header text-white" style="background:linear-gradient(135deg,#ff416c,#ff4b2b);">
-                        <h5 class="modal-title">✖ Error</h5>
-                        <button class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
-                    </div>
-
-                    <div class="modal-body text-center p-4">
-                        <h4>Something Went Wrong!</h4>
-                        <p>Please try again later.</p>
-                    </div>
-
-                    <div class="modal-footer border-0">
-                        <button class="btn btn-danger" data-bs-dismiss="modal">OK</button>
+                    <div class="modal-footer justify-content-center border-0">
+                        <button type="button" class="btn contact-ok" data-bs-dismiss="modal">
+                            OK
+                        </button>
                     </div>
 
                 </div>
@@ -380,44 +321,6 @@
         <script src="assets/js/meanmenu.js"></script>
         <script src="assets/js/validate.min.js"></script>
         <script src="assets/js/main.js"></script>
-
-        <?php if (isset($_GET['status']) && $_GET['status'] == 'success') { ?>
-        <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            var modal = new bootstrap.Modal(document.getElementById("message_sent"));
-            modal.show();
-        });
-        </script>
-        <?php } ?>
-
-        <?php if (isset($_GET['status']) && $_GET['status'] == 'error') { ?>
-        <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            var modal = new bootstrap.Modal(document.getElementById("message_fail"));
-            modal.show();
-        });
-        </script>
-        <?php } ?>
-
-        <?php if (isset($_GET['status']) && $_GET['status'] == "success") { ?>
-
-        <script>
-        window.onload = function() {
-            new bootstrap.Modal(document.getElementById('successModal')).show();
-        }
-        </script>
-
-        <?php } ?>
-
-        <?php if (isset($_GET['status']) && $_GET['status'] == "error") { ?>
-
-        <script>
-        window.onload = function() {
-            new bootstrap.Modal(document.getElementById('errorModal')).show();
-        }
-        </script>
-
-        <?php } ?>
     </body>
 
     </html>

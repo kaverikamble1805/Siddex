@@ -206,19 +206,19 @@ Progressbar js
   // 	submenu.stop(true, true).slideToggle();
   // });
   // Fix dropdown (works with MeanMenu cloned structure)
-  $(document).on("click", ".mean-nav .mean-expand", function (e) {
-    e.preventDefault();
+  // $(document).on("click", ".mean-nav .mean-expand", function (e) {
+  //   e.preventDefault();
 
-    let parentLi = $(this).closest("li");
-    let submenu = parentLi.children("ul");
+  //   let parentLi = $(this).closest("li");
+  //   let submenu = parentLi.children("ul");
 
-    // close others (accordion)
-    parentLi.siblings().removeClass("mean-clicked").children("ul").slideUp(300);
+  //   // close others (accordion)
+  //   parentLi.siblings().removeClass("mean-clicked").children("ul").slideUp(300);
 
-    // toggle current
-    parentLi.toggleClass("mean-clicked");
-    submenu.stop(true, true).slideToggle(300);
-  });
+  //   // toggle current
+  //   parentLi.toggleClass("mean-clicked");
+  //   submenu.stop(true, true).slideToggle(300);
+  // });
 
   ////////////////////////////////////////////////////
   // Search Bar Js
@@ -2029,40 +2029,72 @@ Progressbar js
         conPhone: "Enter your valid phone number.",
         conMessage: "Enter your query message.",
       },
+      // submitHandler: function (form) {
+      //   // start ajax request
+      //   // $.ajax({
+      //   //   type: "POST",
+      //   //   url: "./PHPMailer-master/sendemail.php",
+      //   //   data: $("#contact-form").serialize(),
+      //   //   cache: false,
+      //   //   // success: function (data) {
+      //   //   //   if (data == "Y") {
+      //   //   //     $("#message_sent").modal("show");
+      //   //   //     $("#contact-form").trigger("reset");
+      //   //   //   } else {
+      //   //   //     $("#message_fail").modal("show");
+      //   //   //   }
+      //   //   // },
+      //   //   success: function (data) {
+
+      //   //     data = $.trim(data);
+
+      //   //     if (data === "Y") {
+
+      //   //       var modal = new bootstrap.Modal(document.getElementById("message_sent"));
+      //   //       modal.show();
+
+      //   //       $("#contact-form")[0].reset();
+
+      //   //     } else {
+
+      //   //       var modal = new bootstrap.Modal(document.getElementById("message_fail"));
+      //   //       modal.show();
+
+      //   //     }
+      //   //   },
+      //   // });
+      //   $.ajax({
+      //     type: "POST",
+      //     url: "./PHPMailer-master/sendemail.php",
+      //     data: $(form).serialize(),
+      //     cache: false,
+
+      //     success: function (data) {
+
+      //       data = $.trim(data);
+
+      //       if (data == "Y") {
+
+      //         $("#modalTitle").text("Success");
+      //         $("#modalMessage").text("Message sent successfully.");
+
+      //       } else {
+
+      //         $("#modalTitle").text("Error");
+      //         $("#modalMessage").text("Something went wrong.");
+
+      //       }
+
+      //       const modal = new bootstrap.Modal(document.getElementById("statusModal"));
+      //       modal.show();
+
+      //     }
+      //   });
+
+      //   return false;
+      // },
       submitHandler: function (form) {
-        // start ajax request
-        // $.ajax({
-        //   type: "POST",
-        //   url: "./PHPMailer-master/sendemail.php",
-        //   data: $("#contact-form").serialize(),
-        //   cache: false,
-        //   // success: function (data) {
-        //   //   if (data == "Y") {
-        //   //     $("#message_sent").modal("show");
-        //   //     $("#contact-form").trigger("reset");
-        //   //   } else {
-        //   //     $("#message_fail").modal("show");
-        //   //   }
-        //   // },
-        //   success: function (data) {
 
-        //     data = $.trim(data);
-
-        //     if (data === "Y") {
-
-        //       var modal = new bootstrap.Modal(document.getElementById("message_sent"));
-        //       modal.show();
-
-        //       $("#contact-form")[0].reset();
-
-        //     } else {
-
-        //       var modal = new bootstrap.Modal(document.getElementById("message_fail"));
-        //       modal.show();
-
-        //     }
-        //   },
-        // });
         $.ajax({
           type: "POST",
           url: "./PHPMailer-master/sendemail.php",
@@ -2073,27 +2105,36 @@ Progressbar js
 
             data = $.trim(data);
 
-            console.log(data);
-
             if (data === "Y") {
 
-              var modal = new bootstrap.Modal(document.getElementById("message_sent"));
-              modal.show();
+              $("#modalTitle").text("Success");
+              $("#modalMessage").html("Message sent successfully.<br> Thank you for contacting us.");
 
               form.reset();
 
             } else {
 
-              console.log("Returned:", data);
+              $("#modalTitle").text("✖ Error");
+              $("#modalMessage").text(data);
 
-              var modal = new bootstrap.Modal(document.getElementById("message_fail"));
-              modal.show();
             }
+
+            const modal = new bootstrap.Modal(document.getElementById("statusModal"));
+            modal.show();
+          },
+
+          error: function () {
+
+            $("#modalTitle").text("✖ Error");
+            $("#modalMessage").html("Unable to send your message.<br> Please try again later.");
+
+            const modal = new bootstrap.Modal(document.getElementById("statusModal"));
+            modal.show();
           }
         });
 
         return false;
-      },
+      }
     });
   }
 

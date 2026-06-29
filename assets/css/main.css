@@ -32020,3 +32020,36 @@ START: Service CSS
 #back-to-top .top:hover {
   transform: translateY(-3px);
 }
+
+.contact-ok {
+  background: linear-gradient(135deg, #4facfe, #004dfb);
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 35px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.contact-ok:hover {
+  background: linear-gradient(135deg, #0064fb, #4facfe);
+  color: #fff;
+}
+.contact-model {
+  background: linear-gradient(
+    180deg,
+    #02145e 0%,
+    #0637c8 15%,
+    #0a5cff 35%,
+    #1e88ff 55%,
+    #4bbeff 80%,
+    #8edbff 100%
+  );
+  color: #fff;
+}
+.contact-model p {
+  font-size: 18px;
+}
+.contact-model .btn-close {
+  filter: brightness(0) invert(1);
+}
