@@ -116,26 +116,55 @@
 var selected = students.slice(-4,-2);
 console.log(selected);
 
-
+// Reverse
 let arr = [1, 2, 3, 4, 5];
-
 let reversed = [];
-
 for (let i = arr.length - 1; i >= 0; i--) {
     reversed.push(arr[i]);
 }
-
 console.log(reversed);
 
 let rev =[6,7,8,9,10];
-
 let rev1 = [];
-
 for (let index = rev.length - 1; index > 0; index--) {
    rev1.push(rev[index]); 
 }
 console.log(rev1);
 
+let rev2 = [55,44,37,23];
+let revRes = [];
+for (let i = rev2.length - 1; i > 0 ; i--) {
+   revRes.push(rev2[i]); 
+}
+console.log(revRes);
+
+// Largest
+let largest = rev[0];
+for (let i = 1; i < rev.length; i++) {
+    if (rev[i] > largest) {
+        largest = rev[i];
+    }
+}
+console.log(largest);
+
+
+let lar = [11,12,13,14,20];
+let newLar = lar[0];
+
+for (let i = 1; i < lar.length; i++) {
+   if (lar[i] > newLar) {
+       newLar = lar[i]
+   }
+    
+}
+console.log(newLar);
+
+// palindrome
+let str = "madam";
+
+let reversed1 = str.split("").reverse().join("");
+
+console.log(str === reversed1);
 
 
 
