@@ -7,7 +7,7 @@ $products = [
 
         'title' => 'Multi Vendor (Web + App)',
 
-        'image' => 'assets/images/service/multi-vendor.webp',
+        'image' => 'assets/images/products/img1.jpg',
 
         'description' => 'A multi-vendor marketplace allows multiple sellers to register, manage products, and sell through a single platform. At Seddexa IT, we develop scalable Multi Vendor Web and Mobile App solutions that provide seamless shopping experiences for customers and powerful management tools for vendors and administrators. Our solutions are designed to help businesses grow faster, increase revenue, and efficiently manage multiple sellers from one centralized system.',
 
@@ -18,7 +18,9 @@ $products = [
             'Secure Payment Gateway',
             'Order & Commission Management'
         ],
+        'image1' => 'assets/images/products/img1.1.jpg',
 
+        'image2' => 'assets/images/products/img1.2.jpg',
         'benefits' => [
             [
                 'title' => 'Multiple Sellers, One Platform',
@@ -69,7 +71,7 @@ $products = [
 
         'title' => 'Multi Vendor (ReactJs)',
 
-        'image' => 'assets/images/service/multi-vendor-react.webp',
+        'image' => 'assets/images/products/img2.jpg',
 
         'description' => 'Our Multi Vendor ReactJS Marketplace solution is built using modern technologies to deliver a fast, responsive, and scalable ecommerce experience. Vendors can manage their stores, products, orders, and customers through dedicated dashboards, while customers enjoy a seamless shopping experience across all devices.',
 
@@ -80,7 +82,9 @@ $products = [
             'Product & Inventory Management',
             'Secure Payment Integration'
         ],
+        'image1' => 'assets/images/products/img2.1.jpg',
 
+        'image2' => 'assets/images/products/img2.2.jpg',
         'benefits' => [
             [
                 'title' => 'Fast User Experience',
@@ -131,7 +135,7 @@ $products = [
 
         'title' => 'Online Grocery (Web + APP)',
 
-        'image' => 'assets/images/service/online-grocery.webp',
+        'image' => 'assets/images/products/img3.jpg',
 
         'description' => 'Our Online Grocery Web & App solution helps supermarkets, grocery stores, and delivery businesses sell products online with ease. Customers can browse products, place orders, make secure payments, and track deliveries through a modern website and mobile application.',
 
@@ -142,7 +146,9 @@ $products = [
             'Secure Payment Gateway',
             'Delivery Tracking System'
         ],
+        'image1' => 'assets/images/products/img3.1.jpg',
 
+        'image2' => 'assets/images/products/img3.2.jpg',
         'details_title' => 'Complete Online Grocery Web & App Solution',
 
         'details_description' => 'We develop powerful online grocery platforms that make shopping simple and convenient for customers. The solution includes customer apps, delivery management, inventory tracking, and an admin dashboard for complete business control.',
@@ -186,7 +192,7 @@ $products = [
 
         'title' => 'Online Grocery (API Only)',
 
-        'image' => 'assets/images/service/api-development.webp',
+        'image' => 'assets/images/products/img4.jpg',
 
         'description' => 'Our Online Grocery API solution provides a secure and scalable backend for grocery applications. It includes APIs for products, orders, payments, customers, inventory management, and delivery tracking, making it easy to connect with mobile apps, websites, and third-party systems.',
 
@@ -197,7 +203,9 @@ $products = [
             'Payment Gateway APIs',
             'Inventory & Delivery APIs'
         ],
+        'image1' => 'assets/images/products/img4.1.jpg',
 
+        'image2' => 'assets/images/products/img4.2.jpg',
         'benefits' => [
             [
                 'title' => 'Flexible Integration',
@@ -241,7 +249,7 @@ $products = [
 
         'title' => 'Ecommerce Single Vendor (APP)',
 
-        'image' => 'assets/images/service/ecommerce-app.webp',
+        'image' => 'assets/images/products/img5.jpg',
 
         'description' => 'Our Single Vendor Ecommerce Mobile App solution helps businesses sell products directly to customers through a dedicated Android and iOS application. Manage products, orders, payments, and customers from a centralized admin panel while providing a seamless shopping experience.',
 
@@ -252,6 +260,9 @@ $products = [
             'Secure Payment Gateway',
             'Customer Management'
         ],
+        'image1' => 'assets/images/products/img5.1.jpg',
+
+        'image2' => 'assets/images/products/img5.2.jpg',
 
         'details_title' => 'Powerful Ecommerce Mobile App for Your Business',
 
@@ -309,7 +320,9 @@ $products = [
             'Order Management',
             'SEO Friendly Structure'
         ],
+        'image1' => 'assets/images/products/img1.1.jpg',
 
+        'image2' => 'assets/images/products/img1.2.jpg',
         'benefits' => [
             [
                 'title' => 'Sell Products Online',
@@ -360,6 +373,9 @@ $products = [
         'details_description' => 'We develop feature-rich ecommerce mobile applications for businesses looking to sell products online through a dedicated branded platform. Our apps are designed for performance, security, and user engagement.',
         'details_description1' => 'From product management and secure payments to order tracking and customer support, our ecommerce applications provide everything required to grow your online business.',
         'features' => ['Android & iOS Apps', 'Product Management', 'Secure Payment Gateway', 'Order Tracking', 'Customer Dashboard'],
+        'image1' => 'assets/images/products/img1.1.jpg',
+
+        'image2' => 'assets/images/products/img1.2.jpg',
         'benefits' => [['title' => 'Increase Sales', 'description' => 'Sell products directly through your mobile application.'], ['title' => 'Better Customer Experience', 'description' => 'Provide fast and convenient shopping experiences.'], ['title' => 'Brand Growth', 'description' => 'Strengthen your brand with a dedicated ecommerce app.']],
         'faq' => [
             ['question' => 'Do you develop Android and iOS ecommerce apps?', 'answer' => 'Yes. We develop ecommerce applications for both Android and iOS platforms.'],
@@ -377,6 +393,9 @@ $products = [
         'details_description' => 'Our attendance management software helps organizations automate attendance tracking, reduce manual errors, and improve workforce management through real-time monitoring and reporting.',
         'details_description1' => 'Suitable for schools, colleges, offices, factories, and enterprises, our attendance system provides accurate attendance records and detailed analytics.',
         'features' => ['Biometric Integration', 'Attendance Tracking', 'Shift Management', 'Leave Management', 'Reports & Analytics'],
+        'image1' => 'assets/images/products/img1.1.jpg',
+
+        'image2' => 'assets/images/products/img1.2.jpg',
         'benefits' => [['title' => 'Automated Attendance', 'description' => 'Eliminate manual attendance processes.'], ['title' => 'Accurate Reporting', 'description' => 'Generate real-time attendance and leave reports.'], ['title' => 'Improved Productivity', 'description' => 'Monitor attendance and workforce efficiency effectively.']],
         'faq' => [['question' => 'Can biometric devices be integrated?', 'answer' => 'Yes. Our system supports biometric and RFID integrations.'], ['question' => 'Does it support leave management?', 'answer' => 'Yes. Employees can apply for and track leave requests.'], ['question' => 'Can attendance reports be exported?', 'answer' => 'Yes. Reports can be exported in multiple formats.']]
     ],
@@ -390,6 +409,9 @@ $products = [
         'details_description' => 'Our HRMS software helps organizations automate HR processes, reduce administrative workload, and improve employee management through a secure and user-friendly platform.',
         'details_description1' => 'From employee onboarding and attendance tracking to payroll processing and performance evaluation, our HRMS solution simplifies every aspect of human resource management.',
         'features' => ['Employee Management', 'Attendance Tracking', 'Payroll Management', 'Leave Management', 'Performance Evaluation'],
+        'image1' => 'assets/images/products/img1.1.jpg',
+
+        'image2' => 'assets/images/products/img1.2.jpg',
         'benefits' => [['title' => 'Automated HR Operations', 'description' => 'Reduce manual HR tasks and improve efficiency.'], ['title' => 'Accurate Payroll', 'description' => 'Manage salaries, deductions, and benefits effortlessly.'], ['title' => 'Better Workforce Management', 'description' => 'Track employee performance and attendance in real time.']],
         'faq' => [
             ['question' => 'What is an HRMS?', 'answer' => 'HRMS is a software solution that manages employee records, payroll, attendance, recruitment, and HR processes.'],
@@ -407,6 +429,9 @@ $products = [
         'details_description' => 'Our community management software helps housing societies, residential complexes, and community organizations streamline daily operations through a centralized digital platform.',
         'details_description1' => 'From visitor management and maintenance requests to announcements, billing, and member communication, our solution improves transparency and operational efficiency.',
         'features' => ['Resident Management', 'Visitor Management', 'Maintenance Tracking', 'Billing & Payments', 'Community Announcements'],
+        'image1' => 'assets/images/products/img1.1.jpg',
+
+        'image2' => 'assets/images/products/img1.2.jpg',
         'benefits' => [['title' => 'Improved Communication', 'description' => 'Keep residents informed through instant notifications and updates.'], ['title' => 'Efficient Operations', 'description' => 'Manage community activities and maintenance requests digitally.'], ['title' => 'Secure Management', 'description' => 'Monitor visitors and maintain community security effectively.']],
         'faq' => [
             ['question' => 'Who can use the community management system?', 'answer' => 'Housing societies, apartment complexes, gated communities, clubs, and associations can use it.'],
@@ -424,6 +449,9 @@ $products = [
         'details_description' => 'Our ecommerce solutions are designed to help startups, retailers, wholesalers, and enterprises establish a strong online presence. We provide custom ecommerce websites, mobile apps, payment integrations, and inventory management systems.',
         'details_description1' => 'From product listing and customer management to secure checkout and order tracking, our ecommerce solutions offer everything needed to run a successful online store.',
         'features' => ['Custom Ecommerce Website', 'Payment Gateway Integration', 'Inventory Management', 'Order Management', 'Customer Dashboard'],
+        'image1' => 'assets/images/products/img1.1.jpg',
+
+        'image2' => 'assets/images/products/img1.2.jpg',
         'benefits' => [['title' => 'Increase Online Sales', 'description' => 'Reach more customers and boost revenue through digital channels.'], ['title' => 'Better Customer Experience', 'description' => 'Provide a smooth and secure shopping experience.'], ['title' => 'Easy Store Management', 'description' => 'Manage products, orders, and customers from one platform.']],
         'faq' => [['question' => 'Can you develop custom ecommerce platforms?', 'answer' => 'Yes. We build ecommerce solutions tailored to your business requirements.'], ['question' => 'Do you integrate payment gateways?', 'answer' => 'Yes. We integrate Razorpay, Stripe, PayPal, and other payment gateways.'], ['question' => 'Can ecommerce solutions support mobile users?', 'answer' => 'Yes. Our ecommerce platforms are fully responsive and mobile-friendly.']]
     ],
@@ -436,6 +464,9 @@ $products = [
         'details_description' => 'We develop secure and scalable MLM software for direct selling companies, network marketing organizations, and affiliate businesses. Our solutions simplify member management, commission calculation, and business operations.',
         'details_description1' => 'Whether you require Binary, Unilevel, Matrix, Board, Generation, or Hybrid MLM plans, we provide customized software solutions that help automate and manage your network marketing business efficiently.',
         'features' => ['Member Management', 'Commission Management', 'Genealogy Tree', 'Wallet Management', 'Multiple MLM Plans'],
+        'image1' => 'assets/images/products/img1.1.jpg',
+
+        'image2' => 'assets/images/products/img1.2.jpg',
         'benefits' => [['title' => 'Automated Commission Calculation', 'description' => 'Reduce manual work with automatic commission processing.'], ['title' => 'Efficient Network Management', 'description' => 'Track downlines, genealogy, and team performance easily.'], ['title' => 'Business Growth', 'description' => 'Scale your MLM business with a secure and reliable platform.']],
         'faq' => [['question' => 'Which MLM plans do you support?', 'answer' => 'We support Binary, Unilevel, Matrix, Board, Generation, and customized MLM plans.'], ['question' => 'Can commissions be calculated automatically?', 'answer' => 'Yes. Our MLM software automates commission and bonus calculations.'], ['question' => 'Do you provide mobile apps for MLM software?', 'answer' => 'Yes. We develop MLM software with Android, iOS, and web support.']]
     ],
@@ -455,7 +486,9 @@ $products = [
             'Production Management',
             'Business Analytics'
         ],
+        'image1' => 'assets/images/products/img1.1.jpg',
 
+        'image2' => 'assets/images/products/img1.2.jpg',
         'details_title' => 'Custom ERP Software for Modern Industries',
 
         'details_description' => 'Our ERP solutions help manufacturers, distributors, retailers, and service businesses improve operational efficiency by integrating all departments into one centralized system.',
@@ -508,7 +541,9 @@ $products = [
             'Order Management',
             'Customer Dashboard'
         ],
+        'image1' => 'assets/images/products/img1.1.jpg',
 
+        'image2' => 'assets/images/products/img1.2.jpg',
         'details_title' => 'Complete Ecommerce Platform Solutions',
 
         'details_description' => 'Our ecommerce platforms are designed to help businesses sell products online efficiently while providing customers with a seamless shopping experience.',
@@ -561,7 +596,9 @@ $products = [
             'Weather Tracking',
             'Agriculture Analytics'
         ],
+        'image1' => 'assets/images/products/img1.1.jpg',
 
+        'image2' => 'assets/images/products/img1.2.jpg',
         'details_title' => 'Technology-Driven Smart Farming Solutions',
 
         'details_description' => 'Our smart farming solutions combine software, IoT devices, and data analytics to improve agricultural productivity, reduce costs, and optimize resource utilization.',
@@ -614,6 +651,9 @@ $products = [
             'Advertisement Management',
             'SEO Optimized Platform'
         ],
+        'image1' => 'assets/images/products/img1.1.jpg',
+
+        'image2' => 'assets/images/products/img1.2.jpg',
 
         'details_title' => 'Professional News Portal Development Services',
 
@@ -667,7 +707,9 @@ $products = [
             'Online Payment Integration',
             'Delivery Tracking'
         ],
+        'image1' => 'assets/images/products/img1.1.jpg',
 
+        'image2' => 'assets/images/products/img1.2.jpg',
         'details_title' => 'Complete Grocery App Development Solution',
 
         'details_description' => 'Our grocery application solutions help supermarkets, grocery stores, and delivery businesses digitize their operations and provide a seamless shopping experience.',
@@ -720,7 +762,9 @@ $products = [
             'Examination Management',
             'Faculty & Staff Management'
         ],
+        'image1' => 'assets/images/products/img1.1.jpg',
 
+        'image2' => 'assets/images/products/img1.2.jpg',
         'details_title' => 'Smart College Management Software Solution',
 
         'details_description' => 'Our college management software helps educational institutions streamline daily operations, improve communication, and enhance administrative efficiency.',
@@ -773,6 +817,9 @@ $products = [
             'Online Payments',
             'Real-Time Order Tracking'
         ],
+        'image1' => 'assets/images/products/img1.1.jpg',
+
+        'image2' => 'assets/images/products/img1.2.jpg',
 
         'details_title' => 'Complete Food Delivery App Development Solution',
 
@@ -830,6 +877,9 @@ $products = [
             'Driver Tracking',
             'Reports & Analytics'
         ],
+        'image1' => 'assets/images/products/img1.1.jpg',
+
+        'image2' => 'assets/images/products/img1.2.jpg',
 
         'details_title' => 'Smart Vehicle Tracking & Fleet Management Solution',
 
@@ -887,7 +937,9 @@ $products = [
             'Chat & Messaging',
             'Premium Listing Options'
         ],
+        'image1' => 'assets/images/products/img1.1.jpg',
 
+        'image2' => 'assets/images/products/img1.2.jpg',
         'details_title' => 'Custom Classified App Development Services',
 
         'details_description' => 'We develop modern classified applications that enable users to post advertisements, connect with buyers, and manage listings efficiently through web and mobile platforms.',
@@ -1026,27 +1078,27 @@ $data = $products[$product];
 
                                             <ul>
                                                 <?php foreach ($data['features'] as $feature): ?>
-                                                <li>
-                                                    <span><i class="fa-solid fa-check"></i></span>
-                                                    <?= $feature; ?>
-                                                </li>
+                                                    <li>
+                                                        <span><i class="fa-solid fa-check"></i></span>
+                                                        <?= $feature; ?>
+                                                    </li>
                                                 <?php endforeach; ?>
                                             </ul>
                                             <div class="images-wrap">
                                                 <div class="row">
                                                     <div class="col-sm-6">
-                                                        <div class="image-box wow fadeInUp" data-wow-delay=".3s">
-                                                            <img src="assets/images/service/service-3.webp" alt="Image">
+                                                        <div class="image-box">
+                                                            <img src="<?= $data['image1']; ?>" alt="">
                                                         </div>
                                                     </div>
+
                                                     <div class="col-sm-6">
-                                                        <div class="image-box wow fadeInUp" data-wow-delay=".5s">
-                                                            <img src="assets/images/service/service-4.webp" alt="Image">
+                                                        <div class="image-box">
+                                                            <img src="<?= $data['image2']; ?>" alt="">
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-
                                             <h3><?= $data['details_title']; ?></h3>
 
                                             <p><?= $data['details_description']; ?></p>
@@ -1055,19 +1107,19 @@ $data = $products[$product];
 
                                                 <?php foreach ($data['benefits'] as $index => $item): ?>
 
-                                                <div class="service-details-item">
+                                                    <div class="service-details-item">
 
-                                                    <span class="number">
-                                                        <?= sprintf('%02d.', $index + 1); ?>
-                                                    </span>
+                                                        <span class="number">
+                                                            <?= sprintf('%02d.', $index + 1); ?>
+                                                        </span>
 
-                                                    <h6 class="title"><?= $item['title']; ?></h6>
+                                                        <h6 class="title"><?= $item['title']; ?></h6>
 
-                                                    <div class="desc">
-                                                        <p><?= $item['description']; ?></p>
+                                                        <div class="desc">
+                                                            <p><?= $item['description']; ?></p>
+                                                        </div>
+
                                                     </div>
-
-                                                </div>
 
                                                 <?php endforeach; ?>
 
@@ -1079,21 +1131,21 @@ $data = $products[$product];
 
                                                 <?php foreach ($data['faq'] as $key => $faq): ?>
 
-                                                <div class="accordion-item">
-                                                    <button class="faq-title" data-bs-toggle="collapse"
-                                                        data-bs-target="#faq<?= $key ?>">
+                                                    <div class="accordion-item">
+                                                        <button class="faq-title" data-bs-toggle="collapse"
+                                                            data-bs-target="#faq<?= $key ?>">
 
-                                                        <?= $faq['question']; ?>
+                                                            <?= $faq['question']; ?>
 
-                                                    </button>
+                                                        </button>
 
-                                                    <div id="faq<?= $key ?>" class="collapse">
-                                                        <div class="accordion-body faq-text">
-                                                            <p><?= $faq['answer']; ?></p>
+                                                        <div id="faq<?= $key ?>" class="collapse">
+                                                            <div class="accordion-body faq-text">
+                                                                <p><?= $faq['answer']; ?></p>
+                                                            </div>
                                                         </div>
-                                                    </div>
 
-                                                </div>
+                                                    </div>
 
                                                 <?php endforeach; ?>
 
@@ -1131,15 +1183,15 @@ $data = $products[$product];
 
                                             <ul>
                                                 <?php foreach ($products as $key => $item): ?>
-                                                <li>
-                                                    <a href="product-details.php?product=<?= $key; ?>"
-                                                        class="<?= ($currentProduct == $key) ? 'active' : ''; ?>">
-                                                        <?= $item['title']; ?>
-                                                        <span class="icon">
-                                                            <i class="fa-solid fa-arrow-right"></i>
-                                                        </span>
-                                                    </a>
-                                                </li>
+                                                    <li>
+                                                        <a href="product-details.php?product=<?= $key; ?>"
+                                                            class="<?= ($currentProduct == $key) ? 'active' : ''; ?>">
+                                                            <?= $item['title']; ?>
+                                                            <span class="icon">
+                                                                <i class="fa-solid fa-arrow-right"></i>
+                                                            </span>
+                                                        </a>
+                                                    </li>
                                                 <?php endforeach; ?>
                                             </ul>
 
